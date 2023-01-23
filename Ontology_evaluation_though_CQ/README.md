@@ -2,8 +2,13 @@
 
 The following contents of this folder implement data retrieval, reformatting, KG construction and access to evaluate the CQ specified in the ORSD document for OhBOI to develop traceability of requirements in the ontology implementation process, as established by the LOD methodology.
 
+A Knowledge Graph of the following represented subset of the OhBOI ontology will be materialized:
+
 ![image](./KG_SUBSET.png)
 
+
+
+The files to implement this process being,
 
 | File-Folder  |      Description      |  Used in |
 |----------|:-------------:|------:|
