@@ -18,7 +18,8 @@ Other files within the repository include code, data and reports for the ontolog
 | v.2.*(23/01/2023)*| `ohboi_rdfxml.owl` |  RDF file with the last version of the ontology in RDF-XML | Last version of implemented ontology - Documentation |
 | v.2.*(23/01/2023)*| `ohboi_turtle.owl` | RDF file with the last version of the ontology in Turtle serialization | Last version of implemented ontology |
 | v.1.*(22/01/2023)*| `Ontology_Evaluation_through_CQ` | RDF file with the last version of the ontology in RDF-XML | Ontology evaluation |
-| v.1.*(23/01/2023)*|  | Oops evaluation report | Ontology evaluation |
+| v.2.*(23/01/2023)*| `OhBOI_RDFgraph` | Final ontology schema RDF graph in a png file | Ontology implementation |
+| v.1.*(23/01/2023)*|  | [OOPS! (OntOlogy Pitfall Scanner!)](https://oops.linkeddata.es/) evaluation report | Ontology evaluation |
 | v.1.*(23/01/2023)*|  | Themis evaluation report | Ontology evaluation |
 | v.1.*(23/01/2023)*| `OnToology/ohboi_rdfxml.owl/` | Documentation of the ontology generated with [OnToology](http://ontoology.linkeddata.es/) tool| Ontology documentation |
 
