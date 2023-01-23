@@ -1,0 +1,41 @@
+#EX1:List all the pathogens with their disease-phenotypes for a bacteria
+
+PREFIX SIO: <http://semanticscience.org/resource/SIO_>
+PREFIX ncit:<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+PREFIX obo:<http://purl.obolibrary.org/obo/>
+PREFIX RO: <http://purl.obolibrary.org/obo/RO_>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT distinct ?Pathogen_ID ?pathogen  ?Disease_ID ?disease ?Phenotype_ID ?phenotype ?Drug_ID ?drug
+FROM <http://patho.phenomebrowser.net>
+WHERE
+  {
+    ?Disease_ID SIO:000255 ?o1 .
+    ?o1 RO:0002558 ?EC1_ID . 
+    ?o1 RO:0002200 ?Phenotype_ID .
+    ?Disease_ID SIO:000255 ?o .
+    ?o RO:0002558 ?EC2_ID .
+    ?o RO:0002556 ?Pathogen_ID .
+    ?Pathogen_ID rdfs:label ?pathogen.
+    ?Phenotype_ID rdfs:label ?phenotype .
+    ?Disease_ID rdfs:label ?disease .
+    ?EC1_ID rdfs:label ?disease_phenotype_evidence_code .
+    ?EC2_ID rdfs:label ?disease_pathogen_evidence_code .
+    ?Disease_ID RO:0002302 ?Drug_ID .
+    ?Drug_ID rdfs:label  ?drug .
+    FILTER REGEX(str(?Pathogen_ID ), "^http://purl.obolibrary.org/obo/NCBITaxon_1639$")
+
+  }
+  
+  
+# get uris for all countries in biontology
+
+PREFIX ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?country ?name
+WHERE {
+?country rdfs:subClassOf ncit:C25464 .
+?country rdfs:label ?name .
+}
+
+# uniprot QUERY --> get gene from uniprot accessions specific to a taxonomic id

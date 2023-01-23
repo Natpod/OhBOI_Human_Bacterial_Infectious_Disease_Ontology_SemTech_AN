@@ -1,0 +1,9 @@
+﻿XCO_ID,XCO_name,NCIT
+http://purl.obolibrary.org/obo/NCBITaxon_482,Neisseria,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76371
+http://purl.obolibrary.org/obo/NCBITaxon_1313,Streptococcus pneumoniae,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76384
+http://purl.obolibrary.org/obo/NCBITaxon_1773,Mycobacterium tuberculosis,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76370
+http://purl.obolibrary.org/obo/NCBITaxon_138,Borrelia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C86206
+http://purl.obolibrary.org/obo/NCBITaxon_666,Vibrio cholerae-asiaticae,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C86841
+http://purl.obolibrary.org/obo/NCBITaxon_1280,staphylococcus aureus,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C50921
+http://purl.obolibrary.org/obo/NCBITaxon_1639,Listeria momocytogenes,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C86502
+http://purl.obolibrary.org/obo/NCBITaxon_1491,VPI 4440 Clostridium putrificum,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C86289

@@ -1,0 +1,14 @@
+﻿DOID_ID,DOID_label,SNOMEDCT_ID,SNOMEDCT_label
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.bioontology.org/ontology/SNOMEDCT/186915005,Chronic gonorrhea lower genitourinary tract
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.bioontology.org/ontology/SNOMEDCT/90979004,Chronic tonsillitis
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.bioontology.org/ontology/SNOMEDCT/233604007,Pneumonia
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.bioontology.org/ontology/SNOMEDCT/17653001,Tuberculosis of bones and/or joints
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.bioontology.org/ontology/SNOMEDCT/4445009,Tuberculosis of genitourinary system
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.bioontology.org/ontology/SNOMEDCT/154283005,Pulmonary tuberculosis
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.bioontology.org/ontology/SNOMEDCT/423092005,Multidrug resistant tuberculosis
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.bioontology.org/ontology/SNOMEDCT/182159002,Disseminated tuberculosis
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.bioontology.org/ontology/SNOMEDCT/23502006,Lyme disease
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.bioontology.org/ontology/SNOMEDCT/420079008,Relapsing fever
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.bioontology.org/ontology/SNOMEDCT/240349003,Cholera due to Vibrio cholerae O1 Classical biotype
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.bioontology.org/ontology/SNOMEDCT/385627004,Cellulitis
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.bioontology.org/ontology/SNOMEDCT/4241002,Listeriosis

@@ -1,0 +1,7 @@
+﻿Disease_ID,Pathway_URL,Pathway_ID,OrganSystem,Organ
+http://purl.obolibrary.org/obo/DOID_1639,https://reactome.org/PathwayBrowser/#R-HSA-9637698&FLG=O05442,R-HSA-9637698.1,Immune System,Blood Tissue- Phagocytes
+http://purl.obolibrary.org/obo/DOID_2149,https://reactome.org/PathwayBrowser/#R-HSA-9637698&FLG=O05442,R-HSA-9637698.1,Immune System,Blood Tissue- Phagocytes
+http://purl.obolibrary.org/obo/DOID_2957,https://reactome.org/PathwayBrowser/#R-HSA-9637698&FLG=O05442,R-HSA-9637698.1,Immune System,Blood Tissue- Phagocytes
+http://purl.obolibrary.org/obo/DOID_401,https://reactome.org/PathwayBrowser/#R-HSA-9637698&FLG=O05442,R-HSA-9637698.1,Immune System,Blood Tissue- Phagocytes
+http://purl.obolibrary.org/obo/DOID_9861,https://reactome.org/PathwayBrowser/#R-HSA-9637698&FLG=O05442,R-HSA-9637698.1,Immune System,Blood Tissue- Phagocytes
+http://purl.obolibrary.org/obo/DOID_11976,https://reactome.org/PathwayBrowser/#R-HSA-5250968&FLG=P0DPI0,R-HSA-5250968.2,Nervous system,Skeletal Muscle

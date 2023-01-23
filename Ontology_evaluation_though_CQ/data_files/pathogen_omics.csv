@@ -1,0 +1,17 @@
+﻿Protein_ID,gene_ID,NCIT_ID,gene_symbol,location,Length,Protein_Name
+http://purl.uniprot.org/uniprot/A0A8D9YK73,https://www.ncbi.nlm.nih.gov/gene/66752509,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76371,HT085_RS01250 CTP synthase,HT085_RS01250,544,CTP synthase
+http://purl.uniprot.org/uniprot/A0A8E0DA51,https://www.ncbi.nlm.nih.gov/gene/66753237,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76371,fitA,HT085_RS04945,78,Antitoxin
+http://purl.uniprot.org/uniprot/A0A8E0D9L4,https://www.ncbi.nlm.nih.gov/gene/66752554,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76371,HT085_RS01475 inorganic diphosphatase,HT085_RS01475,177,Inorganic pyrophosphatase
+http://purl.uniprot.org/uniprot/Q97QS7,https://www.ncbi.nlm.nih.gov/gene/66806223,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76384,SPNHU17_RS05315 glucose-1-phosphate adenylyltransferase,SPNHU17_RS05315,380,Glucose-1-phosphate adenylyltransferase
+http://purl.uniprot.org/uniprot/A0A0H2UMY5,https://www.ncbi.nlm.nih.gov/gene/66805300,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76384,SPNHU17_RS00700 DUF4097 domain-containing protein,SPNHU17_RS00700,303,DUF4097 domain-containing protein
+http://purl.uniprot.org/uniprot/A0A0H2UMU6,https://www.ncbi.nlm.nih.gov/gene/66805266,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76384,purB,SPNHU17_RS00530,432,Adenylosuccinate lyase
+http://purl.uniprot.org/uniprot/A0A045H4M6,https://www.ncbi.nlm.nih.gov/gene/45425216,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76370,relE,MCAN_RS06625,97,"Conserved protein of uncharacterized function, putative toxin"
+http://purl.uniprot.org/uniprot/A0A045K0H7,https://www.ncbi.nlm.nih.gov/gene/45426523,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76370,MCAN_RS13480 holo-ACP synthase,MCAN_RS13480,130,Holo-[acyl-carrier-protein] synthase
+http://purl.uniprot.org/uniprot/A0A045JQB2,https://www.ncbi.nlm.nih.gov/gene/45426213,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76370,MCAN_RS11830 SURF1 family protein,MCAN_RS11830,271,SURF1-like protein
+http://purl.uniprot.org/uniprot/A0A0H2WZE8,https://www.ncbi.nlm.nih.gov/gene/66839873,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C50921,SAMSHR1132_RS07980 hypothetical protein,SAMSHR1132_RS07980,100,DUF3860 domain-containing protein
+http://purl.uniprot.org/uniprot/A0A0H2WW60,https://www.ncbi.nlm.nih.gov/gene/66839884,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C50921,SAMSHR1132_RS08035 hypothetical protein,SAMSHR1132_RS08035,196,Transposon-related protein
+http://purl.uniprot.org/uniprot/Q5HFI7,https://www.ncbi.nlm.nih.gov/gene/66839763,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C50921,floA,SAMSHR1132_RS07400,329,Flotillin-like protein FloA
+http://purl.uniprot.org/uniprot/O05443,https://www.ncbi.nlm.nih.gov/gene/886236,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76370,Rv3903c hypothetical protein,Rv3903c,176,Immunity factor for TNT
+http://purl.uniprot.org/uniprot/O05442,https://www.ncbi.nlm.nih.gov/gene/886229,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76370,Rv3903c hypothetical protein,Rv3903c,846,Outer membrane channel protein CpnT
+http://purl.uniprot.org/uniprot/P0DPI0,https://www.ncbi.nlm.nih.gov/gene/5185061,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C86289,bont,CBO_RS04150,1296,Botulinum neurotoxin type A
+http://purl.uniprot.org/uniprot/UP000473270,https://www.ncbi.nlm.nih.gov/gene/6666666,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C86289,FDG75_00035,FDG75_00035,206,Antitoxin botulinum a

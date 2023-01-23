@@ -1,0 +1,406 @@
+prefixes:
+  owl: "http://www.w3.org/2002/07/owl#"
+  schema: "http://schema.org/"
+  rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+  xsd: "http://www.w3.org/2001/XMLSchema#"
+  obo: "http://purl.obolibrary.org/obo/"
+  snomedct: "http://purl.bioontology.org/ontology/SNOMEDCT/"
+  ncit:  "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+  sio: "http://semanticscience.org/resource/"
+  mesh: "http://purl.bioontology.org/ontology/MESH/"
+  wp: "http://vocabularies.wikipathways.org/wp#"
+  cco: "http://rdf.ebi.ac.uk/terms/chembl#"
+  ohboi: "https://w3id.org/ohboi#"
+  empty: "https://w3id.org/def/emptyPrefix#"
+
+
+mappings:
+  INFECTIOUS-DISEASE:
+    sources:
+      - ['pathogen_disease_phenotype.csv~csv']
+    s: $(Disease_ID)
+    po:
+      - [a, obo:IDO_0000436]
+      - p: rdfs:subClassOf
+        o:
+          mapping: DISEASE
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Disease_ID)]
+              - [str2, $(DOID_ID)]
+      - p: ohboi:hasPrescription
+        o:
+          mapping: PRESCRIPTION
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Disease_ID)]
+              - [str2, $(Disease_ID)] 
+      - p: snomedct:due_to
+        o:
+          mapping: BACTERIAL-PATHOGEN
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Disease_ID)]
+              - [str2, $(Disease_ID)] 
+      - p: ohboi:presents
+        o:
+          mapping: PHENOTYPIC-ABNORMALITIES
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Disease_ID)]
+              - [str2, $(Disease_ID)]
+      - p: ohboi:hasPrevalence
+        o:
+          mapping: COUNTRY-PREVALENCE-IN-TIME
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Disease_ID)]
+              - [str2, $(Disease_ID)]
+      - p: ohboi:hasFirstCaseReportedIn
+        o:
+          mapping: CITY
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Disease_ID)]
+              - [str2, $(Disease_ID)]
+      - p: sio:SIO_001158
+        o:
+          mapping: PATHWAY
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Disease_ID)]
+              - [str2, $(Disease_ID)]
+
+  PATHWAY:
+    sources:
+      - ['affecting.csv~csv']
+    s: $(Pathway_URL)
+    po: 
+      - [a, wp:Pathway]
+      - [ohboi:hasPathwayLabel, $(Pathway_ID), xsd:string]
+
+  DISEASE:
+    sources:
+      - ['disease_mappings.csv~csv']
+    s: $(SNOMEDCT_ID)
+    po: 
+      - [a, snomedct:64572001]
+
+  PHENOTYPIC-ABNORMALITIES:
+    sources:
+      - ['disease_phenotypes.csv~csv']
+    s: $(Phenotype_ID)
+    po: 
+      - [a, obo:HP_0000118]
+      - [ohboi:hasPAName, $(phenotype)]
+      - p: ohboi:isPresentedIn
+        o:
+          mapping: INFECTIOUS-DISEASE
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Phenotype_ID)]
+              - [str2, $(Phenotype_ID)]
+
+  BACTERIAL-PATHOGEN:
+    sources:
+      - ['pathogen_disease_phenotype.csv~csv']
+    s: $(Pathogen_ID)
+    po: 
+      - [a, obo:XCO_0000475]
+      - p: snomedct:cause_of
+        o:
+          mapping: INFECTIOUS-DISEASE
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Pathogen_ID)]
+              - [str2, $(Pathogen_ID)] 
+      - p: rdfs:subClassOf
+        o:
+          mapping: BACTERIA
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Pathogen_ID)]
+              - [str2, $(XCO_ID)] 
+
+  BACTERIA:
+    sources:
+      - ['pathogen_mappings.csv~csv']
+    s: $(NCIT)
+    po: 
+      - [a, ncit:C14187]
+      - p: ncit:R41
+        o:
+          mapping: GENE
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(NCIT)]
+              - [str2, $(NCIT_ID)]
+
+  COUNTRY-PREVALENCE-IN-TIME:
+    sources:
+      - ['country_prevalence_in_time.csv~csv']
+    s: $(IndicatorCode)
+    po: 
+      - [a, snomedct:64572001]
+      - [ohboi:inDate, $(Date), xsd:string]
+      - [ohboi:prevalence, $(Prevalence), xsd:float]
+      - p: sio:SIO_001403
+        o:
+          mapping: COUNTRY
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(IndicatorCode)]
+              - [str2, $(IndicatorCode)]
+
+  COUNTRY:
+    sources:
+      - ['country_prevalence_in_time.csv~csv']
+    s: $(Country_ID)
+    po: 
+      - [a, ncit:C25464]
+      - [ohboi:hasCode, $(Country), xsd:string]
+      - p: ohboi:contains
+        o:
+          mapping: CITY
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Country_ID)]
+              - [str2, $(Country_ID)]
+      - p: ohboi:belongsTo
+        o:
+          mapping: CONTINENT
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Country_ID)]
+              - [str2, $(Country_ID)]
+
+  CONTINENT:
+    sources:
+      - ['country_prevalence_in_time.csv~csv']
+    s: $(Continent)
+    po: 
+      - [a, ncit:C76349]
+      - [ohboi:hasContinentName, $(Continent_Name)]
+      - p: ohboi:contains
+        o:
+          mapping: COUNTRY
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Continent)]
+              - [str2, $(Continent)]  
+
+  CITY:
+    sources:
+      - ['country_prevalence_in_time.csv~csv']
+    s: $(City_URL)
+    po: 
+      - [a, ncit:C25160]
+      - [ohboi:hasCityCode, $(City)]
+      - p: ohboi:belongsTo
+        o:
+          mapping: COUNTRY
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(City_URL)]
+              - [str2, $(City_URL)]
+
+  PRESCRIPTION:
+    sources:
+      - ['substances_chemical_entities.csv~csv']
+    s: $(Treatment_URI)
+    po:
+      - [a, ncit:C28180]
+      - p: ohboi:prescribes
+        o:
+          mapping: DRUG
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Treatment_URI)]
+              - [str2, $(Treatment_URI)]
+
+  DRUG:
+    sources:
+      - ['substances_chemical_entities.csv~csv']
+    s: $(Drug_ID)
+    po: 
+      - [a, ohboi:Drug]
+      - [ohboi:hasBrandName, $(BrandName), xsd:string]
+      - [ohboi:hasCommonName, $(CommonName), xsd:string]
+      - p: ohboi:prescribedIn
+        o:
+          mapping: PRESCRIPTION
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Drug_ID)]
+              - [str2, $(Drug_ID)]
+      - p: rdfs:subClassOf
+        o:
+          mapping: SUBSTANCE
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Drug_ID)]
+              - [str2, $(Drug_ID)]
+
+  SUBSTANCE:
+    sources:
+      - ['substances_chemical_entities.csv~csv']
+    s: $(ChEMBL_URI)
+    po: 
+      - [a, cco:Substance]
+      - [cco:chemblId, $(ChEMBL_ID), xsd:string]
+      - [cco:atcClassification, $(atcClassification), xsd:string]
+      - p: skos:exactMatch
+        o:
+          mapping: CHEMICAL-ENTITY
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(ChEMBL_URI)]
+              - [str2, $(ChEMBL_URI)]
+
+  CHEMICAL-ENTITY:
+    sources:
+      - ['substances_chemical_entities.csv~csv']
+    s: $(CHEBI_ID)
+    po: 
+      - [a, obo:CHEBI_24431]
+      - [obo:formula, $(formula), xsd:string]
+      - [obo:smiles, $(SMILES), xsd:string]
+      - [obo:mass, $(mass), xsd:float]
+
+  ANTITOXIN:
+    sources:
+      - ['toxin_antitoxin.csv~csv']
+    s: $(Antitoxin_Drug)
+    po: 
+      - [a, snomedct:71862009]
+      - p: rdfs:subClassOf
+        o:
+          mapping: DRUG
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Antitoxin_Drug)]
+              - [str2, $(Drug_ID)]
+      - p: ohboi:neutralizes
+        o:
+          mapping: TOXIN
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Antitoxin_Drug)]
+              - [str2, $(Antitoxin_Drug)]
+
+  TOXIN:
+    sources:
+      - ['toxin_antitoxin.csv~csv']
+    s: $(Toxin_URI)
+    po: 
+      - [a, snomedct:80917008]
+      - p: ohboi:isNeutralizedBy
+        o:
+          mapping: ANTITOXIN
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Toxin_URI)]
+              - [str2, $(Toxin_URI)]
+
+  GENE:
+    sources:
+      - ['pathogen_omics.csv~csv']
+    s: $(gene_ID)
+    po: 
+      - [a, ncit:C16612]
+      - [sio:SIO_00061, $(location), xsd:string]
+      - p: ohboi:hasSymbol
+        o:
+          mapping: GENE-SYMBOL
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(gene_ID)]
+              - [str2, $(gene_ID)] 
+      - p: sio:SIO_010078
+        o:
+          mapping: PROTEIN
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(gene_ID)]
+              - [str2, $(gene_ID)] 
+
+  PROTEIN:
+    sources:
+      - ['pathogen_omics.csv~csv']
+    s: $(Protein_ID)
+    po: 
+      - [a, ncit:C17021]
+      - [ohboi:hasLength, $(Length), xsd:string]
+      - [ohboi:hasName, $(Protein_Name), xsd:string]
+      - p: sio:SIO_010079
+        o:
+          mapping: GENE
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Protein_ID)]
+              - [str2, $(Protein_ID)] 
+
+  GENE-SYMBOL:
+    sources:
+      - ['pathogen_omics.csv~csv']
+    s: $(gene_ID)
+    po: 
+      - [a, ncit:C43568]
+      - [ohboi:hasGeneSymbolCode, $(gene_symbol)]
+      - p: ohboi:symbolOf
+        o:
+          mapping: GENE
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(gene_ID)]
+              - [str2, $(gene_ID)]
+
+  PROTEIN-TOXIN:
+    sources:
+      - ['proteintoxin.csv~csv']
+    s: $(Protein_ID)
+    po: 
+      - [a, ncit:C17021]
+      - p: rdfs:subClassOf
+        o:
+          mapping: TOXIN
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Protein_ID)]
+              - [str2, $(Toxin_URI)]
+      - p: rdfs:subClassOf
+        o:
+          mapping: PROTEIN
+          condition:
+            function: equal
+            parameters:
+              - [str1, $(Protein_ID)]
+              - [str2, $(Protein_ID)]

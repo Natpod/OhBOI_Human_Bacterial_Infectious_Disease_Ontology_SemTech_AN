@@ -1,0 +1,187 @@
+﻿Disease_ID,disease,Phenotype_ID,phenotype
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/MP_0013136,genital discharge
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/MP_0003305,proctitis
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/MP_0011762,renal/urinary system inflammation
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/HP_0012888,Abnormality of the uterine cervix
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/HP_0030160,Cervicitis
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/HP_0030161,Vaginal pruritus
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/HP_0100518,Dull burning sensation with urination
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/HP_0100608,Abnormal uterus bleeding
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/HP_0200043,Verrucae
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/MP_0003541,vaginal inflammation
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/MP_0009228,canalis cervicis uteri inflammation
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/MP_0011763,urethra inflammation
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/HP_0003249,Genital ulcers
+http://purl.obolibrary.org/obo/DOID_7551,chronic gonococcal infection of lower genitourinary tract,http://purl.obolibrary.org/obo/HP_0004434,C8 deficiency
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0012387,Bronchitis
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0012388,Acute bronchitis
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/MP_0003865,lymph node inflammation
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0000388,Middle ear infection
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0030812,Enlarged tonsils
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0031458,Adenoiditis
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0040261,Adenoid hypertrophy
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0100776,Pharyngitis
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0100847,Palmoplantar pustules
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0000371,Acute middle ear infection
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0002840,Inflammation of the lymph nodes
+http://purl.obolibrary.org/obo/DOID_10456,chronic tonsillitis,http://purl.obolibrary.org/obo/HP_0004821,Hypermature neutrophils
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/HP_0002088,Abnormal lung morphology
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/MP_0001861,lung inflammation
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/HP_0006527,Lymphoid interstitial pneumonia
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/HP_0011946,Bronchiolitis obliterans
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/HP_0006530,Interstitial lung disease
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/MP_0002405,respiratory system inflammation
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/HP_0002090,Pneumonia
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/HP_0002206,Pulmonary fibrosis
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/MP_0001862,interstitial pneumonia
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/MP_0002133,abnormal respiratory system physiology
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/HP_0011947,Respiratory infection
+http://purl.obolibrary.org/obo/DOID_552,acute pneumonia,http://purl.obolibrary.org/obo/HP_0002086,Abnormality of the respiratory system
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0031485,Periosteal reaction
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0025131,Finger swelling
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0005731,Cortical irregularity
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0003026,Long bone shortening
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0003179,Protrusio acetabulae
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0030651,Multifocal
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0002754,Bone infection
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0001248,Short tubular bones of the hand
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0030166,Night sweats
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0003275,Narrow pelvis
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/MP_0005190,osteomyelitis
+http://purl.obolibrary.org/obo/DOID_1639,skeletal tuberculosis,http://purl.obolibrary.org/obo/HP_0030831,Rhonchi
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/HP_0012085,High urine neutrophil count
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/MP_0011418,leucocyturia
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/HP_0005580,Duplication of renal pelvis
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/HP_0012581,Simple kidney cyst
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/HP_0100581,Caliceal dilatation
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/HP_0000031,Epididymitis
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/HP_0010944,Abnormality of the renal pelvis
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/HP_0030424,Epididymal cyst
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/MP_0011764,ureter inflammation
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/HP_0100586,Aseptic leukocyturia
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/MP_0011420,pyuria
+http://purl.obolibrary.org/obo/DOID_2149,Genitourinary tuberculosis,http://purl.obolibrary.org/obo/HP_0009714,Abnormality of the epididymis
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0002202,Pleural effusion
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0008732,Renal hypophosphatemia
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0011919,Pleural empyema
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0012602,Renal chloride wasting
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0001945,Fever
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0002098,Breathing difficulties
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0002206,Pulmonary fibrosis
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0012735,Cough
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0030166,Night sweats
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0030803,Platonychia
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0031245,Productive cough
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0100618,Leydig cell neoplasia
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0100721,Mediastinal lymphadenopathy
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0002102,Pleurisy
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0002105,Coughing up blood
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0002113,Lung infiltrates
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/HP_0006522,Repeated pneumothoraces
+http://purl.obolibrary.org/obo/DOID_2957,pulmonary tuberculosis,http://purl.obolibrary.org/obo/MP_0011012,bronchiectasia
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0002105,Coughing up blood
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0005977,Hypochloremic metabolic alkalosis
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0012282,Morbilliform rash
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0003472,Hypocalcemic tetany
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0011975,Aminoglycoside-induced hearing loss
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0005390,Frequent opportunistic infections
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0025296,Morbilliform
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/MP_0011012,bronchiectasia
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0002110,Bronchiectasis
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0011919,Pleural empyema
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0030166,Night sweats
+http://purl.obolibrary.org/obo/DOID_401,multidrug-resistant tuberculosis,http://purl.obolibrary.org/obo/HP_0005101,Hearing loss
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/HP_0100804,Koenen tumor
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/MP_0002968,elevated serum AP level
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/HP_0004864,Refractory sideroblastic anemia
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/HP_0012156,Hemophagocytosis
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/MP_0000202,abnormal AP level
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/HP_0025177,Peribronchovascular interstitial thickening
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/HP_0011955,Hepatic granulomatosis
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/HP_0100826,Nail tumor
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/HP_0001147,Retinal exudate
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/HP_0001955,Unexplained fevers
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/HP_0012837,Generalised
+http://purl.obolibrary.org/obo/DOID_9861,Disseminated tuberculosis,http://purl.obolibrary.org/obo/HP_0030830,Crackles
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0006824,Cranial nerve palsies
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0007041,Chronic lymphocytic meningitis
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0010827,Abnormality of the facial nerve
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/MP_0011831,abnormal visual contrast sensitivity
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0001945,Fever
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0002315,Headache
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0010628,Bell's palsy
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0010783,Erythema
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0012229,CSF pleocytosis
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0012378,Fatigue
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0030319,Decreased facial muscle strength
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0031180,Erythema chronicum migrans
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0031549,Lymphocytoma cutis
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0430025,Bilateral facial muscle paralysis
+http://purl.obolibrary.org/obo/DOID_11729,Lyme borreliosis,http://purl.obolibrary.org/obo/HP_0004885,Episodic difficulty breathing
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0001945,Fever
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0003326,Muscle ache
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0010976,B cell lymphopenia
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0025143,Chills
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0025145,Rigors
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0031180,Erythema chronicum migrans
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/MP_0001405,impaired coordination
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0001433,Enlarged liver and spleen
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0003037,Enlarged joints
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0004370,Abnormality of temperature regulation
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0005365,Absence of B cells
+http://purl.obolibrary.org/obo/DOID_13034,relapsing fever,http://purl.obolibrary.org/obo/HP_0005901,Chronic recurrent multifocal osteomyelitis
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/HP_0012436,Non-occlusive coronary artery disease
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/MP_0008765,decreased mast cell degranulation
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/MP_0008864,abnormal intestinal secretion
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/MP_0010073,decreased itch response
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/MP_0002797,increased thigmotaxis
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/MP_0002917,decreased synaptic depression
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/MP_0003866,abnormal defaecation
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/MP_0005036,diarrhea
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/MP_0008001,hypochlorhydria
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/HP_0002014,Diarrhea
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/HP_0000875,Episodic hypertension
+http://purl.obolibrary.org/obo/DOID_1498,Cholera due to Vibrio cholerae,http://purl.obolibrary.org/obo/HP_0005208,Secretory diarrhea
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0010606,Hordeolum
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0010607,Hordeolum externum
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/MP_0010141,lymphangitis
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0000282,Facial edema
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0000606,Abnormality of the periorbital region
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0003549,Abnormality of connective tissue
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0031283,Tufted hairs
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0031292,Cutaneous abscess
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0100537,Fasciitis
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0100539,Periorbital cellulitis
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0100658,Bacterial infection of skin
+http://purl.obolibrary.org/obo/DOID_3488,cellulitis,http://purl.obolibrary.org/obo/HP_0001055,Erysipelas
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0003418,Back pain
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0007131,Acute demyelinating polyneuropathy
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0012311,High blood monocyte number
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/MP_0008685,decreased IFN-gamma inducing factor secretion
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/MP_0011076,increased macrophage NO production
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/MP_0011080,increased macrophage apoptosis
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/MP_0013247,necrotic placenta
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/MP_0020309,increased ATP:creatine N-phosphotransferase activity
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/MP_0001655,multifocal hepatic necrosis
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/MP_0001793,altered resistance to infection
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/MP_0002409,decreased susceptibility to infection
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0000711,Restlessness
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0001945,Fever
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0002013,Emesis
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0002014,Diarrhea
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0002315,Headache
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0002018,Nausea
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0002972,Decreased reactivity to skin test antigens
+http://purl.obolibrary.org/obo/DOID_11573,listeriosis,http://purl.obolibrary.org/obo/HP_0006980,Leukoencephalopathy
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0002203,Respiratory paralysis
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0025429,Abnormal cry
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0005327,Loss of facial expression
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0003470,Inability to move
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0003324,Generalized muscle weakness
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0001283,Bulbar muscle weakness
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0001488,Bilateral ptosis
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0002421,Poor head control
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/MP_0000753,paralysis
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0003722,Neck flexion weakness
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0025186,Marcus Gunn jaw winking synkinesis
+http://purl.obolibrary.org/obo/DOID_11976,Foodborne botulism,http://purl.obolibrary.org/obo/HP_0001612,Weak cry
