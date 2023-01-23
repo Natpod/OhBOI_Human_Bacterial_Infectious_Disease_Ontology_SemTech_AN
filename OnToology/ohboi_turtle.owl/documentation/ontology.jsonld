@@ -1,0 +1,2224 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160"
+    }, {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+    }, {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+    }, {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160"
+    }, {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160"
+    }, {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160"
+    }, {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160"
+    }, {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160"
+    }, {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/HP_0000118"
+    }, {
+      "@id" : "https://w3id.org/ohboi#Symptom"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018"
+    }, {
+      "@id" : "http://vocabularies.wikipathways.org/wp#Pathway"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/HP_0000118"
+    }, {
+      "@id" : "https://w3id.org/ohboi#Symptom"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/ohboi#belongsTo"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/ohboi#belongsTo"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+    }, {
+      "@id" : "_:genid47"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "_:genid48"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/ohboi#targets"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Target"
+    }, {
+      "@id" : "_:genid50"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "_:genid51"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000062"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12391"
+    }, {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12736"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/due_to"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000075"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000076"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/cause_of"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000188"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000189"
+    }, {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000190"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018"
+    }, {
+      "@id" : "http://vocabularies.wikipathways.org/wp#Pathway"
+    } ]
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12391",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An organ located under the diaphragm, between the liver and the spleen as well as between the esophagus and the small intestine. The stomach is the primary organ of food digestion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Stomach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12736",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The portion of the gastrointestinal tract between the stomach and the anus. It includes the small intestine and large intestine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Intestine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12919",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An anatomical structure that consists of organs and organ subclasses responsible for certain body functions. Representative examples are the gastrointestinal system, urinary system, and hematopoietic system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Organ System"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region. Representative examples include the heart, lung, liver, spleen, and uterus."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Organ"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Unicellular, prokaryotic organisms that reproduce by cell division and usually have cell walls; can be shaped like spheres, rods or spirals and can be found in virtually any environment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bacteria"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gene"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Protein"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A large and densely populated urban area; a city specified in an address."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid43"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sovereign nation occupying a distinct territory and ruled by an autonomous government."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid44"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Substances naturally produced by microorganisms or their derivatives that selectively target microorganisms not humans. Antibiotics kill or inhibit the growth of microorganisms by targeting components of the microbial cell absent from human cells, including bacterial cell walls, cell membrane, and 30S or 50S ribosomal subunits. These substances are used in the treatment of bacterial and other microbial infections."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Antibiotic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A verbal or written order given by an authorized person instructing a patient to obtain and use a medical device, prescription or undergo a procedure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Prescription"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OGMS_0000090"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41332",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A response to a medicinal product, devices, or procedures, which is noxious and unintended. Response in this context means that a causal relationship between a medicinal product and an adverse event is at least a reasonable possibility. In the context of drug development, the term is used as a synonym of adverse drug reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Adverse reaction"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A unique gene name approved by an organism specific nomenclature committee."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gene Symbol"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any formal business entity for profit, which may be a corporation, a partnership, association or individual proprietorship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Company"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "One of the large landmasses of the earth."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Continent"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gene found in organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/MESH/D052818",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The processes by which organisms use simple inorganic substances such as gaseous or dissolved carbon dioxide and inorganic nitrogen as nutrient sources."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Autotrophic Processes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#EnergySource"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/MESH/D052836",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The processes by which organisms utilize organic substances as their nutrient sources."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Heterotrophic Processes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#EnergySource"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/18127008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bacterial endotoxin (substance)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bacterial Endotoxin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/29750002"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/29750002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bacterial exotoxin (substance)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bacterial Exotoxin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/64572001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Disorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Disease"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/71862009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Antitoxin (substance)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Antitoxin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A substance that is produced by a living organism that is a bacteria and is toxic, noxious, or poisonous."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bacterial Toxin"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/95999008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bacterial Enterotoxin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid45"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/cause_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/XCO_0000236"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cause of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/due_to"
+  } ]
+}, {
+  "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/due_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "due to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/XCO_0000236"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/CHEBI_22507",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Aminoglycosides are a group of antibiotics that are mostly effective against Gram-negative bacteria. These molecules consist of aminated sugars attached to a dibasic cyclitol. Aminoglycosides work by binding to the bacterial 30S ribosomal subunit (some work by binding to the 50S subunit), inhibiting the translocation of the peptidyl-tRNA from the A-site to the P-site and also causing misreading of mRNA, leaving the bacterium unable to synthesize proteins vital to its growth."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aminoglycoside Antibiotic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/CHEBI_23007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any carbohydrate derivative that exhibits antibiotic activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Carbohidrate containing Antibiotic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/CHEBI_24431",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Chemical Entity"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/CHEBI_25105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A macrocyclic lactone with a ring of twelve or more members which exhibits antibiotic activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Macrocyclic Antibiotic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/CHEBI_26895",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "These antibiotics are derived from tetracycline, a polyketide antibiotic that inhibits the 30S subunit of bacterial ribosomes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tetracycline Antibiotic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/CHEBI_27933",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An organonitrogen heterocyclic antibiotic that contains a beta-lactam ring."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beta lactam Antibiotic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/CHEBI_87211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An organonitrogen heterocyclic antibiotic containing a quinolone (or quinolone-like) moiety and which have a fluorine atom attached to the central ring system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fluoroquinolone Antibiotic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/HP_0000118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A phenotypical physical or mental manifestation that is apparent to the patient and indicates a condition of a disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Phenotipic Abnormality"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/ohboi#Symptom"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IDO_0000436",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A disease whose physical basis is an infectious disorder."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Infectious Disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/64572001"
+  }, {
+    "@id" : "_:genid56"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OGMS_0000090",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A planned process whose completion is hypothesized by a health care provider to eliminate, prevent, or alleviate a disorder, the signs and symptoms of a disorder, or a pathological process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Treatment"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OMP_0000071",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A microbial phenotype related to the form and structure of a microbial cell"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cell Morphology Phenotype"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#Phenotype"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OMP_0000073",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A cell morphology phenotype where the trait in question is the shape of a cell"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cell Shape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000071"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OMP_0000075",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A spheroid cell phenotype where a cell is spherical or nearly spherical."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Coccus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000073"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OMP_0000076",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A cylindrical cell phenotype where an organism has rod-shaped cells. It is the synonym of bacillus."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rod Shape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000073"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OMP_0000123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A cell shape phenotype where a cell is intermediate in shape between a coccus (sphere) and a bacillus (rod)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Coccobacillus Cell Shape"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/ohboi#IrregularShape"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid57"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OMP_0000188",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gram Positive"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000191"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OMP_0000189",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gram Negative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000191"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OMP_0000190",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A gram stain phenotype where a cell or cells give variable results to the gram stain."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gram Variable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000191"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/ohboi#GramUndetermined"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/OMP_0000191",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A cell staining phenotype where microorganisms are grouped based on their ability to retain crystal violet stain when decolorized with an organic solvent such as ethanol. This is a high-level term whose primary purpose is to organize terms beneath it in the ontology, and we expect that it will not be used for direct annotations. Please consider using a more specific term to annotate each phenotype."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gram Stain Phenotype"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#Phenotype"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/TRANS_0000000",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Process in which a pathogen is transmitted directly or indirectly to a new host."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pathogen Transmission Process"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/TRANS_0000005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Vector-borne transmission is an indirect transmission process during which the pathogen is indirectly transferred from a reservoir, source or host via an animate intermediary vector to another host. Most vectors are arthropods such as mosquitoes, fleas, and ticks."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Vector borne Transmission"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/TRANS_0000000"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/TRANS_0000007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contact transmission is a direct transmission process during which the pathogen is transmitted from a reservoir, source or host to another host by kissing, skin-to-skin contact, sexual intercourse, or by contact with soil or vegetation containing the pathogen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contact Transmission"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/TRANS_0000000"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/TRANS_0000032",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Vertical transmission is an indirect vector-borne biological transmission process during which the pathogen is transmitted from the female parent through the eggs to the offspring. Only the ovarial sheath and oviduct are infected. The egg becomes infected as it passes down the oviduct and is inseminated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Vertical Transmission"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/TRANS_0000000"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/XCO_0000236",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An biological agent that causes disease, especially a living microorganism such as a bacterium, virus, or fungus."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pathogen"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/ohboi#NonPathogen"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/XCO_0000475",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any condition in which the primary influencing agent is a bacterial pathogen, a disease-causing unicellular prokaryotic microorganism that commonly multiplies by cell division, lacks a nucleus or membrane-bound organelles, and generally has a cell wall."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bacterial Pathogen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/XCO_0000236"
+  }, {
+    "@id" : "_:genid60"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/formula",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "formula"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/mass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "mass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/sio_SIO_00061",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is located in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/smiles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "smiles"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Mechanism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The particular mechanism of a drug describing the effect of the drug over a target"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Mechanism"
+  } ]
+}, {
+  "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Substance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Substance"
+  } ]
+}, {
+  "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Target",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A material entity, such as native (gene product) protein, protein complex, microorganism, DNA , etc., that physically interacts with a therapeutic or prophylactic drug (with some binding affinity) and where this physical interaction is (at least partially) the cause of a (detectable) clinical effect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Target"
+  } ]
+}, {
+  "@id" : "http://rdf.ebi.ac.uk/terms/chembl#atcClassification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Substance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "atc classification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://rdf.ebi.ac.uk/terms/chembl#chemblId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Substance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "chembl id"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://rdf.ebi.ac.uk/terms/chembl#hasTarget",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Mechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has target"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Target"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000028",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12919"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has part"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000068"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000062",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Target"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is participant in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://vocabularies.wikipathways.org/wp#Pathway"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000132"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000068",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is part of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12919"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000132",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocabularies.wikipathways.org/wp#Pathway"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has participant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Target"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000311",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is product of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000312"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000312",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_001158",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "affects"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_001159"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_001159",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is affected by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_001403",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#CountryPrevalenceInTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is associated to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_010078",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "encodes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_010079"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_010079",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is encoded by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_010308",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Metabolism is the set of chemical processes that occur within a living organism in order to maintain life."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Metabolism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#Phenotype"
+  } ]
+}, {
+  "@id" : "http://vocabularies.wikipathways.org/wp#Pathway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A biological process representing a set of interactions and relationships among genes, proteins, metabolites, and other factors in the context of cellular compartments, tissues and organisms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pathway"
+  } ]
+}, {
+  "@id" : "http://www.owl-ontologies.com/skos#exactMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Substance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "exact match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Natalia García"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Ontology code created by Chowlk"
+  } ],
+  "http://purl.org/dc/elements/1.1/rights" : [ {
+    "@value" : "http://creativecommons.org/licenses/by/3.0/"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2022-12-22"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Ana Solbas"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "An ontology for Bacterial Human Infectious Diseases"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "O(h)BOI"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "0.0.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#Aerobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Subclass of oxygen requirement, particularly relating to microorganisms that present a dependency for anaerobic environments"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aerobe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#OxygenRequirement"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/ohboi#Anaerobe"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#Anaerobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Subclass of oxygen requirement, particularly relating to microorganisms that present a dependency for aerobic environments"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Anaerobe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#OxygenRequirement"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#AntibioticMechanism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Action Mechanism of a specific substance in the category of antibiotics that kill or hinder bacteria growth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Antibiotic Mechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Mechanism"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#Assimilation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Assimilation is the process of absorption of vitamins, minerals, and other chemicals from food as part of the nutrition of an organism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Assimilation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_010308"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#CellWallSynthesisInhibition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of their cell wall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cell Wall Synthesis Inhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#AntibioticMechanism"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#CountryPrevalenceInTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Country Prevalence In Time"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#DNASynthesisInhibition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of DNA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DNA Synthesis Inhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#AntibioticMechanism"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#Drug",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Commercial name of the active substance that has a positive effect for the treatment of a disorder or dolency"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Substance"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#EnergySource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Source of Energy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Energy Source"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_010308"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#FolicAcidSynthesisInhibition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of folic acid, which is an essential nutrient necessary for protein and nucleic acid synthesis."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Folic Acid Synthesis Inhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#AntibioticMechanism"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#GramUndetermined",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Synonym class for Gram variable bacteria stainings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gram Undetermined"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#IrregularShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A cell shape phenotype with any shape not resembling a coccus, rod or coccobacillus shape and an irregular disposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Irregular Shape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000073"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#MedicalPractice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Actions of cilnical prevention, management or treatment ordered for a disease through the services offered by medical and allied health proffessions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Medical Practice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OGMS_0000090"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#MycolicAcidSynthesisInhibition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of mycolic acid, long fatty acids found in the cell walls of some bacteria that increases virulence and avoid exposure to the immune system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mycolic Acid Synthesis Inhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#AntibioticMechanism"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#NonPathogen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any biological agent that is not prone to causing a disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Non Pathogen"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#OxygenRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Subclass of metabolism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Oxygen Requirement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_010308"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#Phenotype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Phenotype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#ProteinSynthesisInhibition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of specific proteins"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Protein Synthesis Inhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#AntibioticMechanism"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#ProteinToxin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Protein Toxin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021"
+  }, {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#RNASynthesisInhibition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of their RNA, inhibiting gene expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RNA Synthesis Inhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/ohboi#AntibioticMechanism"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#Symptom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A phenotypical physical or mental manifestation that is apparent to the patient and indicates a condition of a disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Symptom"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#adverseReactionOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41332"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "adverse reaction of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#hasAdverseReaction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#antibioticMechanismOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#AntibioticMechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "antibiotic mechanism of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/ohboi#mechanismOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#hasAntibioticMechanism"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#belongsTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "belongs to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#contains"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#commercializes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "commercializes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#isCommercializedBy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contains"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#firstCaseReportedLocationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "first case reported location of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#hasFirstCaseReportedIn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasAdverseReaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has adverse reaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41332"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasAntibioticMechanism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has antibiotic mechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ohboi#AntibioticMechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/ohboi#hasMechanism"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasApproved",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has approved"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#isApprovedIn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasBorderWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has border with"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasBrandName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has brand name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has code"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasCommonName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has common name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasFirstCaseReportedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has first case reported in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid28"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasHeadQuartersIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has head quarters in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid31"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#headQuartersLocationOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has length"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasMechanism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has mechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Mechanism"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#mechanismOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasMetabolism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has metabolism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_010308"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#metabolismOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasPrescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has prescription"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#isPrescribedFor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasPrevalence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has prevalence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ohboi#CountryPrevalenceInTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#prevalenceOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has shape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000073"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#shapeOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasStaining",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has staining"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000191"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#stainingOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasSymbol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has symbol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#symbolOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#hasTransmissionProcess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has transmission process"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/TRANS_0000000"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#transmissionProcessOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#headQuartersLocationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid34"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "head quarters location of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#inDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#CountryPrevalenceInTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "in date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#isApprovedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is approved in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#isCommercializedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is commercialized by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#isNeutralizedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is neutralized by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/71862009"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#neutralizes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#isOrderedFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#MedicalPractice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is ordered for"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#ordering"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#isPrescribedFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is prescribed for"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#isPresentedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid37"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is presented in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#presents"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#isTargetedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Target"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is targeted by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#targets"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#mechanismOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Mechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "mechanism of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#metabolismOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_010308"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "metabolism of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#neutralizes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/71862009"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "neutralizes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#ordering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ordering"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ohboi#MedicalPractice"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#prescribedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "prescribed in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/ohboi#prescribes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#prescribes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "prescribes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/ohboi#Drug"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#presents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "presents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid40"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#prevalence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#CountryPrevalenceInTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "prevalence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#prevalenceOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/ohboi#CountryPrevalenceInTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "prevalence of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#shapeOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000073"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "shape of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#stainingOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/OMP_0000191"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "staining of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#symbolOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "symbol of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#targets",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/80917008"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "targets"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Target"
+  } ]
+}, {
+  "@id" : "https://w3id.org/ohboi#transmissionProcessOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/TRANS_0000000"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "transmission process of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+  } ]
+} ]
