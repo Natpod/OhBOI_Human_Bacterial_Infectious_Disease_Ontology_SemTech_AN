@@ -1,0 +1,1126 @@
+<https://w3id.org/ohboi#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/ohboi#> <http://purl.org/dc/elements/1.1/creator> "Natalia García" .
+<https://w3id.org/ohboi#> <http://purl.org/dc/elements/1.1/description> "Ontology code created by Chowlk" .
+<https://w3id.org/ohboi#> <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by/3.0/" .
+<https://w3id.org/ohboi#> <http://purl.org/dc/terms/created> "2022-12-22" .
+<https://w3id.org/ohboi#> <http://purl.org/dc/terms/creator> "Ana Solbas" .
+<https://w3id.org/ohboi#> <http://purl.org/dc/terms/description> "An ontology for Bacterial Human Infectious Diseases" .
+<https://w3id.org/ohboi#> <http://purl.org/dc/terms/title> "O(h)BOI" .
+<https://w3id.org/ohboi#> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R41
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R41> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R41> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R41> <http://www.w3.org/2000/01/rdf-schema#label> "gene found in organism"@en .
+# 
+# http://purl.bioontology.org/ontology/SNOMEDCT/cause_of
+<http://purl.bioontology.org/ontology/SNOMEDCT/cause_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/cause_of> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.bioontology.org/ontology/SNOMEDCT/due_to> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/cause_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/XCO_0000236> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/cause_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/cause_of> <http://www.w3.org/2000/01/rdf-schema#label> "cause of"@en .
+# 
+# http://purl.bioontology.org/ontology/SNOMEDCT/due_to
+<http://purl.bioontology.org/ontology/SNOMEDCT/due_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/due_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/due_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/XCO_0000236> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/due_to> <http://www.w3.org/2000/01/rdf-schema#label> "due to"@en .
+# 
+# http://rdf.ebi.ac.uk/terms/chembl#hasTarget
+<http://rdf.ebi.ac.uk/terms/chembl#hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://rdf.ebi.ac.uk/terms/chembl#hasTarget> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.ebi.ac.uk/terms/chembl#Mechanism> .
+<http://rdf.ebi.ac.uk/terms/chembl#hasTarget> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.ebi.ac.uk/terms/chembl#Target> .
+<http://rdf.ebi.ac.uk/terms/chembl#hasTarget> <http://www.w3.org/2000/01/rdf-schema#label> "has target" .
+# 
+# http://semanticscience.org/resource/SIO_000028
+<http://semanticscience.org/resource/SIO_000028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000028> <http://www.w3.org/2002/07/owl#inverseOf> <http://semanticscience.org/resource/SIO_000068> .
+<http://semanticscience.org/resource/SIO_000028> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12919> .
+<http://semanticscience.org/resource/SIO_000028> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018> .
+<http://semanticscience.org/resource/SIO_000028> <http://www.w3.org/2000/01/rdf-schema#label> "has part"@en .
+# 
+# http://semanticscience.org/resource/SIO_000062
+<http://semanticscience.org/resource/SIO_000062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000062> <http://www.w3.org/2002/07/owl#inverseOf> <http://semanticscience.org/resource/SIO_000132> .
+<http://semanticscience.org/resource/SIO_000062> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.ebi.ac.uk/terms/chembl#Target> .
+<http://semanticscience.org/resource/SIO_000062> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocabularies.wikipathways.org/wp#Pathway> .
+<http://semanticscience.org/resource/SIO_000062> <http://www.w3.org/2000/01/rdf-schema#label> "is participant in"@en .
+# 
+# http://semanticscience.org/resource/SIO_000068
+<http://semanticscience.org/resource/SIO_000068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000068> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018> .
+<http://semanticscience.org/resource/SIO_000068> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12919> .
+<http://semanticscience.org/resource/SIO_000068> <http://www.w3.org/2000/01/rdf-schema#label> "is part of"@en .
+# 
+# http://semanticscience.org/resource/SIO_000132
+<http://semanticscience.org/resource/SIO_000132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000132> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocabularies.wikipathways.org/wp#Pathway> .
+<http://semanticscience.org/resource/SIO_000132> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.ebi.ac.uk/terms/chembl#Target> .
+<http://semanticscience.org/resource/SIO_000132> <http://www.w3.org/2000/01/rdf-schema#label> "has participant"@en .
+# 
+# http://semanticscience.org/resource/SIO_000311
+<http://semanticscience.org/resource/SIO_000311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000311> <http://www.w3.org/2002/07/owl#inverseOf> <http://semanticscience.org/resource/SIO_000312> .
+<http://semanticscience.org/resource/SIO_000311> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+<http://semanticscience.org/resource/SIO_000311> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> .
+<http://semanticscience.org/resource/SIO_000311> <http://www.w3.org/2000/01/rdf-schema#label> "is product of"@en .
+# 
+# http://semanticscience.org/resource/SIO_000312
+<http://semanticscience.org/resource/SIO_000312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_000312> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> .
+<http://semanticscience.org/resource/SIO_000312> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+<http://semanticscience.org/resource/SIO_000312> <http://www.w3.org/2000/01/rdf-schema#label> "has product"@en .
+# 
+# http://semanticscience.org/resource/SIO_001158
+<http://semanticscience.org/resource/SIO_001158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_001158> <http://www.w3.org/2002/07/owl#inverseOf> <http://semanticscience.org/resource/SIO_001159> .
+<http://semanticscience.org/resource/SIO_001158> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/IDO_0000436> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/SIO_001158> <http://www.w3.org/2000/01/rdf-schema#range> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://vocabularies.wikipathways.org/wp#Pathway> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/SIO_001158> <http://www.w3.org/2000/01/rdf-schema#label> "affects"@en .
+# 
+# http://semanticscience.org/resource/SIO_001159
+<http://semanticscience.org/resource/SIO_001159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_001159> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#unionOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://vocabularies.wikipathways.org/wp#Pathway> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/SIO_001159> <http://www.w3.org/2000/01/rdf-schema#range> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#unionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/IDO_0000436> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/SIO_001159> <http://www.w3.org/2000/01/rdf-schema#label> "is affected by"@en .
+# 
+# http://semanticscience.org/resource/SIO_001403
+<http://semanticscience.org/resource/SIO_001403> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_001403> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#CountryPrevalenceInTime> .
+<http://semanticscience.org/resource/SIO_001403> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+<http://semanticscience.org/resource/SIO_001403> <http://www.w3.org/2000/01/rdf-schema#label> "is associated to"@en .
+# 
+# http://semanticscience.org/resource/SIO_010078
+<http://semanticscience.org/resource/SIO_010078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_010078> <http://www.w3.org/2002/07/owl#inverseOf> <http://semanticscience.org/resource/SIO_010079> .
+<http://semanticscience.org/resource/SIO_010078> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> .
+<http://semanticscience.org/resource/SIO_010078> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021> .
+<http://semanticscience.org/resource/SIO_010078> <http://www.w3.org/2000/01/rdf-schema#label> "encodes"@en .
+# 
+# http://semanticscience.org/resource/SIO_010079
+<http://semanticscience.org/resource/SIO_010079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://semanticscience.org/resource/SIO_010079> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021> .
+<http://semanticscience.org/resource/SIO_010079> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> .
+<http://semanticscience.org/resource/SIO_010079> <http://www.w3.org/2000/01/rdf-schema#label> "is encoded by"@en .
+# 
+# http://www.owl-ontologies.com/skos#exactMatch
+<http://www.owl-ontologies.com/skos#exactMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.owl-ontologies.com/skos#exactMatch> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.ebi.ac.uk/terms/chembl#Substance> .
+<http://www.owl-ontologies.com/skos#exactMatch> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/CHEBI_24431> .
+<http://www.owl-ontologies.com/skos#exactMatch> <http://www.w3.org/2000/01/rdf-schema#label> "exact match" .
+# 
+# https://w3id.org/ohboi#adverseReactionOf
+<https://w3id.org/ohboi#adverseReactionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#adverseReactionOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#hasAdverseReaction> .
+<https://w3id.org/ohboi#adverseReactionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41332> .
+<https://w3id.org/ohboi#adverseReactionOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#adverseReactionOf> <http://www.w3.org/2000/01/rdf-schema#label> "adverse reaction of"@en .
+# 
+# https://w3id.org/ohboi#antibioticMechanismOf
+<https://w3id.org/ohboi#antibioticMechanismOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#antibioticMechanismOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/ohboi#mechanismOf> .
+<https://w3id.org/ohboi#antibioticMechanismOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#hasAntibioticMechanism> .
+<https://w3id.org/ohboi#antibioticMechanismOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#AntibioticMechanism> .
+<https://w3id.org/ohboi#antibioticMechanismOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> .
+<https://w3id.org/ohboi#antibioticMechanismOf> <http://www.w3.org/2000/01/rdf-schema#label> "antibiotic mechanism of"@en .
+# 
+# https://w3id.org/ohboi#belongsTo
+<https://w3id.org/ohboi#belongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#belongsTo> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#contains> .
+<https://w3id.org/ohboi#belongsTo> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#unionOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#belongsTo> <http://www.w3.org/2000/01/rdf-schema#range> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#unionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#belongsTo> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to" .
+# 
+# https://w3id.org/ohboi#commercializes
+<https://w3id.org/ohboi#commercializes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#commercializes> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#isCommercializedBy> .
+<https://w3id.org/ohboi#commercializes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131> .
+<https://w3id.org/ohboi#commercializes> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#commercializes> <http://www.w3.org/2000/01/rdf-schema#label> "commercializes" .
+# 
+# https://w3id.org/ohboi#contains
+<https://w3id.org/ohboi#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#contains> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#unionOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#contains> <http://www.w3.org/2000/01/rdf-schema#range> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#unionOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#contains> <http://www.w3.org/2000/01/rdf-schema#label> "contains"@en .
+# 
+# https://w3id.org/ohboi#firstCaseReportedLocationOf
+<https://w3id.org/ohboi#firstCaseReportedLocationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#firstCaseReportedLocationOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/ohboi#firstCaseReportedLocationOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#hasFirstCaseReportedIn> .
+<https://w3id.org/ohboi#firstCaseReportedLocationOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#unionOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#firstCaseReportedLocationOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#firstCaseReportedLocationOf> <http://www.w3.org/2000/01/rdf-schema#label> "first case reported location of"@en .
+# 
+# https://w3id.org/ohboi#hasAdverseReaction
+<https://w3id.org/ohboi#hasAdverseReaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasAdverseReaction> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#hasAdverseReaction> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41332> .
+<https://w3id.org/ohboi#hasAdverseReaction> <http://www.w3.org/2000/01/rdf-schema#label> "has adverse reaction" .
+# 
+# https://w3id.org/ohboi#hasAntibioticMechanism
+<https://w3id.org/ohboi#hasAntibioticMechanism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasAntibioticMechanism> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/ohboi#hasMechanism> .
+<https://w3id.org/ohboi#hasAntibioticMechanism> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> .
+<https://w3id.org/ohboi#hasAntibioticMechanism> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ohboi#AntibioticMechanism> .
+<https://w3id.org/ohboi#hasAntibioticMechanism> <http://www.w3.org/2000/01/rdf-schema#label> "has antibiotic mechanism"@en .
+# 
+# https://w3id.org/ohboi#hasApproved
+<https://w3id.org/ohboi#hasApproved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasApproved> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#isApprovedIn> .
+<https://w3id.org/ohboi#hasApproved> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+<https://w3id.org/ohboi#hasApproved> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#hasApproved> <http://www.w3.org/2000/01/rdf-schema#label> "has approved"@en .
+# 
+# https://w3id.org/ohboi#hasBorderWith
+<https://w3id.org/ohboi#hasBorderWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasBorderWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<https://w3id.org/ohboi#hasBorderWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+<https://w3id.org/ohboi#hasBorderWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+<https://w3id.org/ohboi#hasBorderWith> <http://www.w3.org/2000/01/rdf-schema#label> "has border with" .
+# 
+# https://w3id.org/ohboi#hasFirstCaseReportedIn
+<https://w3id.org/ohboi#hasFirstCaseReportedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasFirstCaseReportedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#hasFirstCaseReportedIn> <http://www.w3.org/2000/01/rdf-schema#range> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#unionOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#hasFirstCaseReportedIn> <http://www.w3.org/2000/01/rdf-schema#label> "has first case reported in" .
+# 
+# https://w3id.org/ohboi#hasHeadQuartersIn
+<https://w3id.org/ohboi#hasHeadQuartersIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasHeadQuartersIn> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#headQuartersLocationOf> .
+<https://w3id.org/ohboi#hasHeadQuartersIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131> .
+<https://w3id.org/ohboi#hasHeadQuartersIn> <http://www.w3.org/2000/01/rdf-schema#range> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#unionOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#hasHeadQuartersIn> <http://www.w3.org/2000/01/rdf-schema#label> "has head quarters in" .
+# 
+# https://w3id.org/ohboi#hasMechanism
+<https://w3id.org/ohboi#hasMechanism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasMechanism> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#mechanismOf> .
+<https://w3id.org/ohboi#hasMechanism> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#hasMechanism> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.ebi.ac.uk/terms/chembl#Mechanism> .
+<https://w3id.org/ohboi#hasMechanism> <http://www.w3.org/2000/01/rdf-schema#label> "has mechanism"@en .
+# 
+# https://w3id.org/ohboi#hasMetabolism
+<https://w3id.org/ohboi#hasMetabolism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasMetabolism> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#metabolismOf> .
+<https://w3id.org/ohboi#hasMetabolism> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187> .
+<https://w3id.org/ohboi#hasMetabolism> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/SIO_010308> .
+<https://w3id.org/ohboi#hasMetabolism> <http://www.w3.org/2000/01/rdf-schema#label> "has metabolism" .
+# 
+# https://w3id.org/ohboi#hasPrescription
+<https://w3id.org/ohboi#hasPrescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasPrescription> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#isPrescribedFor> .
+<https://w3id.org/ohboi#hasPrescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#hasPrescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180> .
+<https://w3id.org/ohboi#hasPrescription> <http://www.w3.org/2000/01/rdf-schema#label> "has prescription" .
+# 
+# https://w3id.org/ohboi#hasPrevalence
+<https://w3id.org/ohboi#hasPrevalence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasPrevalence> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#prevalenceOf> .
+<https://w3id.org/ohboi#hasPrevalence> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#hasPrevalence> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ohboi#CountryPrevalenceInTime> .
+<https://w3id.org/ohboi#hasPrevalence> <http://www.w3.org/2000/01/rdf-schema#label> "has prevalence" .
+# 
+# https://w3id.org/ohboi#hasShape
+<https://w3id.org/ohboi#hasShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasShape> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#shapeOf> .
+<https://w3id.org/ohboi#hasShape> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187> .
+<https://w3id.org/ohboi#hasShape> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/OMP_0000073> .
+<https://w3id.org/ohboi#hasShape> <http://www.w3.org/2000/01/rdf-schema#label> "has shape" .
+# 
+# https://w3id.org/ohboi#hasStaining
+<https://w3id.org/ohboi#hasStaining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasStaining> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#stainingOf> .
+<https://w3id.org/ohboi#hasStaining> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#hasStaining> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/OMP_0000191> .
+<https://w3id.org/ohboi#hasStaining> <http://www.w3.org/2000/01/rdf-schema#label> "has staining" .
+# 
+# https://w3id.org/ohboi#hasSymbol
+<https://w3id.org/ohboi#hasSymbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasSymbol> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#symbolOf> .
+<https://w3id.org/ohboi#hasSymbol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> .
+<https://w3id.org/ohboi#hasSymbol> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568> .
+<https://w3id.org/ohboi#hasSymbol> <http://www.w3.org/2000/01/rdf-schema#label> "has symbol" .
+# 
+# https://w3id.org/ohboi#hasTransmissionProcess
+<https://w3id.org/ohboi#hasTransmissionProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#hasTransmissionProcess> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#transmissionProcessOf> .
+<https://w3id.org/ohboi#hasTransmissionProcess> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#hasTransmissionProcess> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/TRANS_0000000> .
+<https://w3id.org/ohboi#hasTransmissionProcess> <http://www.w3.org/2000/01/rdf-schema#label> "has transmission process"@en .
+# 
+# https://w3id.org/ohboi#headQuartersLocationOf
+<https://w3id.org/ohboi#headQuartersLocationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#headQuartersLocationOf> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#unionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#headQuartersLocationOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131> .
+<https://w3id.org/ohboi#headQuartersLocationOf> <http://www.w3.org/2000/01/rdf-schema#label> "head quarters location of"@en .
+# 
+# https://w3id.org/ohboi#isApprovedIn
+<https://w3id.org/ohboi#isApprovedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#isApprovedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#isApprovedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+<https://w3id.org/ohboi#isApprovedIn> <http://www.w3.org/2000/01/rdf-schema#label> "is approved in" .
+# 
+# https://w3id.org/ohboi#isCommercializedBy
+<https://w3id.org/ohboi#isCommercializedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#isCommercializedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#isCommercializedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131> .
+<https://w3id.org/ohboi#isCommercializedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is commercialized by" .
+# 
+# https://w3id.org/ohboi#isNeutralizedBy
+<https://w3id.org/ohboi#isNeutralizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#isNeutralizedBy> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#neutralizes> .
+<https://w3id.org/ohboi#isNeutralizedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+<https://w3id.org/ohboi#isNeutralizedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.bioontology.org/ontology/SNOMEDCT/71862009> .
+<https://w3id.org/ohboi#isNeutralizedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is neutralized by" .
+# 
+# https://w3id.org/ohboi#isOrderedFor
+<https://w3id.org/ohboi#isOrderedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#isOrderedFor> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#ordering> .
+<https://w3id.org/ohboi#isOrderedFor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#MedicalPractice> .
+<https://w3id.org/ohboi#isOrderedFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#isOrderedFor> <http://www.w3.org/2000/01/rdf-schema#label> "is ordered for" .
+# 
+# https://w3id.org/ohboi#isPrescribedFor
+<https://w3id.org/ohboi#isPrescribedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#isPrescribedFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180> .
+<https://w3id.org/ohboi#isPrescribedFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#isPrescribedFor> <http://www.w3.org/2000/01/rdf-schema#label> "is prescribed for" .
+# 
+# https://w3id.org/ohboi#isPresentedIn
+<https://w3id.org/ohboi#isPresentedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#isPresentedIn> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#presents> .
+<https://w3id.org/ohboi#isPresentedIn> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#unionOf> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/ohboi#Symptom> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/HP_0000118> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#isPresentedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#isPresentedIn> <http://www.w3.org/2000/01/rdf-schema#label> "is presented in"@en .
+# 
+# https://w3id.org/ohboi#isTargetedBy
+<https://w3id.org/ohboi#isTargetedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#isTargetedBy> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#targets> .
+<https://w3id.org/ohboi#isTargetedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.ebi.ac.uk/terms/chembl#Target> .
+<https://w3id.org/ohboi#isTargetedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+<https://w3id.org/ohboi#isTargetedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is targeted by" .
+# 
+# https://w3id.org/ohboi#mechanismOf
+<https://w3id.org/ohboi#mechanismOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#mechanismOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.ebi.ac.uk/terms/chembl#Mechanism> .
+<https://w3id.org/ohboi#mechanismOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#mechanismOf> <http://www.w3.org/2000/01/rdf-schema#label> "mechanism of" .
+# 
+# https://w3id.org/ohboi#metabolismOf
+<https://w3id.org/ohboi#metabolismOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#metabolismOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://semanticscience.org/resource/SIO_010308> .
+<https://w3id.org/ohboi#metabolismOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187> .
+<https://w3id.org/ohboi#metabolismOf> <http://www.w3.org/2000/01/rdf-schema#label> "metabolism of" .
+# 
+# https://w3id.org/ohboi#neutralizes
+<https://w3id.org/ohboi#neutralizes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#neutralizes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.bioontology.org/ontology/SNOMEDCT/71862009> .
+<https://w3id.org/ohboi#neutralizes> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+<https://w3id.org/ohboi#neutralizes> <http://www.w3.org/2000/01/rdf-schema#label> "neutralizes" .
+# 
+# https://w3id.org/ohboi#ordering
+<https://w3id.org/ohboi#ordering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#ordering> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#ordering> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ohboi#MedicalPractice> .
+<https://w3id.org/ohboi#ordering> <http://www.w3.org/2000/01/rdf-schema#label> "ordering" .
+# 
+# https://w3id.org/ohboi#prescribedIn
+<https://w3id.org/ohboi#prescribedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#prescribedIn> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/ohboi#prescribes> .
+<https://w3id.org/ohboi#prescribedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#prescribedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180> .
+<https://w3id.org/ohboi#prescribedIn> <http://www.w3.org/2000/01/rdf-schema#label> "prescribed in"@en .
+# 
+# https://w3id.org/ohboi#prescribes
+<https://w3id.org/ohboi#prescribes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#prescribes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180> .
+<https://w3id.org/ohboi#prescribes> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#prescribes> <http://www.w3.org/2000/01/rdf-schema#label> "prescribes"@en .
+# 
+# https://w3id.org/ohboi#presents
+<https://w3id.org/ohboi#presents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#presents> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#presents> <http://www.w3.org/2000/01/rdf-schema#range> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#unionOf> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/ohboi#Symptom> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/HP_0000118> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#presents> <http://www.w3.org/2000/01/rdf-schema#label> "presents" .
+# 
+# https://w3id.org/ohboi#prevalenceOf
+<https://w3id.org/ohboi#prevalenceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#prevalenceOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#CountryPrevalenceInTime> .
+<https://w3id.org/ohboi#prevalenceOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#prevalenceOf> <http://www.w3.org/2000/01/rdf-schema#label> "prevalence of"@en .
+# 
+# https://w3id.org/ohboi#shapeOf
+<https://w3id.org/ohboi#shapeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#shapeOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/OMP_0000073> .
+<https://w3id.org/ohboi#shapeOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187> .
+<https://w3id.org/ohboi#shapeOf> <http://www.w3.org/2000/01/rdf-schema#label> "shape of" .
+# 
+# https://w3id.org/ohboi#stainingOf
+<https://w3id.org/ohboi#stainingOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#stainingOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/OMP_0000191> .
+<https://w3id.org/ohboi#stainingOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#stainingOf> <http://www.w3.org/2000/01/rdf-schema#label> "staining of" .
+# 
+# https://w3id.org/ohboi#symbolOf
+<https://w3id.org/ohboi#symbolOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#symbolOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568> .
+<https://w3id.org/ohboi#symbolOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> .
+<https://w3id.org/ohboi#symbolOf> <http://www.w3.org/2000/01/rdf-schema#label> "symbol of"@en .
+# 
+# https://w3id.org/ohboi#targets
+<https://w3id.org/ohboi#targets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#targets> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+<https://w3id.org/ohboi#targets> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdf.ebi.ac.uk/terms/chembl#Target> .
+<https://w3id.org/ohboi#targets> <http://www.w3.org/2000/01/rdf-schema#label> "targets" .
+# 
+# https://w3id.org/ohboi#transmissionProcessOf
+<https://w3id.org/ohboi#transmissionProcessOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/ohboi#transmissionProcessOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/TRANS_0000000> .
+<https://w3id.org/ohboi#transmissionProcessOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/IDO_0000436> .
+<https://w3id.org/ohboi#transmissionProcessOf> <http://www.w3.org/2000/01/rdf-schema#label> "transmission process of"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/formula
+<http://purl.obolibrary.org/obo/formula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.obolibrary.org/obo/formula> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/CHEBI_24431> .
+<http://purl.obolibrary.org/obo/formula> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/formula> <http://www.w3.org/2000/01/rdf-schema#label> "formula" .
+# 
+# http://purl.obolibrary.org/obo/mass
+<http://purl.obolibrary.org/obo/mass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.obolibrary.org/obo/mass> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/CHEBI_24431> .
+<http://purl.obolibrary.org/obo/mass> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://purl.obolibrary.org/obo/mass> <http://www.w3.org/2000/01/rdf-schema#label> "mass" .
+# 
+# http://purl.obolibrary.org/obo/sio_SIO_00061
+<http://purl.obolibrary.org/obo/sio_SIO_00061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.obolibrary.org/obo/sio_SIO_00061> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> .
+<http://purl.obolibrary.org/obo/sio_SIO_00061> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/sio_SIO_00061> <http://www.w3.org/2000/01/rdf-schema#label> "is located in"@en .
+# 
+# http://purl.obolibrary.org/obo/smiles
+<http://purl.obolibrary.org/obo/smiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.obolibrary.org/obo/smiles> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.obolibrary.org/obo/CHEBI_24431> .
+<http://purl.obolibrary.org/obo/smiles> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.obolibrary.org/obo/smiles> <http://www.w3.org/2000/01/rdf-schema#label> "smiles"@en .
+# 
+# http://rdf.ebi.ac.uk/terms/chembl#atcClassification
+<http://rdf.ebi.ac.uk/terms/chembl#atcClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf.ebi.ac.uk/terms/chembl#atcClassification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.ebi.ac.uk/terms/chembl#Substance> .
+<http://rdf.ebi.ac.uk/terms/chembl#atcClassification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.ebi.ac.uk/terms/chembl#atcClassification> <http://www.w3.org/2000/01/rdf-schema#label> "atc classification" .
+# 
+# http://rdf.ebi.ac.uk/terms/chembl#chemblId
+<http://rdf.ebi.ac.uk/terms/chembl#chemblId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://rdf.ebi.ac.uk/terms/chembl#chemblId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdf.ebi.ac.uk/terms/chembl#Substance> .
+<http://rdf.ebi.ac.uk/terms/chembl#chemblId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://rdf.ebi.ac.uk/terms/chembl#chemblId> <http://www.w3.org/2000/01/rdf-schema#label> "chembl id" .
+# 
+# https://w3id.org/ohboi#hasBrandName
+<https://w3id.org/ohboi#hasBrandName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ohboi#hasBrandName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#hasBrandName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/ohboi#hasBrandName> <http://www.w3.org/2000/01/rdf-schema#label> "has brand name" .
+# 
+# https://w3id.org/ohboi#hasCode
+<https://w3id.org/ohboi#hasCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ohboi#hasCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> .
+<https://w3id.org/ohboi#hasCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/ohboi#hasCode> <http://www.w3.org/2000/01/rdf-schema#label> "has code" .
+# 
+# https://w3id.org/ohboi#hasCommonName
+<https://w3id.org/ohboi#hasCommonName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ohboi#hasCommonName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#Drug> .
+<https://w3id.org/ohboi#hasCommonName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/ohboi#hasCommonName> <http://www.w3.org/2000/01/rdf-schema#label> "has common name" .
+# 
+# https://w3id.org/ohboi#hasLength
+<https://w3id.org/ohboi#hasLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ohboi#hasLength> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021> .
+<https://w3id.org/ohboi#hasLength> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/ohboi#hasLength> <http://www.w3.org/2000/01/rdf-schema#label> "has length" .
+# 
+# https://w3id.org/ohboi#hasName
+<https://w3id.org/ohboi#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ohboi#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021> .
+<https://w3id.org/ohboi#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/ohboi#hasName> <http://www.w3.org/2000/01/rdf-schema#label> "has name" .
+# 
+# https://w3id.org/ohboi#inDate
+<https://w3id.org/ohboi#inDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ohboi#inDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#CountryPrevalenceInTime> .
+<https://w3id.org/ohboi#inDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/ohboi#inDate> <http://www.w3.org/2000/01/rdf-schema#label> "in date"@en .
+# 
+# https://w3id.org/ohboi#prevalence
+<https://w3id.org/ohboi#prevalence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/ohboi#prevalence> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/ohboi#CountryPrevalenceInTime> .
+<https://w3id.org/ohboi#prevalence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/ohboi#prevalence> <http://www.w3.org/2000/01/rdf-schema#label> "prevalence" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12391
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12391> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12391> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12391> <http://www.w3.org/2000/01/rdf-schema#comment> "An organ located under the diaphragm, between the liver and the spleen as well as between the esophagus and the small intestine. The stomach is the primary organ of food digestion."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12391> <http://www.w3.org/2000/01/rdf-schema#label> "Stomach"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12736
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12736> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12736> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12736> <http://www.w3.org/2000/01/rdf-schema#comment> "The portion of the gastrointestinal tract between the stomach and the anus. It includes the small intestine and large intestine."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12736> <http://www.w3.org/2000/01/rdf-schema#label> "Intestine"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12919
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12919> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12919> <http://www.w3.org/2000/01/rdf-schema#comment> "An anatomical structure that consists of organs and organ subclasses responsible for certain body functions. Representative examples are the gastrointestinal system, urinary system, and hematopoietic system."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12919> <http://www.w3.org/2000/01/rdf-schema#label> "Organ System"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018> <http://www.w3.org/2000/01/rdf-schema#comment> "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region. Representative examples include the heart, lung, liver, spleen, and uterus."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018> <http://www.w3.org/2000/01/rdf-schema#label> "Organ"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187> <http://www.w3.org/2000/01/rdf-schema#comment> "Unicellular, prokaryotic organisms that reproduce by cell division and usually have cell walls; can be shaped like spheres, rods or spirals and can be found in virtually any environment."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187> <http://www.w3.org/2000/01/rdf-schema#label> "Bacteria"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> <http://www.w3.org/2000/01/rdf-schema#comment> "A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612> <http://www.w3.org/2000/01/rdf-schema#label> "Gene"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021> <http://www.w3.org/2000/01/rdf-schema#label> "Protein"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/ohboi#belongsTo> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160> <http://www.w3.org/2000/01/rdf-schema#comment> "A large and densely populated urban area; a city specified in an address."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160> <http://www.w3.org/2000/01/rdf-schema#label> "City"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/ohboi#belongsTo> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> <http://www.w3.org/2000/01/rdf-schema#comment> "A sovereign nation occupying a distinct territory and ruled by an autonomous government."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#Drug> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> <http://www.w3.org/2000/01/rdf-schema#comment> "Substances naturally produced by microorganisms or their derivatives that selectively target microorganisms not humans. Antibiotics kill or inhibit the growth of microorganisms by targeting components of the microbial cell absent from human cells, including bacterial cell walls, cell membrane, and 30S or 50S ribosomal subunits. These substances are used in the treatment of bacterial and other microbial infections."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> <http://www.w3.org/2000/01/rdf-schema#label> "Antibiotic"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OGMS_0000090> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180> <http://www.w3.org/2000/01/rdf-schema#comment> "A verbal or written order given by an authorized person instructing a patient to obtain and use a medical device, prescription or undergo a procedure."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180> <http://www.w3.org/2000/01/rdf-schema#label> "Prescription"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41332
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41332> <http://www.w3.org/2000/01/rdf-schema#comment> "A response to a medicinal product, devices, or procedures, which is noxious and unintended. Response in this context means that a causal relationship between a medicinal product and an adverse event is at least a reasonable possibility. In the context of drug development, the term is used as a synonym of adverse drug reaction."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41332> <http://www.w3.org/2000/01/rdf-schema#label> "Adverse reaction" .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568> <http://www.w3.org/2000/01/rdf-schema#comment> "A unique gene name approved by an organism specific nomenclature committee."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568> <http://www.w3.org/2000/01/rdf-schema#label> "Gene Symbol"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131> <http://www.w3.org/2000/01/rdf-schema#comment> "Any formal business entity for profit, which may be a corporation, a partnership, association or individual proprietorship"@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131> <http://www.w3.org/2000/01/rdf-schema#label> "Company"@en .
+# 
+# http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349> <http://www.w3.org/2000/01/rdf-schema#comment> "One of the large landmasses of the earth."@en .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349> <http://www.w3.org/2000/01/rdf-schema#label> "Continent"@en .
+# 
+# http://purl.bioontology.org/ontology/MESH/D052818
+<http://purl.bioontology.org/ontology/MESH/D052818> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/MESH/D052818> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#EnergySource> .
+<http://purl.bioontology.org/ontology/MESH/D052818> <http://www.w3.org/2000/01/rdf-schema#comment> "The processes by which organisms use simple inorganic substances such as gaseous or dissolved carbon dioxide and inorganic nitrogen as nutrient sources."@en .
+<http://purl.bioontology.org/ontology/MESH/D052818> <http://www.w3.org/2000/01/rdf-schema#label> "Autotrophic Processes"@en .
+# 
+# http://purl.bioontology.org/ontology/MESH/D052836
+<http://purl.bioontology.org/ontology/MESH/D052836> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/MESH/D052836> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#EnergySource> .
+<http://purl.bioontology.org/ontology/MESH/D052836> <http://www.w3.org/2000/01/rdf-schema#comment> "The processes by which organisms utilize organic substances as their nutrient sources."@en .
+<http://purl.bioontology.org/ontology/MESH/D052836> <http://www.w3.org/2000/01/rdf-schema#label> "Heterotrophic Processes"@en .
+# 
+# http://purl.bioontology.org/ontology/SNOMEDCT/18127008
+<http://purl.bioontology.org/ontology/SNOMEDCT/18127008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/18127008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/18127008> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.bioontology.org/ontology/SNOMEDCT/29750002> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/18127008> <http://www.w3.org/2000/01/rdf-schema#comment> "Bacterial endotoxin (substance)"@en .
+<http://purl.bioontology.org/ontology/SNOMEDCT/18127008> <http://www.w3.org/2000/01/rdf-schema#label> "Bacterial Endotoxin"@en .
+# 
+# http://purl.bioontology.org/ontology/SNOMEDCT/29750002
+<http://purl.bioontology.org/ontology/SNOMEDCT/29750002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/29750002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/29750002> <http://www.w3.org/2000/01/rdf-schema#comment> "Bacterial exotoxin (substance)"@en .
+<http://purl.bioontology.org/ontology/SNOMEDCT/29750002> <http://www.w3.org/2000/01/rdf-schema#label> "Bacterial Exotoxin"@en .
+# 
+# http://purl.bioontology.org/ontology/SNOMEDCT/64572001
+<http://purl.bioontology.org/ontology/SNOMEDCT/64572001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/64572001> <http://www.w3.org/2000/01/rdf-schema#comment> "Disorder"@en .
+<http://purl.bioontology.org/ontology/SNOMEDCT/64572001> <http://www.w3.org/2000/01/rdf-schema#label> "Disease"@en .
+# 
+# http://purl.bioontology.org/ontology/SNOMEDCT/71862009
+<http://purl.bioontology.org/ontology/SNOMEDCT/71862009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/71862009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#Drug> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/71862009> <http://www.w3.org/2000/01/rdf-schema#comment> "Antitoxin (substance)"@en .
+<http://purl.bioontology.org/ontology/SNOMEDCT/71862009> <http://www.w3.org/2000/01/rdf-schema#label> "Antitoxin"@en .
+# 
+# http://purl.bioontology.org/ontology/SNOMEDCT/80917008
+<http://purl.bioontology.org/ontology/SNOMEDCT/80917008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/80917008> <http://www.w3.org/2000/01/rdf-schema#comment> "A substance that is produced by a living organism that is a bacteria and is toxic, noxious, or poisonous."@en .
+<http://purl.bioontology.org/ontology/SNOMEDCT/80917008> <http://www.w3.org/2000/01/rdf-schema#label> "Bacterial Toxin"@en .
+# 
+# http://purl.bioontology.org/ontology/SNOMEDCT/95999008
+<http://purl.bioontology.org/ontology/SNOMEDCT/95999008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/95999008> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid45 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#onClass> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid48 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#onClass> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#unionOf> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12736> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12391> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid50 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <http://semanticscience.org/resource/SIO_000062> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf.ebi.ac.uk/terms/chembl#Target> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/ohboi#targets> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/95999008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/95999008> <http://www.w3.org/2000/01/rdf-schema#label> "Bacterial Enterotoxin"@en .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_22507
+<http://purl.obolibrary.org/obo/CHEBI_22507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_22507> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> .
+<http://purl.obolibrary.org/obo/CHEBI_22507> <http://www.w3.org/2000/01/rdf-schema#comment> "Aminoglycosides are a group of antibiotics that are mostly effective against Gram-negative bacteria. These molecules consist of aminated sugars attached to a dibasic cyclitol. Aminoglycosides work by binding to the bacterial 30S ribosomal subunit (some work by binding to the 50S subunit), inhibiting the translocation of the peptidyl-tRNA from the A-site to the P-site and also causing misreading of mRNA, leaving the bacterium unable to synthesize proteins vital to its growth."@en .
+<http://purl.obolibrary.org/obo/CHEBI_22507> <http://www.w3.org/2000/01/rdf-schema#label> "Aminoglycoside Antibiotic"@en .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_23007
+<http://purl.obolibrary.org/obo/CHEBI_23007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_23007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> .
+<http://purl.obolibrary.org/obo/CHEBI_23007> <http://www.w3.org/2000/01/rdf-schema#comment> "Any carbohydrate derivative that exhibits antibiotic activity."@en .
+<http://purl.obolibrary.org/obo/CHEBI_23007> <http://www.w3.org/2000/01/rdf-schema#label> "Carbohidrate containing Antibiotic"@en .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_24431
+<http://purl.obolibrary.org/obo/CHEBI_24431> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_24431> <http://www.w3.org/2000/01/rdf-schema#comment> "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances."@en .
+<http://purl.obolibrary.org/obo/CHEBI_24431> <http://www.w3.org/2000/01/rdf-schema#label> "Chemical Entity"@en .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_25105
+<http://purl.obolibrary.org/obo/CHEBI_25105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_25105> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> .
+<http://purl.obolibrary.org/obo/CHEBI_25105> <http://www.w3.org/2000/01/rdf-schema#comment> "A macrocyclic lactone with a ring of twelve or more members which exhibits antibiotic activity."@en .
+<http://purl.obolibrary.org/obo/CHEBI_25105> <http://www.w3.org/2000/01/rdf-schema#label> "Macrocyclic Antibiotic"@en .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_26895
+<http://purl.obolibrary.org/obo/CHEBI_26895> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_26895> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> .
+<http://purl.obolibrary.org/obo/CHEBI_26895> <http://www.w3.org/2000/01/rdf-schema#comment> "These antibiotics are derived from tetracycline, a polyketide antibiotic that inhibits the 30S subunit of bacterial ribosomes."@en .
+<http://purl.obolibrary.org/obo/CHEBI_26895> <http://www.w3.org/2000/01/rdf-schema#label> "Tetracycline Antibiotic"@en .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_27933
+<http://purl.obolibrary.org/obo/CHEBI_27933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_27933> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> .
+<http://purl.obolibrary.org/obo/CHEBI_27933> <http://www.w3.org/2000/01/rdf-schema#comment> "An organonitrogen heterocyclic antibiotic that contains a beta-lactam ring."@en .
+<http://purl.obolibrary.org/obo/CHEBI_27933> <http://www.w3.org/2000/01/rdf-schema#label> "Beta lactam Antibiotic"@en .
+# 
+# http://purl.obolibrary.org/obo/CHEBI_87211
+<http://purl.obolibrary.org/obo/CHEBI_87211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/CHEBI_87211> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258> .
+<http://purl.obolibrary.org/obo/CHEBI_87211> <http://www.w3.org/2000/01/rdf-schema#comment> "An organonitrogen heterocyclic antibiotic containing a quinolone (or quinolone-like) moiety and which have a fluorine atom attached to the central ring system."@en .
+<http://purl.obolibrary.org/obo/CHEBI_87211> <http://www.w3.org/2000/01/rdf-schema#label> "Fluoroquinolone Antibiotic"@en .
+# 
+# http://purl.obolibrary.org/obo/HP_0000118
+<http://purl.obolibrary.org/obo/HP_0000118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/HP_0000118> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/ohboi#Symptom> .
+<http://purl.obolibrary.org/obo/HP_0000118> <http://www.w3.org/2000/01/rdf-schema#comment> "A phenotypical physical or mental manifestation that is apparent to the patient and indicates a condition of a disease"@en .
+<http://purl.obolibrary.org/obo/HP_0000118> <http://www.w3.org/2000/01/rdf-schema#label> "Phenotipic Abnormality"@en .
+# 
+# http://purl.obolibrary.org/obo/IDO_0000436
+<http://purl.obolibrary.org/obo/IDO_0000436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/IDO_0000436> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/SNOMEDCT/64572001> .
+<http://purl.obolibrary.org/obo/IDO_0000436> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid56 .
+_:genid56 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.bioontology.org/ontology/SNOMEDCT/due_to> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.obolibrary.org/obo/IDO_0000436> <http://www.w3.org/2000/01/rdf-schema#comment> "A disease whose physical basis is an infectious disorder."@en .
+<http://purl.obolibrary.org/obo/IDO_0000436> <http://www.w3.org/2000/01/rdf-schema#label> "Infectious Disease"@en .
+# 
+# http://purl.obolibrary.org/obo/OGMS_0000090
+<http://purl.obolibrary.org/obo/OGMS_0000090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OGMS_0000090> <http://www.w3.org/2000/01/rdf-schema#comment> "A planned process whose completion is hypothesized by a health care provider to eliminate, prevent, or alleviate a disorder, the signs and symptoms of a disorder, or a pathological process"@en .
+<http://purl.obolibrary.org/obo/OGMS_0000090> <http://www.w3.org/2000/01/rdf-schema#label> "Treatment"@en .
+# 
+# http://purl.obolibrary.org/obo/OMP_0000071
+<http://purl.obolibrary.org/obo/OMP_0000071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMP_0000071> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#Phenotype> .
+<http://purl.obolibrary.org/obo/OMP_0000071> <http://www.w3.org/2000/01/rdf-schema#comment> "A microbial phenotype related to the form and structure of a microbial cell"@en .
+<http://purl.obolibrary.org/obo/OMP_0000071> <http://www.w3.org/2000/01/rdf-schema#label> "Cell Morphology Phenotype"@en .
+# 
+# http://purl.obolibrary.org/obo/OMP_0000073
+<http://purl.obolibrary.org/obo/OMP_0000073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMP_0000073> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OMP_0000071> .
+<http://purl.obolibrary.org/obo/OMP_0000073> <http://www.w3.org/2000/01/rdf-schema#comment> "A cell morphology phenotype where the trait in question is the shape of a cell"@en .
+<http://purl.obolibrary.org/obo/OMP_0000073> <http://www.w3.org/2000/01/rdf-schema#label> "Cell Shape"@en .
+# 
+# http://purl.obolibrary.org/obo/OMP_0000075
+<http://purl.obolibrary.org/obo/OMP_0000075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMP_0000075> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OMP_0000073> .
+<http://purl.obolibrary.org/obo/OMP_0000075> <http://www.w3.org/2000/01/rdf-schema#comment> "A spheroid cell phenotype where a cell is spherical or nearly spherical."@en .
+<http://purl.obolibrary.org/obo/OMP_0000075> <http://www.w3.org/2000/01/rdf-schema#label> "Coccus"@en .
+# 
+# http://purl.obolibrary.org/obo/OMP_0000076
+<http://purl.obolibrary.org/obo/OMP_0000076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMP_0000076> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OMP_0000073> .
+<http://purl.obolibrary.org/obo/OMP_0000076> <http://www.w3.org/2000/01/rdf-schema#comment> "A cylindrical cell phenotype where an organism has rod-shaped cells. It is the synonym of bacillus."@en .
+<http://purl.obolibrary.org/obo/OMP_0000076> <http://www.w3.org/2000/01/rdf-schema#label> "Rod Shape"@en .
+# 
+# http://purl.obolibrary.org/obo/OMP_0000123
+<http://purl.obolibrary.org/obo/OMP_0000123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMP_0000123> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid57 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/OMP_0000076> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/OMP_0000075> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://purl.obolibrary.org/obo/OMP_0000123> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/ohboi#IrregularShape> .
+<http://purl.obolibrary.org/obo/OMP_0000123> <http://www.w3.org/2000/01/rdf-schema#comment> "A cell shape phenotype where a cell is intermediate in shape between a coccus (sphere) and a bacillus (rod)."@en .
+<http://purl.obolibrary.org/obo/OMP_0000123> <http://www.w3.org/2000/01/rdf-schema#label> "Coccobacillus Cell Shape"@en .
+# 
+# http://purl.obolibrary.org/obo/OMP_0000188
+<http://purl.obolibrary.org/obo/OMP_0000188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMP_0000188> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OMP_0000191> .
+<http://purl.obolibrary.org/obo/OMP_0000188> <http://www.w3.org/2000/01/rdf-schema#label> "Gram Positive"@en .
+# 
+# http://purl.obolibrary.org/obo/OMP_0000189
+<http://purl.obolibrary.org/obo/OMP_0000189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMP_0000189> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OMP_0000191> .
+<http://purl.obolibrary.org/obo/OMP_0000189> <http://www.w3.org/2000/01/rdf-schema#label> "Gram Negative"@en .
+# 
+# http://purl.obolibrary.org/obo/OMP_0000190
+<http://purl.obolibrary.org/obo/OMP_0000190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMP_0000190> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/ohboi#GramUndetermined> .
+<http://purl.obolibrary.org/obo/OMP_0000190> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OMP_0000191> .
+<http://purl.obolibrary.org/obo/OMP_0000190> <http://www.w3.org/2000/01/rdf-schema#comment> "A gram stain phenotype where a cell or cells give variable results to the gram stain."@en .
+<http://purl.obolibrary.org/obo/OMP_0000190> <http://www.w3.org/2000/01/rdf-schema#label> "Gram Variable"@en .
+# 
+# http://purl.obolibrary.org/obo/OMP_0000191
+<http://purl.obolibrary.org/obo/OMP_0000191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/OMP_0000191> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#Phenotype> .
+<http://purl.obolibrary.org/obo/OMP_0000191> <http://www.w3.org/2000/01/rdf-schema#comment> "A cell staining phenotype where microorganisms are grouped based on their ability to retain crystal violet stain when decolorized with an organic solvent such as ethanol. This is a high-level term whose primary purpose is to organize terms beneath it in the ontology, and we expect that it will not be used for direct annotations. Please consider using a more specific term to annotate each phenotype."@en .
+<http://purl.obolibrary.org/obo/OMP_0000191> <http://www.w3.org/2000/01/rdf-schema#label> "Gram Stain Phenotype"@en .
+# 
+# http://purl.obolibrary.org/obo/TRANS_0000000
+<http://purl.obolibrary.org/obo/TRANS_0000000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/TRANS_0000000> <http://www.w3.org/2000/01/rdf-schema#comment> "Process in which a pathogen is transmitted directly or indirectly to a new host."@en .
+<http://purl.obolibrary.org/obo/TRANS_0000000> <http://www.w3.org/2000/01/rdf-schema#label> "Pathogen Transmission Process"@en .
+# 
+# http://purl.obolibrary.org/obo/TRANS_0000005
+<http://purl.obolibrary.org/obo/TRANS_0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/TRANS_0000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/TRANS_0000000> .
+<http://purl.obolibrary.org/obo/TRANS_0000005> <http://www.w3.org/2000/01/rdf-schema#comment> "Vector-borne transmission is an indirect transmission process during which the pathogen is indirectly transferred from a reservoir, source or host via an animate intermediary vector to another host. Most vectors are arthropods such as mosquitoes, fleas, and ticks."@en .
+<http://purl.obolibrary.org/obo/TRANS_0000005> <http://www.w3.org/2000/01/rdf-schema#label> "Vector borne Transmission"@en .
+# 
+# http://purl.obolibrary.org/obo/TRANS_0000007
+<http://purl.obolibrary.org/obo/TRANS_0000007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/TRANS_0000007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/TRANS_0000000> .
+<http://purl.obolibrary.org/obo/TRANS_0000007> <http://www.w3.org/2000/01/rdf-schema#comment> "Contact transmission is a direct transmission process during which the pathogen is transmitted from a reservoir, source or host to another host by kissing, skin-to-skin contact, sexual intercourse, or by contact with soil or vegetation containing the pathogen"@en .
+<http://purl.obolibrary.org/obo/TRANS_0000007> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Transmission"@en .
+# 
+# http://purl.obolibrary.org/obo/TRANS_0000032
+<http://purl.obolibrary.org/obo/TRANS_0000032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/TRANS_0000032> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/TRANS_0000000> .
+<http://purl.obolibrary.org/obo/TRANS_0000032> <http://www.w3.org/2000/01/rdf-schema#comment> "Vertical transmission is an indirect vector-borne biological transmission process during which the pathogen is transmitted from the female parent through the eggs to the offspring. Only the ovarial sheath and oviduct are infected. The egg becomes infected as it passes down the oviduct and is inseminated."@en .
+<http://purl.obolibrary.org/obo/TRANS_0000032> <http://www.w3.org/2000/01/rdf-schema#label> "Vertical Transmission"@en .
+# 
+# http://purl.obolibrary.org/obo/XCO_0000236
+<http://purl.obolibrary.org/obo/XCO_0000236> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/XCO_0000236> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/ohboi#NonPathogen> .
+<http://purl.obolibrary.org/obo/XCO_0000236> <http://www.w3.org/2000/01/rdf-schema#comment> "An biological agent that causes disease, especially a living microorganism such as a bacterium, virus, or fungus."@en .
+<http://purl.obolibrary.org/obo/XCO_0000236> <http://www.w3.org/2000/01/rdf-schema#label> "Pathogen"@en .
+# 
+# http://purl.obolibrary.org/obo/XCO_0000475
+<http://purl.obolibrary.org/obo/XCO_0000475> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/XCO_0000475> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187> .
+<http://purl.obolibrary.org/obo/XCO_0000475> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/XCO_0000236> .
+<http://purl.obolibrary.org/obo/XCO_0000475> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.bioontology.org/ontology/SNOMEDCT/cause_of> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.obolibrary.org/obo/XCO_0000475> <http://www.w3.org/2000/01/rdf-schema#comment> "Any condition in which the primary influencing agent is a bacterial pathogen, a disease-causing unicellular prokaryotic microorganism that commonly multiplies by cell division, lacks a nucleus or membrane-bound organelles, and generally has a cell wall."@en .
+<http://purl.obolibrary.org/obo/XCO_0000475> <http://www.w3.org/2000/01/rdf-schema#label> "Bacterial Pathogen"@en .
+# 
+# http://rdf.ebi.ac.uk/terms/chembl#Mechanism
+<http://rdf.ebi.ac.uk/terms/chembl#Mechanism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.ebi.ac.uk/terms/chembl#Mechanism> <http://www.w3.org/2000/01/rdf-schema#comment> "The particular mechanism of a drug describing the effect of the drug over a target"@en .
+<http://rdf.ebi.ac.uk/terms/chembl#Mechanism> <http://www.w3.org/2000/01/rdf-schema#label> "Mechanism" .
+# 
+# http://rdf.ebi.ac.uk/terms/chembl#Substance
+<http://rdf.ebi.ac.uk/terms/chembl#Substance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.ebi.ac.uk/terms/chembl#Substance> <http://www.w3.org/2000/01/rdf-schema#comment> "Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances."@en .
+<http://rdf.ebi.ac.uk/terms/chembl#Substance> <http://www.w3.org/2000/01/rdf-schema#label> "Substance"@en .
+# 
+# http://rdf.ebi.ac.uk/terms/chembl#Target
+<http://rdf.ebi.ac.uk/terms/chembl#Target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://rdf.ebi.ac.uk/terms/chembl#Target> <http://www.w3.org/2000/01/rdf-schema#comment> "A material entity, such as native (gene product) protein, protein complex, microorganism, DNA , etc., that physically interacts with a therapeutic or prophylactic drug (with some binding affinity) and where this physical interaction is (at least partially) the cause of a (detectable) clinical effect"@en .
+<http://rdf.ebi.ac.uk/terms/chembl#Target> <http://www.w3.org/2000/01/rdf-schema#label> "Target"@en .
+# 
+# http://semanticscience.org/resource/SIO_010308
+<http://semanticscience.org/resource/SIO_010308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://semanticscience.org/resource/SIO_010308> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#Phenotype> .
+<http://semanticscience.org/resource/SIO_010308> <http://www.w3.org/2000/01/rdf-schema#comment> "Metabolism is the set of chemical processes that occur within a living organism in order to maintain life."@en .
+<http://semanticscience.org/resource/SIO_010308> <http://www.w3.org/2000/01/rdf-schema#label> "Metabolism"@en .
+# 
+# http://vocabularies.wikipathways.org/wp#Pathway
+<http://vocabularies.wikipathways.org/wp#Pathway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocabularies.wikipathways.org/wp#Pathway> <http://www.w3.org/2000/01/rdf-schema#comment> "A biological process representing a set of interactions and relationships among genes, proteins, metabolites, and other factors in the context of cellular compartments, tissues and organisms"@en .
+<http://vocabularies.wikipathways.org/wp#Pathway> <http://www.w3.org/2000/01/rdf-schema#label> "Pathway"@en .
+# 
+# https://w3id.org/ohboi#Aerobe
+<https://w3id.org/ohboi#Aerobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#Aerobe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#OxygenRequirement> .
+<https://w3id.org/ohboi#Aerobe> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/ohboi#Anaerobe> .
+<https://w3id.org/ohboi#Aerobe> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of oxygen requirement, particularly relating to microorganisms that present a dependency for anaerobic environments"@en .
+<https://w3id.org/ohboi#Aerobe> <http://www.w3.org/2000/01/rdf-schema#label> "Aerobe"@en .
+# 
+# https://w3id.org/ohboi#Anaerobe
+<https://w3id.org/ohboi#Anaerobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#Anaerobe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#OxygenRequirement> .
+<https://w3id.org/ohboi#Anaerobe> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of oxygen requirement, particularly relating to microorganisms that present a dependency for aerobic environments"@en .
+<https://w3id.org/ohboi#Anaerobe> <http://www.w3.org/2000/01/rdf-schema#label> "Anaerobe"@en .
+# 
+# https://w3id.org/ohboi#AntibioticMechanism
+<https://w3id.org/ohboi#AntibioticMechanism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#AntibioticMechanism> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.ebi.ac.uk/terms/chembl#Mechanism> .
+<https://w3id.org/ohboi#AntibioticMechanism> <http://www.w3.org/2000/01/rdf-schema#comment> "Action Mechanism of a specific substance in the category of antibiotics that kill or hinder bacteria growth"@en .
+<https://w3id.org/ohboi#AntibioticMechanism> <http://www.w3.org/2000/01/rdf-schema#label> "Antibiotic Mechanism"@en .
+# 
+# https://w3id.org/ohboi#Assimilation
+<https://w3id.org/ohboi#Assimilation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#Assimilation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticscience.org/resource/SIO_010308> .
+<https://w3id.org/ohboi#Assimilation> <http://www.w3.org/2000/01/rdf-schema#comment> "Assimilation is the process of absorption of vitamins, minerals, and other chemicals from food as part of the nutrition of an organism"@en .
+<https://w3id.org/ohboi#Assimilation> <http://www.w3.org/2000/01/rdf-schema#label> "Assimilation"@en .
+# 
+# https://w3id.org/ohboi#CellWallSynthesisInhibition
+<https://w3id.org/ohboi#CellWallSynthesisInhibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#CellWallSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#AntibioticMechanism> .
+<https://w3id.org/ohboi#CellWallSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#comment> "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of their cell wall"@en .
+<https://w3id.org/ohboi#CellWallSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#label> "Cell Wall Synthesis Inhibition"@en .
+# 
+# https://w3id.org/ohboi#CountryPrevalenceInTime
+<https://w3id.org/ohboi#CountryPrevalenceInTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#CountryPrevalenceInTime> <http://www.w3.org/2000/01/rdf-schema#label> "Country Prevalence In Time" .
+# 
+# https://w3id.org/ohboi#DNASynthesisInhibition
+<https://w3id.org/ohboi#DNASynthesisInhibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#DNASynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#AntibioticMechanism> .
+<https://w3id.org/ohboi#DNASynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#comment> "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of DNA"@en .
+<https://w3id.org/ohboi#DNASynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#label> "DNA Synthesis Inhibition"@en .
+# 
+# https://w3id.org/ohboi#Drug
+<https://w3id.org/ohboi#Drug> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#Drug> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://rdf.ebi.ac.uk/terms/chembl#Substance> .
+<https://w3id.org/ohboi#Drug> <http://www.w3.org/2000/01/rdf-schema#comment> "Commercial name of the active substance that has a positive effect for the treatment of a disorder or dolency"@en .
+<https://w3id.org/ohboi#Drug> <http://www.w3.org/2000/01/rdf-schema#label> "Drug"@en .
+# 
+# https://w3id.org/ohboi#EnergySource
+<https://w3id.org/ohboi#EnergySource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#EnergySource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticscience.org/resource/SIO_010308> .
+<https://w3id.org/ohboi#EnergySource> <http://www.w3.org/2000/01/rdf-schema#comment> "Source of Energy"@en .
+<https://w3id.org/ohboi#EnergySource> <http://www.w3.org/2000/01/rdf-schema#label> "Energy Source" .
+# 
+# https://w3id.org/ohboi#FolicAcidSynthesisInhibition
+<https://w3id.org/ohboi#FolicAcidSynthesisInhibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#FolicAcidSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#AntibioticMechanism> .
+<https://w3id.org/ohboi#FolicAcidSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#comment> "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of folic acid, which is an essential nutrient necessary for protein and nucleic acid synthesis."@en .
+<https://w3id.org/ohboi#FolicAcidSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#label> "Folic Acid Synthesis Inhibition" .
+# 
+# https://w3id.org/ohboi#GramUndetermined
+<https://w3id.org/ohboi#GramUndetermined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#GramUndetermined> <http://www.w3.org/2000/01/rdf-schema#comment> "Synonym class for Gram variable bacteria stainings"@en .
+<https://w3id.org/ohboi#GramUndetermined> <http://www.w3.org/2000/01/rdf-schema#label> "Gram Undetermined"@en .
+# 
+# https://w3id.org/ohboi#IrregularShape
+<https://w3id.org/ohboi#IrregularShape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#IrregularShape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OMP_0000073> .
+<https://w3id.org/ohboi#IrregularShape> <http://www.w3.org/2000/01/rdf-schema#comment> "A cell shape phenotype with any shape not resembling a coccus, rod or coccobacillus shape and an irregular disposition"@en .
+<https://w3id.org/ohboi#IrregularShape> <http://www.w3.org/2000/01/rdf-schema#label> "Irregular Shape"@en .
+# 
+# https://w3id.org/ohboi#MedicalPractice
+<https://w3id.org/ohboi#MedicalPractice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#MedicalPractice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/OGMS_0000090> .
+<https://w3id.org/ohboi#MedicalPractice> <http://www.w3.org/2000/01/rdf-schema#comment> "Actions of cilnical prevention, management or treatment ordered for a disease through the services offered by medical and allied health proffessions"@en .
+<https://w3id.org/ohboi#MedicalPractice> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Practice"@en .
+# 
+# https://w3id.org/ohboi#MycolicAcidSynthesisInhibition
+<https://w3id.org/ohboi#MycolicAcidSynthesisInhibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#MycolicAcidSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#AntibioticMechanism> .
+<https://w3id.org/ohboi#MycolicAcidSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#comment> "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of mycolic acid, long fatty acids found in the cell walls of some bacteria that increases virulence and avoid exposure to the immune system"@en .
+<https://w3id.org/ohboi#MycolicAcidSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#label> "Mycolic Acid Synthesis Inhibition"@en .
+# 
+# https://w3id.org/ohboi#NonPathogen
+<https://w3id.org/ohboi#NonPathogen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#NonPathogen> <http://www.w3.org/2000/01/rdf-schema#comment> "Any biological agent that is not prone to causing a disease"@en .
+<https://w3id.org/ohboi#NonPathogen> <http://www.w3.org/2000/01/rdf-schema#label> "Non Pathogen"@en .
+# 
+# https://w3id.org/ohboi#OxygenRequirement
+<https://w3id.org/ohboi#OxygenRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#OxygenRequirement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://semanticscience.org/resource/SIO_010308> .
+<https://w3id.org/ohboi#OxygenRequirement> <http://www.w3.org/2000/01/rdf-schema#comment> "Subclass of metabolism"@en .
+<https://w3id.org/ohboi#OxygenRequirement> <http://www.w3.org/2000/01/rdf-schema#label> "Oxygen Requirement"@en .
+# 
+# https://w3id.org/ohboi#Phenotype
+<https://w3id.org/ohboi#Phenotype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#Phenotype> <http://www.w3.org/2000/01/rdf-schema#label> "Phenotype" .
+# 
+# https://w3id.org/ohboi#ProteinSynthesisInhibition
+<https://w3id.org/ohboi#ProteinSynthesisInhibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#ProteinSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#AntibioticMechanism> .
+<https://w3id.org/ohboi#ProteinSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#comment> "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of specific proteins"@en .
+<https://w3id.org/ohboi#ProteinSynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#label> "Protein Synthesis Inhibition" .
+# 
+# https://w3id.org/ohboi#ProteinToxin
+<https://w3id.org/ohboi#ProteinToxin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#ProteinToxin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021> .
+<https://w3id.org/ohboi#ProteinToxin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/SNOMEDCT/80917008> .
+<https://w3id.org/ohboi#ProteinToxin> <http://www.w3.org/2000/01/rdf-schema#label> "Protein Toxin" .
+# 
+# https://w3id.org/ohboi#RNASynthesisInhibition
+<https://w3id.org/ohboi#RNASynthesisInhibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#RNASynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/ohboi#AntibioticMechanism> .
+<https://w3id.org/ohboi#RNASynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#comment> "Antibiotic mechanism that exerts its effect in bacteria by inhibiting the synthesis of their RNA, inhibiting gene expression"@en .
+<https://w3id.org/ohboi#RNASynthesisInhibition> <http://www.w3.org/2000/01/rdf-schema#label> "RNA Synthesis Inhibition"@en .
+# 
+# https://w3id.org/ohboi#Symptom
+<https://w3id.org/ohboi#Symptom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/ohboi#Symptom> <http://www.w3.org/2000/01/rdf-schema#comment> "A phenotypical physical or mental manifestation that is apparent to the patient and indicates a condition of a disease"@en .
+<https://w3id.org/ohboi#Symptom> <http://www.w3.org/2000/01/rdf-schema#label> "Symptom"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid61 <http://www.w3.org/2002/07/owl#members> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/OMP_0000190> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/OMP_0000189> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.obolibrary.org/obo/OMP_0000188> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
