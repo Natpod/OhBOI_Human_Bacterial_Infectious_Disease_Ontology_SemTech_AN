@@ -1,0 +1,522 @@
+{
+  "@context" : {
+    "" : {
+      "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/29750002"
+    },
+    "belongsTo" : {
+      "@id" : "https://w3id.org/ohboi#belongsTo",
+      "@type" : "@id"
+    },
+    "hasFirstCaseReportedIn" : {
+      "@id" : "https://w3id.org/ohboi#hasFirstCaseReportedIn",
+      "@type" : "@id"
+    },
+    "hasShape" : {
+      "@id" : "https://w3id.org/ohboi#hasShape",
+      "@type" : "@id"
+    },
+    "TRANS_0000005" : {
+      "@id" : "http://purl.obolibrary.org/obo/TRANS_0000005"
+    },
+    "hasCode" : {
+      "@id" : "https://w3id.org/ohboi#hasCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "mechanismOf" : {
+      "@id" : "https://w3id.org/ohboi#mechanismOf",
+      "@type" : "@id"
+    },
+    "neutralizes" : {
+      "@id" : "https://w3id.org/ohboi#neutralizes",
+      "@type" : "@id"
+    },
+    "SIO_000311" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000311",
+      "@type" : "@id"
+    },
+    "isTargetedBy" : {
+      "@id" : "https://w3id.org/ohboi#isTargetedBy",
+      "@type" : "@id"
+    },
+    "D052836" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D052836"
+    },
+    "Assimilation" : {
+      "@id" : "https://w3id.org/ohboi#Assimilation"
+    },
+    "hasAdverseReaction" : {
+      "@id" : "https://w3id.org/ohboi#hasAdverseReaction",
+      "@type" : "@id"
+    },
+    "MycolicAcidSynthesisInhibition" : {
+      "@id" : "https://w3id.org/ohboi#MycolicAcidSynthesisInhibition"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "hasAntibioticMechanism" : {
+      "@id" : "https://w3id.org/ohboi#hasAntibioticMechanism",
+      "@type" : "@id"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "hasHeadQuartersIn" : {
+      "@id" : "https://w3id.org/ohboi#hasHeadQuartersIn",
+      "@type" : "@id"
+    },
+    "hasLength" : {
+      "@id" : "https://w3id.org/ohboi#hasLength",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasSymbol" : {
+      "@id" : "https://w3id.org/ohboi#hasSymbol",
+      "@type" : "@id"
+    },
+    "C12919" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12919"
+    },
+    "TRANS_0000032" : {
+      "@id" : "http://purl.obolibrary.org/obo/TRANS_0000032"
+    },
+    "GramUndetermined" : {
+      "@id" : "https://w3id.org/ohboi#GramUndetermined"
+    },
+    "CellWallSynthesisInhibition" : {
+      "@id" : "https://w3id.org/ohboi#CellWallSynthesisInhibition"
+    },
+    "OMP_0000188" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000188"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "hasName" : {
+      "@id" : "https://w3id.org/ohboi#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CHEBI_24431" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    },
+    "CHEBI_87211" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_87211"
+    },
+    "TRANS_0000000" : {
+      "@id" : "http://purl.obolibrary.org/obo/TRANS_0000000"
+    },
+    "due_to" : {
+      "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/due_to",
+      "@type" : "@id"
+    },
+    "stainingOf" : {
+      "@id" : "https://w3id.org/ohboi#stainingOf",
+      "@type" : "@id"
+    },
+    "Pathway" : {
+      "@id" : "http://vocabularies.wikipathways.org/wp#Pathway"
+    },
+    "C16612" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612"
+    },
+    "hasMechanism" : {
+      "@id" : "https://w3id.org/ohboi#hasMechanism",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "CHEBI_23007" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_23007"
+    },
+    "atcClassification" : {
+      "@id" : "http://rdf.ebi.ac.uk/terms/chembl#atcClassification",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "contains" : {
+      "@id" : "https://w3id.org/ohboi#contains",
+      "@type" : "@id"
+    },
+    "C76349" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349"
+    },
+    "OMP_0000189" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000189"
+    },
+    "SIO_001159" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001159",
+      "@type" : "@id"
+    },
+    "RNASynthesisInhibition" : {
+      "@id" : "https://w3id.org/ohboi#RNASynthesisInhibition"
+    },
+    "isPresentedIn" : {
+      "@id" : "https://w3id.org/ohboi#isPresentedIn",
+      "@type" : "@id"
+    },
+    "presents" : {
+      "@id" : "https://w3id.org/ohboi#presents",
+      "@type" : "@id"
+    },
+    "Mechanism" : {
+      "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Mechanism"
+    },
+    "hasApproved" : {
+      "@id" : "https://w3id.org/ohboi#hasApproved",
+      "@type" : "@id"
+    },
+    "C41332" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41332"
+    },
+    "FolicAcidSynthesisInhibition" : {
+      "@id" : "https://w3id.org/ohboi#FolicAcidSynthesisInhibition"
+    },
+    "hasPrescription" : {
+      "@id" : "https://w3id.org/ohboi#hasPrescription",
+      "@type" : "@id"
+    },
+    "CHEBI_22507" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_22507"
+    },
+    "HP_0000118" : {
+      "@id" : "http://purl.obolibrary.org/obo/HP_0000118"
+    },
+    "isPrescribedFor" : {
+      "@id" : "https://w3id.org/ohboi#isPrescribedFor",
+      "@type" : "@id"
+    },
+    "prescribes" : {
+      "@id" : "https://w3id.org/ohboi#prescribes",
+      "@type" : "@id"
+    },
+    "CountryPrevalenceInTime" : {
+      "@id" : "https://w3id.org/ohboi#CountryPrevalenceInTime"
+    },
+    "OxygenRequirement" : {
+      "@id" : "https://w3id.org/ohboi#OxygenRequirement"
+    },
+    "C13018" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13018"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.owl-ontologies.com/skos#exactMatch",
+      "@type" : "@id"
+    },
+    "OGMS_0000090" : {
+      "@id" : "http://purl.obolibrary.org/obo/OGMS_0000090"
+    },
+    "chemblId" : {
+      "@id" : "http://rdf.ebi.ac.uk/terms/chembl#chemblId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "OMP_0000076" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000076"
+    },
+    "SIO_000132" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000132",
+      "@type" : "@id"
+    },
+    "ordering" : {
+      "@id" : "https://w3id.org/ohboi#ordering",
+      "@type" : "@id"
+    },
+    "smiles" : {
+      "@id" : "http://purl.obolibrary.org/obo/smiles",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Drug" : {
+      "@id" : "https://w3id.org/ohboi#Drug"
+    },
+    "CHEBI_25105" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_25105"
+    },
+    "shapeOf" : {
+      "@id" : "https://w3id.org/ohboi#shapeOf",
+      "@type" : "@id"
+    },
+    "C54131" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54131"
+    },
+    "AntibioticMechanism" : {
+      "@id" : "https://w3id.org/ohboi#AntibioticMechanism"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "adverseReactionOf" : {
+      "@id" : "https://w3id.org/ohboi#adverseReactionOf",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "hasTarget" : {
+      "@id" : "http://rdf.ebi.ac.uk/terms/chembl#hasTarget",
+      "@type" : "@id"
+    },
+    "Anaerobe" : {
+      "@id" : "https://w3id.org/ohboi#Anaerobe"
+    },
+    "C12391" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12391"
+    },
+    "OMP_0000075" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000075"
+    },
+    "NonPathogen" : {
+      "@id" : "https://w3id.org/ohboi#NonPathogen"
+    },
+    "Symptom" : {
+      "@id" : "https://w3id.org/ohboi#Symptom"
+    },
+    "SIO_010079" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010079",
+      "@type" : "@id"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "SIO_001403" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001403",
+      "@type" : "@id"
+    },
+    "prevalenceOf" : {
+      "@id" : "https://w3id.org/ohboi#prevalenceOf",
+      "@type" : "@id"
+    },
+    "symbolOf" : {
+      "@id" : "https://w3id.org/ohboi#symbolOf",
+      "@type" : "@id"
+    },
+    "Phenotype" : {
+      "@id" : "https://w3id.org/ohboi#Phenotype"
+    },
+    "sio_SIO_00061" : {
+      "@id" : "http://purl.obolibrary.org/obo/sio_SIO_00061",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "C43568" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568"
+    },
+    "isCommercializedBy" : {
+      "@id" : "https://w3id.org/ohboi#isCommercializedBy",
+      "@type" : "@id"
+    },
+    "headQuartersLocationOf" : {
+      "@id" : "https://w3id.org/ohboi#headQuartersLocationOf",
+      "@type" : "@id"
+    },
+    "XCO_0000236" : {
+      "@id" : "http://purl.obolibrary.org/obo/XCO_0000236"
+    },
+    "targets" : {
+      "@id" : "https://w3id.org/ohboi#targets",
+      "@type" : "@id"
+    },
+    "ProteinToxin" : {
+      "@id" : "https://w3id.org/ohboi#ProteinToxin"
+    },
+    "C12736" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12736"
+    },
+    "OMP_0000073" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000073"
+    },
+    "transmissionProcessOf" : {
+      "@id" : "https://w3id.org/ohboi#transmissionProcessOf",
+      "@type" : "@id"
+    },
+    "hasCommonName" : {
+      "@id" : "https://w3id.org/ohboi#hasCommonName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "C14187" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "C258" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C258"
+    },
+    "hasPrevalence" : {
+      "@id" : "https://w3id.org/ohboi#hasPrevalence",
+      "@type" : "@id"
+    },
+    "ProteinSynthesisInhibition" : {
+      "@id" : "https://w3id.org/ohboi#ProteinSynthesisInhibition"
+    },
+    "IDO_0000436" : {
+      "@id" : "http://purl.obolibrary.org/obo/IDO_0000436"
+    },
+    "prescribedIn" : {
+      "@id" : "https://w3id.org/ohboi#prescribedIn",
+      "@type" : "@id"
+    },
+    "MedicalPractice" : {
+      "@id" : "https://w3id.org/ohboi#MedicalPractice"
+    },
+    "hasStaining" : {
+      "@id" : "https://w3id.org/ohboi#hasStaining",
+      "@type" : "@id"
+    },
+    "OMP_0000071" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000071"
+    },
+    "R41" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R41",
+      "@type" : "@id"
+    },
+    "isNeutralizedBy" : {
+      "@id" : "https://w3id.org/ohboi#isNeutralizedBy",
+      "@type" : "@id"
+    },
+    "C25464" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464"
+    },
+    "OMP_0000190" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000190"
+    },
+    "SIO_000028" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000028",
+      "@type" : "@id"
+    },
+    "isOrderedFor" : {
+      "@id" : "https://w3id.org/ohboi#isOrderedFor",
+      "@type" : "@id"
+    },
+    "SIO_010078" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010078",
+      "@type" : "@id"
+    },
+    "OMP_0000191" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000191"
+    },
+    "EnergySource" : {
+      "@id" : "https://w3id.org/ohboi#EnergySource"
+    },
+    "firstCaseReportedLocationOf" : {
+      "@id" : "https://w3id.org/ohboi#firstCaseReportedLocationOf",
+      "@type" : "@id"
+    },
+    "hasMetabolism" : {
+      "@id" : "https://w3id.org/ohboi#hasMetabolism",
+      "@type" : "@id"
+    },
+    "metabolismOf" : {
+      "@id" : "https://w3id.org/ohboi#metabolismOf",
+      "@type" : "@id"
+    },
+    "C28180" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180"
+    },
+    "hasBrandName" : {
+      "@id" : "https://w3id.org/ohboi#hasBrandName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "C17021" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021"
+    },
+    "inDate" : {
+      "@id" : "https://w3id.org/ohboi#inDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "mass" : {
+      "@id" : "http://purl.obolibrary.org/obo/mass",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "XCO_0000475" : {
+      "@id" : "http://purl.obolibrary.org/obo/XCO_0000475"
+    },
+    "isApprovedIn" : {
+      "@id" : "https://w3id.org/ohboi#isApprovedIn",
+      "@type" : "@id"
+    },
+    "C25160" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160"
+    },
+    "Target" : {
+      "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Target"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "TRANS_0000007" : {
+      "@id" : "http://purl.obolibrary.org/obo/TRANS_0000007"
+    },
+    "hasTransmissionProcess" : {
+      "@id" : "https://w3id.org/ohboi#hasTransmissionProcess",
+      "@type" : "@id"
+    },
+    "formula" : {
+      "@id" : "http://purl.obolibrary.org/obo/formula",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "commercializes" : {
+      "@id" : "https://w3id.org/ohboi#commercializes",
+      "@type" : "@id"
+    },
+    "SIO_000312" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000312",
+      "@type" : "@id"
+    },
+    "SIO_000068" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000068",
+      "@type" : "@id"
+    },
+    "IrregularShape" : {
+      "@id" : "https://w3id.org/ohboi#IrregularShape"
+    },
+    "CHEBI_26895" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_26895"
+    },
+    "Aerobe" : {
+      "@id" : "https://w3id.org/ohboi#Aerobe"
+    },
+    "SIO_010308" : {
+      "@id" : "http://semanticscience.org/resource/SIO_010308"
+    },
+    "Substance" : {
+      "@id" : "http://rdf.ebi.ac.uk/terms/chembl#Substance"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "hasBorderWith" : {
+      "@id" : "https://w3id.org/ohboi#hasBorderWith",
+      "@type" : "@id"
+    },
+    "OMP_0000123" : {
+      "@id" : "http://purl.obolibrary.org/obo/OMP_0000123"
+    },
+    "cause_of" : {
+      "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/cause_of",
+      "@type" : "@id"
+    },
+    "CHEBI_27933" : {
+      "@id" : "http://purl.obolibrary.org/obo/CHEBI_27933"
+    },
+    "SIO_001158" : {
+      "@id" : "http://semanticscience.org/resource/SIO_001158",
+      "@type" : "@id"
+    },
+    "SIO_000062" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000062",
+      "@type" : "@id"
+    },
+    "prevalence" : {
+      "@id" : "https://w3id.org/ohboi#prevalence",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "DNASynthesisInhibition" : {
+      "@id" : "https://w3id.org/ohboi#DNASynthesisInhibition"
+    },
+    "D052818" : {
+      "@id" : "http://purl.bioontology.org/ontology/MESH/D052818"
+    },
+    "antibioticMechanismOf" : {
+      "@id" : "https://w3id.org/ohboi#antibioticMechanismOf",
+      "@type" : "@id"
+    }
+  }
+}
