@@ -4,7 +4,7 @@ This ontology has been developed for the final project of the Semantic Technolog
 
 <img
   src="/logo_ohboi.png"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 200px">
 
 ### Purpose
 
