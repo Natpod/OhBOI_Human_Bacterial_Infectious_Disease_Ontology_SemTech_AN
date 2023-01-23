@@ -1,4 +1,4 @@
-#EX1:List all the pathogens with their disease-phenotypes for a bacteria
+#PATHOPHENODB QUERY :List all the pathogens with their disease-phenotypes for a bacteria
 
 PREFIX SIO: <http://semanticscience.org/resource/SIO_>
 PREFIX ncit:<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
@@ -25,9 +25,80 @@ WHERE
     FILTER REGEX(str(?Pathogen_ID ), "^http://purl.obolibrary.org/obo/NCBITaxon_1639$")
 
   }
+# UNIPROT QUERY WITH ALL TAXONS FOR THE RETRIEVED BACTERIA --> GET 3 GENE - PROTEIN TUPLES
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX vg: <http://biohackathon.org/resource/vg#>
+PREFIX uniprotkb: <http://purl.uniprot.org/uniprot/>
+PREFIX uberon: <http://purl.obolibrary.org/obo/uo#>
+PREFIX sp: <http://spinrdf.org/sp#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sio: <http://semanticscience.org/resource/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX schema: <http://schema.org/>
+PREFIX sachem: <http://bioinfo.uochb.cas.cz/rdf/v1.0/sachem#>
+PREFIX rh: <http://rdf.rhea-db.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX pubmed: <http://rdf.ncbi.nlm.nih.gov/pubmed/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX patent: <http://data.epo.org/linked-data/def/patent/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX orthodbGroup: <http://purl.orthodb.org/odbgroup/>
+PREFIX orthodb: <http://purl.orthodb.org/>
+PREFIX orth: <http://purl.org/net/orth#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX np: <http://nextprot.org/rdf#>
+PREFIX nextprot: <http://nextprot.org/rdf/entry/>
+PREFIX mnx: <https://rdf.metanetx.org/schema/>
+PREFIX mnet: <https://rdf.metanetx.org/mnet/>
+PREFIX mesh: <http://id.nlm.nih.gov/mesh/>
+PREFIX lscr: <http://purl.org/lscr#>
+PREFIX lipidmaps: <https://www.lipidmaps.org/rdf/>
+PREFIX keywords: <http://purl.uniprot.org/keywords/>
+PREFIX insdcschema: <http://ddbj.nig.ac.jp/ontologies/nucleotide/>
+PREFIX insdc: <http://identifiers.org/insdc/>
+PREFIX identifiers: <http://identifiers.org/>
+PREFIX glyconnect: <https://purl.org/glyconnect/>
+PREFIX glycan: <http://purl.jp/bio/12/glyco/glycan#>
+PREFIX genex: <http://purl.org/genex#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX faldo: <http://biohackathon.org/resource/faldo#>
+PREFIX eunisSpecies: <http://eunis.eea.europa.eu/rdf/species-schema.rdf#>
+PREFIX ensembltranscript: <http://rdf.ebi.ac.uk/resource/ensembl.transcript/>
+PREFIX ensemblterms: <http://rdf.ebi.ac.uk/terms/ensembl/>
+PREFIX ensemblprotein: <http://rdf.ebi.ac.uk/resource/ensembl.protein/>
+PREFIX ensemblexon: <http://rdf.ebi.ac.uk/resource/ensembl.exon/>
+PREFIX ensembl: <http://rdf.ebi.ac.uk/resource/ensembl/>
+PREFIX ec: <http://purl.uniprot.org/enzyme/>
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX chebislash: <http://purl.obolibrary.org/obo/chebi/>
+PREFIX chebihash: <http://purl.obolibrary.org/obo/chebi#>
+PREFIX cco: <http://rdf.ebi.ac.uk/terms/chembl#>
+PREFIX bibo: <http://purl.org/ontology/bibo/>
+PREFIX allie: <http://allie.dbcls.jp/>
+PREFIX SLM: <https://swisslipids.org/rdf/SLM_>
+PREFIX GO: <http://purl.obolibrary.org/obo/GO_>
+PREFIX ECO: <http://purl.obolibrary.org/obo/ECO_>
+PREFIX CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+PREFIX taxon:<http://purl.uniprot.org/taxonomy/> 
+PREFIX up:<http://purl.uniprot.org/core/> 
+
+ SELECT DISTINCT * WHERE {
+        ?uniprot rdfs:seeAlso ?gene .
+      	?uniprot up:reviewed ?reviewed .
+      	?uniprot up:organism taxon:93062 .
+      	FILTER regex(?gene, "^http://purl.uniprot.org/geneid/") . 
+  		 
+    }
+    GROUP BY ?uniprot ?gene  ?reviewed LIMIT 3
   
-  
-# get uris for all countries in biontology
+# COUNTRY-CONTINENT get uris for all countries in biontology
 
 PREFIX ncit: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -38,4 +109,3 @@ WHERE {
 ?country rdfs:label ?name .
 }
 
-# uniprot QUERY --> get gene from uniprot accessions specific to a taxonomic id
