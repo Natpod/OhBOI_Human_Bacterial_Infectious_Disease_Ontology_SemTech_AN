@@ -1,0 +1,3650 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rml="http://semweb.mmlab.be/ns/rml#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:void="http://rdfs.org/ns/void#"
+     xmlns:r2rml="http://www.w3.org/ns/r2rml#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://rdfs.org/ns/void#exampleResource -->
+
+
+    <AnnotationProperty rdf:about="http://rdfs.org/ns/void#exampleResource"/>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#logicalSource -->
+
+
+    <AnnotationProperty rdf:about="http://semweb.mmlab.be/ns/rml#logicalSource"/>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#reference -->
+
+
+    <AnnotationProperty rdf:about="http://semweb.mmlab.be/ns/rml#reference"/>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#referenceFormulation -->
+
+
+    <AnnotationProperty rdf:about="http://semweb.mmlab.be/ns/rml#referenceFormulation"/>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#source -->
+
+
+    <AnnotationProperty rdf:about="http://semweb.mmlab.be/ns/rml#source"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#child -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#child"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#constant -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#constant"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#datatype -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#datatype"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#joinCondition -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#joinCondition"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#objectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#objectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#parent -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#parent"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#parentTriplesMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#parentTriplesMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicateMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#predicateMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicateObjectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#predicateObjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#subjectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#subjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#termType -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#termType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://rdfs.org/ns/void#Dataset -->
+
+
+    <Class rdf:about="http://rdfs.org/ns/void#Dataset"/>
+    
+
+
+    <!-- http://semweb.mmlab.be/ns/rml#LogicalSource -->
+
+
+    <Class rdf:about="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#ObjectMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#ObjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#PredicateMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#PredicateMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#PredicateObjectMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#SubjectMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#SubjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#TriplesMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#TriplesMap"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://mapping.example.com/map_ANTITOXIN_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_ANTITOXIN_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_015"/>
+        <rdfs:label>ANTITOXIN</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_058"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_059"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_060"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_015"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_BACTERIAL-PATHOGEN_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_BACTERIAL-PATHOGEN_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_005"/>
+        <rdfs:label>BACTERIAL-PATHOGEN</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_023"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_024"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_025"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_005"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_BACTERIA_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_BACTERIA_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_006"/>
+        <rdfs:label>BACTERIA</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_026"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_027"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_028"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_006"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_CHEMICAL-ENTITY_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_CHEMICAL-ENTITY_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_014"/>
+        <rdfs:label>CHEMICAL-ENTITY</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_054"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_055"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_056"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_057"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_014"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_CITY_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_CITY_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_010"/>
+        <rdfs:label>CITY</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_040"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_041"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_042"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_010"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_CONTINENT_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_CONTINENT_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_009"/>
+        <rdfs:label>CONTINENT</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_037"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_038"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_039"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_009"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_007"/>
+        <rdfs:label>COUNTRY-PREVALENCE-IN-TIME</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_029"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_030"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_031"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_032"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_007"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_COUNTRY_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_COUNTRY_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_008"/>
+        <rdfs:label>COUNTRY</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_033"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_034"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_035"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_036"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_008"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_DISEASE_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_DISEASE_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_003"/>
+        <rdfs:label>DISEASE</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_018"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_019"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_003"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_DRUG_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_DRUG_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_012"/>
+        <rdfs:label>DRUG</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_045"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_046"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_047"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_048"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_049"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_012"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_GENE-SYMBOL_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_GENE-SYMBOL_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_019"/>
+        <rdfs:label>GENE-SYMBOL</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_071"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_072"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_073"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_019"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_GENE_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_GENE_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_017"/>
+        <rdfs:label>GENE</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_063"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_064"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_065"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_066"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_017"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_INFECTIOUS-DISEASE_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_INFECTIOUS-DISEASE_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_000"/>
+        <rdfs:label>INFECTIOUS-DISEASE</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_000"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_001"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_002"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_003"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_004"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_005"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_006"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_007"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_INFECTIOUS-DISEASE_001 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_INFECTIOUS-DISEASE_001">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_001"/>
+        <rdfs:label>INFECTIOUS-DISEASE</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_008"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_009"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_010"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_011"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_012"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_013"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_014"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_015"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_001"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_PATHWAY_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_PATHWAY_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_002"/>
+        <rdfs:label>PATHWAY</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_016"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_017"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_002"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_004"/>
+        <rdfs:label>PHENOTYPIC-ABNORMALITIES</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_020"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_021"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_022"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_004"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_PRESCRIPTION_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_PRESCRIPTION_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_011"/>
+        <rdfs:label>PRESCRIPTION</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_043"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_044"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_011"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_PROTEIN-TOXIN_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_PROTEIN-TOXIN_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_020"/>
+        <rdfs:label>PROTEIN-TOXIN</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_074"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_075"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_076"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_020"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_PROTEIN_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_PROTEIN_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_018"/>
+        <rdfs:label>PROTEIN</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_067"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_068"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_069"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_070"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_018"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_SUBSTANCE_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_SUBSTANCE_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_013"/>
+        <rdfs:label>SUBSTANCE</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_050"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_051"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_052"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_053"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_013"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/map_TOXIN_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/map_TOXIN_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <rml:logicalSource rdf:resource="http://mapping.example.com/source_016"/>
+        <rdfs:label>TOXIN</rdfs:label>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_061"/>
+        <r2rml:predicateObjectMap rdf:resource="http://mapping.example.com/pom_062"/>
+        <r2rml:subjectMap rdf:resource="http://mapping.example.com/s_016"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://purl.obolibrary.org/obo/IDO_0000436</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_001 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_001">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_000"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_DISEASE_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_002 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_002">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_001"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_PRESCRIPTION_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_003 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_003">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_002"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_BACTERIAL-PATHOGEN_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_004 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_004">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_003"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_005 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_005">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_004"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_006 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_006">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_005"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_CITY_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_007 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_007">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_006"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_PATHWAY_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_008 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_008">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://purl.obolibrary.org/obo/IDO_0000436</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_009 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_009">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_007"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_DISEASE_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_010 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_010">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_008"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_PRESCRIPTION_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_011 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_011">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_009"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_BACTERIAL-PATHOGEN_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_012 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_012">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_010"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_013 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_013">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_011"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_014 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_014">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_012"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_CITY_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_015 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_015">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_013"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_PATHWAY_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_016 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_016">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://vocabularies.wikipathways.org/wp#Pathway</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_017 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_017">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>Pathway_ID</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_018 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_018">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://purl.bioontology.org/ontology/SNOMEDCT/64572001</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_019 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_019">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>SNOMEDCT_label</rml:reference>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_020 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_020">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://purl.obolibrary.org/obo/HP_0000118</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_021 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_021">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>phenotype</rml:reference>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_022 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_022">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_014"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_INFECTIOUS-DISEASE_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_023 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_023">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://purl.obolibrary.org/obo/XCO_0000475</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_024 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_024">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_015"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_INFECTIOUS-DISEASE_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_025 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_025">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_016"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_BACTERIA_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_026 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_026">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_027 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_027">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>XCO_name</rml:reference>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_028 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_028">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_017"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_GENE_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_029 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_029">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://purl.bioontology.org/ontology/SNOMEDCT/64572001</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_030 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_030">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>Date</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_031 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_031">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>Prevalence</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_032 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_032">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_018"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_COUNTRY_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_033 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_033">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_034 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_034">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>Country</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_035 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_035">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_019"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_CITY_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_036 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_036">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_020"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_CONTINENT_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_037 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_037">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_038 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_038">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>Continent_Name</rml:reference>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_039 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_039">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_021"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_COUNTRY_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_040 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_040">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_041 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_041">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>City</rml:reference>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_042 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_042">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_022"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_COUNTRY_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_043 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_043">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_044 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_044">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_023"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_DRUG_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_045 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_045">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>https://w3id.org/ohboi#Drug</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_046 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_046">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>BrandName</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_047 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_047">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>CommonName</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_048 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_048">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_024"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_PRESCRIPTION_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_049 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_049">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_025"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_SUBSTANCE_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_050 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_050">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://rdf.ebi.ac.uk/terms/chembl#Substance</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_051 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_051">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>ChEMBL_ID</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_052 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_052">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>atcClassification</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_053 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_053">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_026"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_CHEMICAL-ENTITY_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_054 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_054">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://purl.obolibrary.org/obo/CHEBI_24431</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_055 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_055">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>formula</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_056 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_056">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>SMILES</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_057 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_057">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>mass</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_058 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_058">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://purl.bioontology.org/ontology/SNOMEDCT/71862009</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_059 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_059">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_027"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_DRUG_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_060 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_060">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_028"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_TOXIN_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_061 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_061">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://purl.bioontology.org/ontology/SNOMEDCT/80917008</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_062 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_062">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_029"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_ANTITOXIN_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_063 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_063">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_064 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_064">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>location</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_065 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_065">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_030"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_GENE-SYMBOL_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_066 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_066">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_031"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_PROTEIN_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_067 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_067">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_068 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_068">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>Length</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_069 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_069">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>Protein_Name</rml:reference>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_070 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_070">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_032"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_GENE_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_071 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_071">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_072 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_072">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <rml:reference>gene_symbol</rml:reference>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#Literal"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_073 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_073">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_033"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_GENE_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_074 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_074">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:constant>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021</r2rml:constant>
+        <r2rml:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_075 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_075">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_034"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_TOXIN_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/om_076 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/om_076">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#ObjectMap"/>
+        <r2rml:joinCondition rdf:resource="http://mapping.example.com/jc_035"/>
+        <r2rml:parentTriplesMap rdf:resource="http://mapping.example.com/map_PROTEIN_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_001 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_001">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_002 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_002">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasPrescription"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_003 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_003">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/due_to"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_004 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_004">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#presents"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_005 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_005">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasPrevalence"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_006 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_006">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasFirstCaseReportedIn"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_007 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_007">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://semanticscience.org/resource/SIO_001158"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_008 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_008">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_009 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_009">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_010 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_010">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasPrescription"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_011 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_011">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/due_to"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_012 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_012">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#presents"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_013 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_013">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasPrevalence"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_014 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_014">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasFirstCaseReportedIn"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_015 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_015">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://semanticscience.org/resource/SIO_001158"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_016 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_016">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_017 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_017">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasPathwayLabel"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_018 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_018">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_019 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_019">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasDiseaseLabel"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_020 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_020">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_021 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_021">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasPAName"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_022 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_022">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#isPresentedIn"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_023 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_023">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_024 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_024">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/cause_of"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_025 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_025">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_026 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_026">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_027 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_027">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasBacteriaName"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_028 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_028">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R41"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_029 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_029">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_030 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_030">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#inDate"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_031 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_031">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#prevalence"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_032 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_032">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://semanticscience.org/resource/SIO_001403"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_033 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_033">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_034 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_034">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasCode"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_035 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_035">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#contains"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_036 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_036">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#belongsTo"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_037 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_037">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_038 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_038">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasContinentName"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_039 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_039">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#contains"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_040 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_040">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_041 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_041">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasCityCode"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_042 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_042">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#belongsTo"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_043 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_043">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_044 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_044">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#prescribes"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_045 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_045">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_046 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_046">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasBrandName"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_047 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_047">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasCommonName"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_048 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_048">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#prescribedIn"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_049 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_049">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_050 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_050">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_051 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_051">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://rdf.ebi.ac.uk/terms/chembl#chemblId"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_052 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_052">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://rdf.ebi.ac.uk/terms/chembl#atcClassification"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_053 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_053">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_054 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_054">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_055 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_055">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://purl.obolibrary.org/obo/formula"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_056 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_056">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://purl.obolibrary.org/obo/smiles"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_057 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_057">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://purl.obolibrary.org/obo/mass"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_058 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_058">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_059 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_059">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_060 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_060">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#neutralizes"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_061 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_061">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_062 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_062">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#isNeutralizedBy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_063 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_063">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_064 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_064">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://semanticscience.org/resource/SIO_00061"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_065 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_065">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasSymbol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_066 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_066">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://semanticscience.org/resource/SIO_010078"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_067 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_067">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_068 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_068">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasLength"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_069 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_069">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasName"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_070 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_070">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://semanticscience.org/resource/SIO_010079"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_071 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_071">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_072 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_072">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#hasGeneSymbolCode"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_073 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_073">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="https://w3id.org/ohboi#symbolOf"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_074 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_074">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_075 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_075">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pm_076 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pm_076">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateMap"/>
+        <r2rml:constant rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_000"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_001 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_001">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_001"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_001"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_002 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_002">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_002"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_002"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_003 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_003">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_003"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_003"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_004 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_004">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_004"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_004"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_005 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_005">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_005"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_005"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_006 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_006">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_006"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_006"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_007 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_007">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_007"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_007"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_008 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_008">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_008"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_008"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_009 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_009">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_009"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_009"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_010 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_010">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_010"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_010"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_011 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_011">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_011"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_011"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_012 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_012">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_012"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_012"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_013 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_013">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_013"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_013"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_014 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_014">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_014"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_014"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_015 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_015">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_015"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_015"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_016 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_016">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_016"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_016"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_017 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_017">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_017"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_017"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_018 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_018">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_018"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_018"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_019 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_019">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_019"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_019"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_020 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_020">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_020"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_020"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_021 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_021">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_021"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_021"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_022 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_022">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_022"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_022"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_023 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_023">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_023"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_023"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_024 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_024">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_024"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_024"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_025 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_025">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_025"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_025"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_026 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_026">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_026"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_026"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_027 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_027">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_027"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_027"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_028 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_028">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_028"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_028"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_029 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_029">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_029"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_029"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_030 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_030">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_030"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_030"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_031 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_031">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_031"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_031"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_032 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_032">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_032"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_032"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_033 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_033">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_033"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_033"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_034 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_034">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_034"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_034"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_035 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_035">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_035"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_035"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_036 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_036">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_036"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_036"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_037 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_037">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_037"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_037"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_038 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_038">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_038"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_038"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_039 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_039">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_039"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_039"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_040 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_040">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_040"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_040"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_041 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_041">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_041"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_041"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_042 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_042">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_042"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_042"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_043 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_043">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_043"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_043"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_044 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_044">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_044"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_044"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_045 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_045">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_045"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_045"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_046 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_046">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_046"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_046"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_047 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_047">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_047"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_047"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_048 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_048">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_048"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_048"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_049 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_049">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_049"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_049"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_050 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_050">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_050"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_050"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_051 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_051">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_051"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_051"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_052 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_052">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_052"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_052"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_053 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_053">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_053"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_053"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_054 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_054">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_054"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_054"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_055 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_055">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_055"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_055"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_056 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_056">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_056"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_056"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_057 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_057">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_057"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_057"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_058 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_058">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_058"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_058"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_059 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_059">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_059"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_059"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_060 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_060">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_060"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_060"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_061 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_061">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_061"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_061"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_062 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_062">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_062"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_062"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_063 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_063">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_063"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_063"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_064 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_064">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_064"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_064"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_065 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_065">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_065"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_065"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_066 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_066">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_066"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_066"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_067 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_067">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_067"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_067"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_068 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_068">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_068"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_068"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_069 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_069">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_069"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_069"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_070 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_070">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_070"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_070"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_071 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_071">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_071"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_071"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_072 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_072">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_072"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_072"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_073 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_073">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_073"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_073"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_074 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_074">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_074"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_074"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_075 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_075">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_075"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_075"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/pom_076 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/pom_076">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#PredicateObjectMap"/>
+        <r2rml:objectMap rdf:resource="http://mapping.example.com/om_076"/>
+        <r2rml:predicateMap rdf:resource="http://mapping.example.com/pm_076"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/rules_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/rules_000">
+        <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_ANTITOXIN_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_BACTERIAL-PATHOGEN_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_BACTERIA_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_CHEMICAL-ENTITY_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_CITY_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_CONTINENT_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_COUNTRY_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_DISEASE_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_DRUG_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_GENE-SYMBOL_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_GENE_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_INFECTIOUS-DISEASE_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_INFECTIOUS-DISEASE_001"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_PATHWAY_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_PRESCRIPTION_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_PROTEIN-TOXIN_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_PROTEIN_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_SUBSTANCE_000"/>
+        <void:exampleResource rdf:resource="http://mapping.example.com/map_TOXIN_000"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_000">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Disease_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_001 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_001">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Disease_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_002 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_002">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Pathway_URL</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_003 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_003">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>SNOMEDCT_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_004 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_004">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Phenotype_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_005 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_005">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Pathogen_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_006 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_006">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>NCIT</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_007 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_007">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>IndicatorCode</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_008 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_008">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Country_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_009 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_009">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Continent</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_010 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_010">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>City_URL</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_011 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_011">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Treatment_URI</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_012 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_012">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Drug_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_013 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_013">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>ChEMBL_URI</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_014 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_014">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>CHEBI_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_015 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_015">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Antitoxin_Drug</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_016 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_016">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Toxin_URI</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_017 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_017">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>gene_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_018 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_018">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Protein_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_019 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_019">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>gene_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/s_020 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/s_020">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#SubjectMap"/>
+        <rml:reference>Protein_ID</rml:reference>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_000 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_000">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>pathogen_disease_phenotype.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_001 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_001">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>first_reported_cases.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_002 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_002">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>affecting.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_003 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_003">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>disease_mappings.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_004 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_004">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>disease_phenotypes.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_005 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_005">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>pathogen_disease_phenotype.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_006 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_006">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>pathogen_mappings.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_007 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_007">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>country_prevalence_in_time.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_008 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_008">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>country_prevalence_in_time.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_009 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_009">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>country_prevalence_in_time.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_010 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_010">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>country_prevalence_in_time.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_011 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_011">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>substances_chemical_entities.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_012 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_012">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>substances_chemical_entities.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_013 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_013">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>substances_chemical_entities.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_014 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_014">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>substances_chemical_entities.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_015 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_015">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>toxin_antitoxin.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_016 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_016">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>toxin_antitoxin.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_017 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_017">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>pathogen_omics.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_018 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_018">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>pathogen_omics.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_019 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_019">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>pathogen_omics.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- http://mapping.example.com/source_020 -->
+
+
+    <NamedIndividual rdf:about="http://mapping.example.com/source_020">
+        <rdf:type rdf:resource="http://semweb.mmlab.be/ns/rml#LogicalSource"/>
+        <rml:referenceFormulation rdf:resource="http://semweb.mmlab.be/ns/ql#CSV"/>
+        <rml:source>proteintoxin.csv</rml:source>
+    </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://mapping.example.com/jc_000">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>DOID_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_001">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_002">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_003">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_004">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_005">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_006">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_007">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>DOID_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_008">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_009">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_010">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_011">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_012">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_013">
+        <r2rml:child>Disease_ID</r2rml:child>
+        <r2rml:parent>Disease_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_014">
+        <r2rml:child>Phenotype_ID</r2rml:child>
+        <r2rml:parent>Phenotype_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_015">
+        <r2rml:child>Pathogen_ID</r2rml:child>
+        <r2rml:parent>Pathogen_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_016">
+        <r2rml:child>Pathogen_ID</r2rml:child>
+        <r2rml:parent>XCO_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_017">
+        <r2rml:child>NCIT</r2rml:child>
+        <r2rml:parent>NCIT_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_018">
+        <r2rml:child>IndicatorCode</r2rml:child>
+        <r2rml:parent>IndicatorCode</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_019">
+        <r2rml:child>Country_ID</r2rml:child>
+        <r2rml:parent>Country_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_020">
+        <r2rml:child>Country_ID</r2rml:child>
+        <r2rml:parent>Country_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_021">
+        <r2rml:child>Continent</r2rml:child>
+        <r2rml:parent>Continent</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_022">
+        <r2rml:child>City_URL</r2rml:child>
+        <r2rml:parent>City_URL</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_023">
+        <r2rml:child>Treatment_URI</r2rml:child>
+        <r2rml:parent>Treatment_URI</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_024">
+        <r2rml:child>Drug_ID</r2rml:child>
+        <r2rml:parent>Drug_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_025">
+        <r2rml:child>Drug_ID</r2rml:child>
+        <r2rml:parent>Drug_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_026">
+        <r2rml:child>ChEMBL_URI</r2rml:child>
+        <r2rml:parent>ChEMBL_URI</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_027">
+        <r2rml:child>Antitoxin_Drug</r2rml:child>
+        <r2rml:parent>Drug_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_028">
+        <r2rml:child>Antitoxin_Drug</r2rml:child>
+        <r2rml:parent>Antitoxin_Drug</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_029">
+        <r2rml:child>Toxin_URI</r2rml:child>
+        <r2rml:parent>Toxin_URI</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_030">
+        <r2rml:child>gene_ID</r2rml:child>
+        <r2rml:parent>gene_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_031">
+        <r2rml:child>gene_ID</r2rml:child>
+        <r2rml:parent>gene_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_032">
+        <r2rml:child>Protein_ID</r2rml:child>
+        <r2rml:parent>Protein_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_033">
+        <r2rml:child>gene_ID</r2rml:child>
+        <r2rml:parent>gene_ID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_034">
+        <r2rml:child>Protein_ID</r2rml:child>
+        <r2rml:parent>Toxin_URI</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://mapping.example.com/jc_035">
+        <r2rml:child>Protein_ID</r2rml:child>
+        <r2rml:parent>Protein_ID</r2rml:parent>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
