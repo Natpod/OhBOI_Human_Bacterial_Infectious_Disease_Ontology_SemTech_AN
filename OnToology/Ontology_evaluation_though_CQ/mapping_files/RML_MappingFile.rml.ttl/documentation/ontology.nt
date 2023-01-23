@@ -1,0 +1,2018 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://rdfs.org/ns/void#exampleResource
+<http://rdfs.org/ns/void#exampleResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://semweb.mmlab.be/ns/rml#logicalSource
+<http://semweb.mmlab.be/ns/rml#logicalSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://semweb.mmlab.be/ns/rml#reference
+<http://semweb.mmlab.be/ns/rml#reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://semweb.mmlab.be/ns/rml#referenceFormulation
+<http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://semweb.mmlab.be/ns/rml#source
+<http://semweb.mmlab.be/ns/rml#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#child
+<http://www.w3.org/ns/r2rml#child> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#constant
+<http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#datatype
+<http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#joinCondition
+<http://www.w3.org/ns/r2rml#joinCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#objectMap
+<http://www.w3.org/ns/r2rml#objectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#parent
+<http://www.w3.org/ns/r2rml#parent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#parentTriplesMap
+<http://www.w3.org/ns/r2rml#parentTriplesMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#predicateMap
+<http://www.w3.org/ns/r2rml#predicateMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#predicateObjectMap
+<http://www.w3.org/ns/r2rml#predicateObjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#subjectMap
+<http://www.w3.org/ns/r2rml#subjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#termType
+<http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://rdfs.org/ns/void#Dataset
+<http://rdfs.org/ns/void#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://semweb.mmlab.be/ns/rml#LogicalSource
+<http://semweb.mmlab.be/ns/rml#LogicalSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/r2rml#ObjectMap
+<http://www.w3.org/ns/r2rml#ObjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/r2rml#PredicateMap
+<http://www.w3.org/ns/r2rml#PredicateMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/r2rml#PredicateObjectMap
+<http://www.w3.org/ns/r2rml#PredicateObjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/r2rml#SubjectMap
+<http://www.w3.org/ns/r2rml#SubjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/r2rml#TriplesMap
+<http://www.w3.org/ns/r2rml#TriplesMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://mapping.example.com/map_ANTITOXIN_000
+<http://mapping.example.com/map_ANTITOXIN_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_ANTITOXIN_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_ANTITOXIN_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_015> .
+<http://mapping.example.com/map_ANTITOXIN_000> <http://www.w3.org/2000/01/rdf-schema#label> "ANTITOXIN" .
+<http://mapping.example.com/map_ANTITOXIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_058> .
+<http://mapping.example.com/map_ANTITOXIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_059> .
+<http://mapping.example.com/map_ANTITOXIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_060> .
+<http://mapping.example.com/map_ANTITOXIN_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_015> .
+# 
+# http://mapping.example.com/map_BACTERIAL-PATHOGEN_000
+<http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_005> .
+<http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> <http://www.w3.org/2000/01/rdf-schema#label> "BACTERIAL-PATHOGEN" .
+<http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_023> .
+<http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_024> .
+<http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_025> .
+<http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_005> .
+# 
+# http://mapping.example.com/map_BACTERIA_000
+<http://mapping.example.com/map_BACTERIA_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_BACTERIA_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_BACTERIA_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_006> .
+<http://mapping.example.com/map_BACTERIA_000> <http://www.w3.org/2000/01/rdf-schema#label> "BACTERIA" .
+<http://mapping.example.com/map_BACTERIA_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_026> .
+<http://mapping.example.com/map_BACTERIA_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_027> .
+<http://mapping.example.com/map_BACTERIA_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_028> .
+<http://mapping.example.com/map_BACTERIA_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_006> .
+# 
+# http://mapping.example.com/map_CHEMICAL-ENTITY_000
+<http://mapping.example.com/map_CHEMICAL-ENTITY_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_CHEMICAL-ENTITY_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_CHEMICAL-ENTITY_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_014> .
+<http://mapping.example.com/map_CHEMICAL-ENTITY_000> <http://www.w3.org/2000/01/rdf-schema#label> "CHEMICAL-ENTITY" .
+<http://mapping.example.com/map_CHEMICAL-ENTITY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_054> .
+<http://mapping.example.com/map_CHEMICAL-ENTITY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_055> .
+<http://mapping.example.com/map_CHEMICAL-ENTITY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_056> .
+<http://mapping.example.com/map_CHEMICAL-ENTITY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_057> .
+<http://mapping.example.com/map_CHEMICAL-ENTITY_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_014> .
+# 
+# http://mapping.example.com/map_CITY_000
+<http://mapping.example.com/map_CITY_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_CITY_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_CITY_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_010> .
+<http://mapping.example.com/map_CITY_000> <http://www.w3.org/2000/01/rdf-schema#label> "CITY" .
+<http://mapping.example.com/map_CITY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_040> .
+<http://mapping.example.com/map_CITY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_041> .
+<http://mapping.example.com/map_CITY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_042> .
+<http://mapping.example.com/map_CITY_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_010> .
+# 
+# http://mapping.example.com/map_CONTINENT_000
+<http://mapping.example.com/map_CONTINENT_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_CONTINENT_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_CONTINENT_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_009> .
+<http://mapping.example.com/map_CONTINENT_000> <http://www.w3.org/2000/01/rdf-schema#label> "CONTINENT" .
+<http://mapping.example.com/map_CONTINENT_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_037> .
+<http://mapping.example.com/map_CONTINENT_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_038> .
+<http://mapping.example.com/map_CONTINENT_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_039> .
+<http://mapping.example.com/map_CONTINENT_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_009> .
+# 
+# http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000
+<http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_007> .
+<http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> <http://www.w3.org/2000/01/rdf-schema#label> "COUNTRY-PREVALENCE-IN-TIME" .
+<http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_029> .
+<http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_030> .
+<http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_031> .
+<http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_032> .
+<http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_007> .
+# 
+# http://mapping.example.com/map_COUNTRY_000
+<http://mapping.example.com/map_COUNTRY_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_COUNTRY_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_COUNTRY_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_008> .
+<http://mapping.example.com/map_COUNTRY_000> <http://www.w3.org/2000/01/rdf-schema#label> "COUNTRY" .
+<http://mapping.example.com/map_COUNTRY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_033> .
+<http://mapping.example.com/map_COUNTRY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_034> .
+<http://mapping.example.com/map_COUNTRY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_035> .
+<http://mapping.example.com/map_COUNTRY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_036> .
+<http://mapping.example.com/map_COUNTRY_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_008> .
+# 
+# http://mapping.example.com/map_DISEASE_000
+<http://mapping.example.com/map_DISEASE_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_DISEASE_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_DISEASE_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_003> .
+<http://mapping.example.com/map_DISEASE_000> <http://www.w3.org/2000/01/rdf-schema#label> "DISEASE" .
+<http://mapping.example.com/map_DISEASE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_018> .
+<http://mapping.example.com/map_DISEASE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_019> .
+<http://mapping.example.com/map_DISEASE_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_003> .
+# 
+# http://mapping.example.com/map_DRUG_000
+<http://mapping.example.com/map_DRUG_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_DRUG_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_DRUG_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_012> .
+<http://mapping.example.com/map_DRUG_000> <http://www.w3.org/2000/01/rdf-schema#label> "DRUG" .
+<http://mapping.example.com/map_DRUG_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_045> .
+<http://mapping.example.com/map_DRUG_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_046> .
+<http://mapping.example.com/map_DRUG_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_047> .
+<http://mapping.example.com/map_DRUG_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_048> .
+<http://mapping.example.com/map_DRUG_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_049> .
+<http://mapping.example.com/map_DRUG_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_012> .
+# 
+# http://mapping.example.com/map_GENE-SYMBOL_000
+<http://mapping.example.com/map_GENE-SYMBOL_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_GENE-SYMBOL_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_GENE-SYMBOL_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_019> .
+<http://mapping.example.com/map_GENE-SYMBOL_000> <http://www.w3.org/2000/01/rdf-schema#label> "GENE-SYMBOL" .
+<http://mapping.example.com/map_GENE-SYMBOL_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_071> .
+<http://mapping.example.com/map_GENE-SYMBOL_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_072> .
+<http://mapping.example.com/map_GENE-SYMBOL_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_073> .
+<http://mapping.example.com/map_GENE-SYMBOL_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_019> .
+# 
+# http://mapping.example.com/map_GENE_000
+<http://mapping.example.com/map_GENE_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_GENE_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_GENE_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_017> .
+<http://mapping.example.com/map_GENE_000> <http://www.w3.org/2000/01/rdf-schema#label> "GENE" .
+<http://mapping.example.com/map_GENE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_063> .
+<http://mapping.example.com/map_GENE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_064> .
+<http://mapping.example.com/map_GENE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_065> .
+<http://mapping.example.com/map_GENE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_066> .
+<http://mapping.example.com/map_GENE_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_017> .
+# 
+# http://mapping.example.com/map_INFECTIOUS-DISEASE_000
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_000> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/2000/01/rdf-schema#label> "INFECTIOUS-DISEASE" .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_000> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_001> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_002> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_003> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_004> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_005> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_006> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_007> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_000> .
+# 
+# http://mapping.example.com/map_INFECTIOUS-DISEASE_001
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_001> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/2000/01/rdf-schema#label> "INFECTIOUS-DISEASE" .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_008> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_009> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_010> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_011> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_012> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_013> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_014> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_015> .
+<http://mapping.example.com/map_INFECTIOUS-DISEASE_001> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_001> .
+# 
+# http://mapping.example.com/map_PATHWAY_000
+<http://mapping.example.com/map_PATHWAY_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_PATHWAY_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_PATHWAY_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_002> .
+<http://mapping.example.com/map_PATHWAY_000> <http://www.w3.org/2000/01/rdf-schema#label> "PATHWAY" .
+<http://mapping.example.com/map_PATHWAY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_016> .
+<http://mapping.example.com/map_PATHWAY_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_017> .
+<http://mapping.example.com/map_PATHWAY_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_002> .
+# 
+# http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000
+<http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_004> .
+<http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> <http://www.w3.org/2000/01/rdf-schema#label> "PHENOTYPIC-ABNORMALITIES" .
+<http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_020> .
+<http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_021> .
+<http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_022> .
+<http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_004> .
+# 
+# http://mapping.example.com/map_PRESCRIPTION_000
+<http://mapping.example.com/map_PRESCRIPTION_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_PRESCRIPTION_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_PRESCRIPTION_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_011> .
+<http://mapping.example.com/map_PRESCRIPTION_000> <http://www.w3.org/2000/01/rdf-schema#label> "PRESCRIPTION" .
+<http://mapping.example.com/map_PRESCRIPTION_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_043> .
+<http://mapping.example.com/map_PRESCRIPTION_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_044> .
+<http://mapping.example.com/map_PRESCRIPTION_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_011> .
+# 
+# http://mapping.example.com/map_PROTEIN-TOXIN_000
+<http://mapping.example.com/map_PROTEIN-TOXIN_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_PROTEIN-TOXIN_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_PROTEIN-TOXIN_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_020> .
+<http://mapping.example.com/map_PROTEIN-TOXIN_000> <http://www.w3.org/2000/01/rdf-schema#label> "PROTEIN-TOXIN" .
+<http://mapping.example.com/map_PROTEIN-TOXIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_074> .
+<http://mapping.example.com/map_PROTEIN-TOXIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_075> .
+<http://mapping.example.com/map_PROTEIN-TOXIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_076> .
+<http://mapping.example.com/map_PROTEIN-TOXIN_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_020> .
+# 
+# http://mapping.example.com/map_PROTEIN_000
+<http://mapping.example.com/map_PROTEIN_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_PROTEIN_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_PROTEIN_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_018> .
+<http://mapping.example.com/map_PROTEIN_000> <http://www.w3.org/2000/01/rdf-schema#label> "PROTEIN" .
+<http://mapping.example.com/map_PROTEIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_067> .
+<http://mapping.example.com/map_PROTEIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_068> .
+<http://mapping.example.com/map_PROTEIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_069> .
+<http://mapping.example.com/map_PROTEIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_070> .
+<http://mapping.example.com/map_PROTEIN_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_018> .
+# 
+# http://mapping.example.com/map_SUBSTANCE_000
+<http://mapping.example.com/map_SUBSTANCE_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_SUBSTANCE_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_SUBSTANCE_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_013> .
+<http://mapping.example.com/map_SUBSTANCE_000> <http://www.w3.org/2000/01/rdf-schema#label> "SUBSTANCE" .
+<http://mapping.example.com/map_SUBSTANCE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_050> .
+<http://mapping.example.com/map_SUBSTANCE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_051> .
+<http://mapping.example.com/map_SUBSTANCE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_052> .
+<http://mapping.example.com/map_SUBSTANCE_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_053> .
+<http://mapping.example.com/map_SUBSTANCE_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_013> .
+# 
+# http://mapping.example.com/map_TOXIN_000
+<http://mapping.example.com/map_TOXIN_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/map_TOXIN_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<http://mapping.example.com/map_TOXIN_000> <http://semweb.mmlab.be/ns/rml#logicalSource> <http://mapping.example.com/source_016> .
+<http://mapping.example.com/map_TOXIN_000> <http://www.w3.org/2000/01/rdf-schema#label> "TOXIN" .
+<http://mapping.example.com/map_TOXIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_061> .
+<http://mapping.example.com/map_TOXIN_000> <http://www.w3.org/ns/r2rml#predicateObjectMap> <http://mapping.example.com/pom_062> .
+<http://mapping.example.com/map_TOXIN_000> <http://www.w3.org/ns/r2rml#subjectMap> <http://mapping.example.com/s_016> .
+# 
+# http://mapping.example.com/om_000
+<http://mapping.example.com/om_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_000> <http://www.w3.org/ns/r2rml#constant> "http://purl.obolibrary.org/obo/IDO_0000436" .
+<http://mapping.example.com/om_000> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_001
+<http://mapping.example.com/om_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_001> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_000> .
+<http://mapping.example.com/om_001> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_DISEASE_000> .
+# 
+# http://mapping.example.com/om_002
+<http://mapping.example.com/om_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_002> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_001> .
+<http://mapping.example.com/om_002> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_PRESCRIPTION_000> .
+# 
+# http://mapping.example.com/om_003
+<http://mapping.example.com/om_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_003> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_002> .
+<http://mapping.example.com/om_003> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> .
+# 
+# http://mapping.example.com/om_004
+<http://mapping.example.com/om_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_004> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_003> .
+<http://mapping.example.com/om_004> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> .
+# 
+# http://mapping.example.com/om_005
+<http://mapping.example.com/om_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_005> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_004> .
+<http://mapping.example.com/om_005> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> .
+# 
+# http://mapping.example.com/om_006
+<http://mapping.example.com/om_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_006> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_005> .
+<http://mapping.example.com/om_006> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_CITY_000> .
+# 
+# http://mapping.example.com/om_007
+<http://mapping.example.com/om_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_007> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_006> .
+<http://mapping.example.com/om_007> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_PATHWAY_000> .
+# 
+# http://mapping.example.com/om_008
+<http://mapping.example.com/om_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_008> <http://www.w3.org/ns/r2rml#constant> "http://purl.obolibrary.org/obo/IDO_0000436" .
+<http://mapping.example.com/om_008> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_009
+<http://mapping.example.com/om_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_009> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_007> .
+<http://mapping.example.com/om_009> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_DISEASE_000> .
+# 
+# http://mapping.example.com/om_010
+<http://mapping.example.com/om_010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_010> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_008> .
+<http://mapping.example.com/om_010> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_PRESCRIPTION_000> .
+# 
+# http://mapping.example.com/om_011
+<http://mapping.example.com/om_011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_011> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_009> .
+<http://mapping.example.com/om_011> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> .
+# 
+# http://mapping.example.com/om_012
+<http://mapping.example.com/om_012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_012> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_010> .
+<http://mapping.example.com/om_012> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> .
+# 
+# http://mapping.example.com/om_013
+<http://mapping.example.com/om_013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_013> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_011> .
+<http://mapping.example.com/om_013> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> .
+# 
+# http://mapping.example.com/om_014
+<http://mapping.example.com/om_014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_014> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_012> .
+<http://mapping.example.com/om_014> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_CITY_000> .
+# 
+# http://mapping.example.com/om_015
+<http://mapping.example.com/om_015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_015> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_013> .
+<http://mapping.example.com/om_015> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_PATHWAY_000> .
+# 
+# http://mapping.example.com/om_016
+<http://mapping.example.com/om_016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_016> <http://www.w3.org/ns/r2rml#constant> "http://vocabularies.wikipathways.org/wp#Pathway" .
+<http://mapping.example.com/om_016> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_017
+<http://mapping.example.com/om_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_017> <http://semweb.mmlab.be/ns/rml#reference> "Pathway_ID" .
+<http://mapping.example.com/om_017> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_017> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_018
+<http://mapping.example.com/om_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_018> <http://www.w3.org/ns/r2rml#constant> "http://purl.bioontology.org/ontology/SNOMEDCT/64572001" .
+<http://mapping.example.com/om_018> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_019
+<http://mapping.example.com/om_019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_019> <http://semweb.mmlab.be/ns/rml#reference> "SNOMEDCT_label" .
+<http://mapping.example.com/om_019> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_020
+<http://mapping.example.com/om_020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_020> <http://www.w3.org/ns/r2rml#constant> "http://purl.obolibrary.org/obo/HP_0000118" .
+<http://mapping.example.com/om_020> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_021
+<http://mapping.example.com/om_021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_021> <http://semweb.mmlab.be/ns/rml#reference> "phenotype" .
+<http://mapping.example.com/om_021> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_022
+<http://mapping.example.com/om_022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_022> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_014> .
+<http://mapping.example.com/om_022> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_INFECTIOUS-DISEASE_000> .
+# 
+# http://mapping.example.com/om_023
+<http://mapping.example.com/om_023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_023> <http://www.w3.org/ns/r2rml#constant> "http://purl.obolibrary.org/obo/XCO_0000475" .
+<http://mapping.example.com/om_023> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_024
+<http://mapping.example.com/om_024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_024> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_015> .
+<http://mapping.example.com/om_024> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_INFECTIOUS-DISEASE_000> .
+# 
+# http://mapping.example.com/om_025
+<http://mapping.example.com/om_025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_025> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_016> .
+<http://mapping.example.com/om_025> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_BACTERIA_000> .
+# 
+# http://mapping.example.com/om_026
+<http://mapping.example.com/om_026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_026> <http://www.w3.org/ns/r2rml#constant> "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14187" .
+<http://mapping.example.com/om_026> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_027
+<http://mapping.example.com/om_027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_027> <http://semweb.mmlab.be/ns/rml#reference> "XCO_name" .
+<http://mapping.example.com/om_027> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_028
+<http://mapping.example.com/om_028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_028> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_017> .
+<http://mapping.example.com/om_028> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_GENE_000> .
+# 
+# http://mapping.example.com/om_029
+<http://mapping.example.com/om_029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_029> <http://www.w3.org/ns/r2rml#constant> "http://purl.bioontology.org/ontology/SNOMEDCT/64572001" .
+<http://mapping.example.com/om_029> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_030
+<http://mapping.example.com/om_030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_030> <http://semweb.mmlab.be/ns/rml#reference> "Date" .
+<http://mapping.example.com/om_030> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_030> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_031
+<http://mapping.example.com/om_031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_031> <http://semweb.mmlab.be/ns/rml#reference> "Prevalence" .
+<http://mapping.example.com/om_031> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#float> .
+<http://mapping.example.com/om_031> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_032
+<http://mapping.example.com/om_032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_032> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_018> .
+<http://mapping.example.com/om_032> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_COUNTRY_000> .
+# 
+# http://mapping.example.com/om_033
+<http://mapping.example.com/om_033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_033> <http://www.w3.org/ns/r2rml#constant> "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25464" .
+<http://mapping.example.com/om_033> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_034
+<http://mapping.example.com/om_034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_034> <http://semweb.mmlab.be/ns/rml#reference> "Country" .
+<http://mapping.example.com/om_034> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_034> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_035
+<http://mapping.example.com/om_035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_035> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_019> .
+<http://mapping.example.com/om_035> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_CITY_000> .
+# 
+# http://mapping.example.com/om_036
+<http://mapping.example.com/om_036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_036> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_020> .
+<http://mapping.example.com/om_036> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_CONTINENT_000> .
+# 
+# http://mapping.example.com/om_037
+<http://mapping.example.com/om_037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_037> <http://www.w3.org/ns/r2rml#constant> "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76349" .
+<http://mapping.example.com/om_037> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_038
+<http://mapping.example.com/om_038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_038> <http://semweb.mmlab.be/ns/rml#reference> "Continent_Name" .
+<http://mapping.example.com/om_038> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_039
+<http://mapping.example.com/om_039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_039> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_021> .
+<http://mapping.example.com/om_039> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_COUNTRY_000> .
+# 
+# http://mapping.example.com/om_040
+<http://mapping.example.com/om_040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_040> <http://www.w3.org/ns/r2rml#constant> "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25160" .
+<http://mapping.example.com/om_040> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_041
+<http://mapping.example.com/om_041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_041> <http://semweb.mmlab.be/ns/rml#reference> "City" .
+<http://mapping.example.com/om_041> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_042
+<http://mapping.example.com/om_042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_042> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_022> .
+<http://mapping.example.com/om_042> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_COUNTRY_000> .
+# 
+# http://mapping.example.com/om_043
+<http://mapping.example.com/om_043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_043> <http://www.w3.org/ns/r2rml#constant> "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28180" .
+<http://mapping.example.com/om_043> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_044
+<http://mapping.example.com/om_044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_044> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_023> .
+<http://mapping.example.com/om_044> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_DRUG_000> .
+# 
+# http://mapping.example.com/om_045
+<http://mapping.example.com/om_045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_045> <http://www.w3.org/ns/r2rml#constant> "https://w3id.org/ohboi#Drug" .
+<http://mapping.example.com/om_045> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_046
+<http://mapping.example.com/om_046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_046> <http://semweb.mmlab.be/ns/rml#reference> "BrandName" .
+<http://mapping.example.com/om_046> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_046> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_047
+<http://mapping.example.com/om_047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_047> <http://semweb.mmlab.be/ns/rml#reference> "CommonName" .
+<http://mapping.example.com/om_047> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_047> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_048
+<http://mapping.example.com/om_048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_048> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_024> .
+<http://mapping.example.com/om_048> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_PRESCRIPTION_000> .
+# 
+# http://mapping.example.com/om_049
+<http://mapping.example.com/om_049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_049> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_025> .
+<http://mapping.example.com/om_049> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_SUBSTANCE_000> .
+# 
+# http://mapping.example.com/om_050
+<http://mapping.example.com/om_050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_050> <http://www.w3.org/ns/r2rml#constant> "http://rdf.ebi.ac.uk/terms/chembl#Substance" .
+<http://mapping.example.com/om_050> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_051
+<http://mapping.example.com/om_051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_051> <http://semweb.mmlab.be/ns/rml#reference> "ChEMBL_ID" .
+<http://mapping.example.com/om_051> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_051> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_052
+<http://mapping.example.com/om_052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_052> <http://semweb.mmlab.be/ns/rml#reference> "atcClassification" .
+<http://mapping.example.com/om_052> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_052> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_053
+<http://mapping.example.com/om_053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_053> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_026> .
+<http://mapping.example.com/om_053> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_CHEMICAL-ENTITY_000> .
+# 
+# http://mapping.example.com/om_054
+<http://mapping.example.com/om_054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_054> <http://www.w3.org/ns/r2rml#constant> "http://purl.obolibrary.org/obo/CHEBI_24431" .
+<http://mapping.example.com/om_054> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_055
+<http://mapping.example.com/om_055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_055> <http://semweb.mmlab.be/ns/rml#reference> "formula" .
+<http://mapping.example.com/om_055> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_055> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_056
+<http://mapping.example.com/om_056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_056> <http://semweb.mmlab.be/ns/rml#reference> "SMILES" .
+<http://mapping.example.com/om_056> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_056> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_057
+<http://mapping.example.com/om_057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_057> <http://semweb.mmlab.be/ns/rml#reference> "mass" .
+<http://mapping.example.com/om_057> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#float> .
+<http://mapping.example.com/om_057> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_058
+<http://mapping.example.com/om_058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_058> <http://www.w3.org/ns/r2rml#constant> "http://purl.bioontology.org/ontology/SNOMEDCT/71862009" .
+<http://mapping.example.com/om_058> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_059
+<http://mapping.example.com/om_059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_059> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_027> .
+<http://mapping.example.com/om_059> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_DRUG_000> .
+# 
+# http://mapping.example.com/om_060
+<http://mapping.example.com/om_060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_060> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_028> .
+<http://mapping.example.com/om_060> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_TOXIN_000> .
+# 
+# http://mapping.example.com/om_061
+<http://mapping.example.com/om_061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_061> <http://www.w3.org/ns/r2rml#constant> "http://purl.bioontology.org/ontology/SNOMEDCT/80917008" .
+<http://mapping.example.com/om_061> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_062
+<http://mapping.example.com/om_062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_062> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_029> .
+<http://mapping.example.com/om_062> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_ANTITOXIN_000> .
+# 
+# http://mapping.example.com/om_063
+<http://mapping.example.com/om_063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_063> <http://www.w3.org/ns/r2rml#constant> "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16612" .
+<http://mapping.example.com/om_063> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_064
+<http://mapping.example.com/om_064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_064> <http://semweb.mmlab.be/ns/rml#reference> "location" .
+<http://mapping.example.com/om_064> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_064> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_065
+<http://mapping.example.com/om_065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_065> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_030> .
+<http://mapping.example.com/om_065> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_GENE-SYMBOL_000> .
+# 
+# http://mapping.example.com/om_066
+<http://mapping.example.com/om_066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_066> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_031> .
+<http://mapping.example.com/om_066> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_PROTEIN_000> .
+# 
+# http://mapping.example.com/om_067
+<http://mapping.example.com/om_067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_067> <http://www.w3.org/ns/r2rml#constant> "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021" .
+<http://mapping.example.com/om_067> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_068
+<http://mapping.example.com/om_068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_068> <http://semweb.mmlab.be/ns/rml#reference> "Length" .
+<http://mapping.example.com/om_068> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_068> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_069
+<http://mapping.example.com/om_069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_069> <http://semweb.mmlab.be/ns/rml#reference> "Protein_Name" .
+<http://mapping.example.com/om_069> <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<http://mapping.example.com/om_069> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_070
+<http://mapping.example.com/om_070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_070> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_032> .
+<http://mapping.example.com/om_070> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_GENE_000> .
+# 
+# http://mapping.example.com/om_071
+<http://mapping.example.com/om_071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_071> <http://www.w3.org/ns/r2rml#constant> "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43568" .
+<http://mapping.example.com/om_071> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_072
+<http://mapping.example.com/om_072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_072> <http://semweb.mmlab.be/ns/rml#reference> "gene_symbol" .
+<http://mapping.example.com/om_072> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#Literal> .
+# 
+# http://mapping.example.com/om_073
+<http://mapping.example.com/om_073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_073> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_033> .
+<http://mapping.example.com/om_073> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_GENE_000> .
+# 
+# http://mapping.example.com/om_074
+<http://mapping.example.com/om_074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_074> <http://www.w3.org/ns/r2rml#constant> "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021" .
+<http://mapping.example.com/om_074> <http://www.w3.org/ns/r2rml#termType> <http://www.w3.org/ns/r2rml#IRI> .
+# 
+# http://mapping.example.com/om_075
+<http://mapping.example.com/om_075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_075> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_034> .
+<http://mapping.example.com/om_075> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_TOXIN_000> .
+# 
+# http://mapping.example.com/om_076
+<http://mapping.example.com/om_076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/om_076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#ObjectMap> .
+<http://mapping.example.com/om_076> <http://www.w3.org/ns/r2rml#joinCondition> <http://mapping.example.com/jc_035> .
+<http://mapping.example.com/om_076> <http://www.w3.org/ns/r2rml#parentTriplesMap> <http://mapping.example.com/map_PROTEIN_000> .
+# 
+# http://mapping.example.com/pm_000
+<http://mapping.example.com/pm_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_000> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_001
+<http://mapping.example.com/pm_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_001> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
+# 
+# http://mapping.example.com/pm_002
+<http://mapping.example.com/pm_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_002> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasPrescription> .
+# 
+# http://mapping.example.com/pm_003
+<http://mapping.example.com/pm_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_003> <http://www.w3.org/ns/r2rml#constant> <http://purl.bioontology.org/ontology/SNOMEDCT/due_to> .
+# 
+# http://mapping.example.com/pm_004
+<http://mapping.example.com/pm_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_004> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#presents> .
+# 
+# http://mapping.example.com/pm_005
+<http://mapping.example.com/pm_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_005> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasPrevalence> .
+# 
+# http://mapping.example.com/pm_006
+<http://mapping.example.com/pm_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_006> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasFirstCaseReportedIn> .
+# 
+# http://mapping.example.com/pm_007
+<http://mapping.example.com/pm_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_007> <http://www.w3.org/ns/r2rml#constant> <http://semanticscience.org/resource/SIO_001158> .
+# 
+# http://mapping.example.com/pm_008
+<http://mapping.example.com/pm_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_008> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_009
+<http://mapping.example.com/pm_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_009> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
+# 
+# http://mapping.example.com/pm_010
+<http://mapping.example.com/pm_010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_010> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasPrescription> .
+# 
+# http://mapping.example.com/pm_011
+<http://mapping.example.com/pm_011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_011> <http://www.w3.org/ns/r2rml#constant> <http://purl.bioontology.org/ontology/SNOMEDCT/due_to> .
+# 
+# http://mapping.example.com/pm_012
+<http://mapping.example.com/pm_012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_012> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#presents> .
+# 
+# http://mapping.example.com/pm_013
+<http://mapping.example.com/pm_013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_013> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasPrevalence> .
+# 
+# http://mapping.example.com/pm_014
+<http://mapping.example.com/pm_014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_014> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasFirstCaseReportedIn> .
+# 
+# http://mapping.example.com/pm_015
+<http://mapping.example.com/pm_015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_015> <http://www.w3.org/ns/r2rml#constant> <http://semanticscience.org/resource/SIO_001158> .
+# 
+# http://mapping.example.com/pm_016
+<http://mapping.example.com/pm_016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_016> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_017
+<http://mapping.example.com/pm_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_017> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasPathwayLabel> .
+# 
+# http://mapping.example.com/pm_018
+<http://mapping.example.com/pm_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_018> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_019
+<http://mapping.example.com/pm_019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_019> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasDiseaseLabel> .
+# 
+# http://mapping.example.com/pm_020
+<http://mapping.example.com/pm_020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_020> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_021
+<http://mapping.example.com/pm_021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_021> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasPAName> .
+# 
+# http://mapping.example.com/pm_022
+<http://mapping.example.com/pm_022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_022> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#isPresentedIn> .
+# 
+# http://mapping.example.com/pm_023
+<http://mapping.example.com/pm_023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_023> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_024
+<http://mapping.example.com/pm_024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_024> <http://www.w3.org/ns/r2rml#constant> <http://purl.bioontology.org/ontology/SNOMEDCT/cause_of> .
+# 
+# http://mapping.example.com/pm_025
+<http://mapping.example.com/pm_025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_025> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
+# 
+# http://mapping.example.com/pm_026
+<http://mapping.example.com/pm_026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_026> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_027
+<http://mapping.example.com/pm_027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_027> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasBacteriaName> .
+# 
+# http://mapping.example.com/pm_028
+<http://mapping.example.com/pm_028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_028> <http://www.w3.org/ns/r2rml#constant> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R41> .
+# 
+# http://mapping.example.com/pm_029
+<http://mapping.example.com/pm_029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_029> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_030
+<http://mapping.example.com/pm_030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_030> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#inDate> .
+# 
+# http://mapping.example.com/pm_031
+<http://mapping.example.com/pm_031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_031> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#prevalence> .
+# 
+# http://mapping.example.com/pm_032
+<http://mapping.example.com/pm_032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_032> <http://www.w3.org/ns/r2rml#constant> <http://semanticscience.org/resource/SIO_001403> .
+# 
+# http://mapping.example.com/pm_033
+<http://mapping.example.com/pm_033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_033> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_034
+<http://mapping.example.com/pm_034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_034> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasCode> .
+# 
+# http://mapping.example.com/pm_035
+<http://mapping.example.com/pm_035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_035> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#contains> .
+# 
+# http://mapping.example.com/pm_036
+<http://mapping.example.com/pm_036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_036> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#belongsTo> .
+# 
+# http://mapping.example.com/pm_037
+<http://mapping.example.com/pm_037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_037> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_038
+<http://mapping.example.com/pm_038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_038> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasContinentName> .
+# 
+# http://mapping.example.com/pm_039
+<http://mapping.example.com/pm_039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_039> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#contains> .
+# 
+# http://mapping.example.com/pm_040
+<http://mapping.example.com/pm_040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_040> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_041
+<http://mapping.example.com/pm_041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_041> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasCityCode> .
+# 
+# http://mapping.example.com/pm_042
+<http://mapping.example.com/pm_042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_042> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#belongsTo> .
+# 
+# http://mapping.example.com/pm_043
+<http://mapping.example.com/pm_043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_043> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_044
+<http://mapping.example.com/pm_044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_044> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#prescribes> .
+# 
+# http://mapping.example.com/pm_045
+<http://mapping.example.com/pm_045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_045> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_046
+<http://mapping.example.com/pm_046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_046> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasBrandName> .
+# 
+# http://mapping.example.com/pm_047
+<http://mapping.example.com/pm_047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_047> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasCommonName> .
+# 
+# http://mapping.example.com/pm_048
+<http://mapping.example.com/pm_048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_048> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#prescribedIn> .
+# 
+# http://mapping.example.com/pm_049
+<http://mapping.example.com/pm_049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_049> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
+# 
+# http://mapping.example.com/pm_050
+<http://mapping.example.com/pm_050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_050> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_051
+<http://mapping.example.com/pm_051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_051> <http://www.w3.org/ns/r2rml#constant> <http://rdf.ebi.ac.uk/terms/chembl#chemblId> .
+# 
+# http://mapping.example.com/pm_052
+<http://mapping.example.com/pm_052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_052> <http://www.w3.org/ns/r2rml#constant> <http://rdf.ebi.ac.uk/terms/chembl#atcClassification> .
+# 
+# http://mapping.example.com/pm_053
+<http://mapping.example.com/pm_053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_053> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/2004/02/skos/core#exactMatch> .
+# 
+# http://mapping.example.com/pm_054
+<http://mapping.example.com/pm_054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_054> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_055
+<http://mapping.example.com/pm_055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_055> <http://www.w3.org/ns/r2rml#constant> <http://purl.obolibrary.org/obo/formula> .
+# 
+# http://mapping.example.com/pm_056
+<http://mapping.example.com/pm_056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_056> <http://www.w3.org/ns/r2rml#constant> <http://purl.obolibrary.org/obo/smiles> .
+# 
+# http://mapping.example.com/pm_057
+<http://mapping.example.com/pm_057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_057> <http://www.w3.org/ns/r2rml#constant> <http://purl.obolibrary.org/obo/mass> .
+# 
+# http://mapping.example.com/pm_058
+<http://mapping.example.com/pm_058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_058> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_059
+<http://mapping.example.com/pm_059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_059> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
+# 
+# http://mapping.example.com/pm_060
+<http://mapping.example.com/pm_060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_060> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#neutralizes> .
+# 
+# http://mapping.example.com/pm_061
+<http://mapping.example.com/pm_061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_061> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_062
+<http://mapping.example.com/pm_062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_062> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#isNeutralizedBy> .
+# 
+# http://mapping.example.com/pm_063
+<http://mapping.example.com/pm_063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_063> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_064
+<http://mapping.example.com/pm_064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_064> <http://www.w3.org/ns/r2rml#constant> <http://semanticscience.org/resource/SIO_00061> .
+# 
+# http://mapping.example.com/pm_065
+<http://mapping.example.com/pm_065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_065> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasSymbol> .
+# 
+# http://mapping.example.com/pm_066
+<http://mapping.example.com/pm_066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_066> <http://www.w3.org/ns/r2rml#constant> <http://semanticscience.org/resource/SIO_010078> .
+# 
+# http://mapping.example.com/pm_067
+<http://mapping.example.com/pm_067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_067> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_068
+<http://mapping.example.com/pm_068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_068> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasLength> .
+# 
+# http://mapping.example.com/pm_069
+<http://mapping.example.com/pm_069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_069> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasName> .
+# 
+# http://mapping.example.com/pm_070
+<http://mapping.example.com/pm_070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_070> <http://www.w3.org/ns/r2rml#constant> <http://semanticscience.org/resource/SIO_010079> .
+# 
+# http://mapping.example.com/pm_071
+<http://mapping.example.com/pm_071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_071> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_072
+<http://mapping.example.com/pm_072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_072> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#hasGeneSymbolCode> .
+# 
+# http://mapping.example.com/pm_073
+<http://mapping.example.com/pm_073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_073> <http://www.w3.org/ns/r2rml#constant> <https://w3id.org/ohboi#symbolOf> .
+# 
+# http://mapping.example.com/pm_074
+<http://mapping.example.com/pm_074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_074> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+# 
+# http://mapping.example.com/pm_075
+<http://mapping.example.com/pm_075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_075> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
+# 
+# http://mapping.example.com/pm_076
+<http://mapping.example.com/pm_076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pm_076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateMap> .
+<http://mapping.example.com/pm_076> <http://www.w3.org/ns/r2rml#constant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> .
+# 
+# http://mapping.example.com/pom_000
+<http://mapping.example.com/pom_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_000> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_000> .
+<http://mapping.example.com/pom_000> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_000> .
+# 
+# http://mapping.example.com/pom_001
+<http://mapping.example.com/pom_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_001> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_001> .
+<http://mapping.example.com/pom_001> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_001> .
+# 
+# http://mapping.example.com/pom_002
+<http://mapping.example.com/pom_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_002> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_002> .
+<http://mapping.example.com/pom_002> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_002> .
+# 
+# http://mapping.example.com/pom_003
+<http://mapping.example.com/pom_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_003> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_003> .
+<http://mapping.example.com/pom_003> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_003> .
+# 
+# http://mapping.example.com/pom_004
+<http://mapping.example.com/pom_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_004> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_004> .
+<http://mapping.example.com/pom_004> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_004> .
+# 
+# http://mapping.example.com/pom_005
+<http://mapping.example.com/pom_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_005> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_005> .
+<http://mapping.example.com/pom_005> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_005> .
+# 
+# http://mapping.example.com/pom_006
+<http://mapping.example.com/pom_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_006> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_006> .
+<http://mapping.example.com/pom_006> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_006> .
+# 
+# http://mapping.example.com/pom_007
+<http://mapping.example.com/pom_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_007> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_007> .
+<http://mapping.example.com/pom_007> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_007> .
+# 
+# http://mapping.example.com/pom_008
+<http://mapping.example.com/pom_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_008> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_008> .
+<http://mapping.example.com/pom_008> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_008> .
+# 
+# http://mapping.example.com/pom_009
+<http://mapping.example.com/pom_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_009> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_009> .
+<http://mapping.example.com/pom_009> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_009> .
+# 
+# http://mapping.example.com/pom_010
+<http://mapping.example.com/pom_010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_010> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_010> .
+<http://mapping.example.com/pom_010> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_010> .
+# 
+# http://mapping.example.com/pom_011
+<http://mapping.example.com/pom_011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_011> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_011> .
+<http://mapping.example.com/pom_011> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_011> .
+# 
+# http://mapping.example.com/pom_012
+<http://mapping.example.com/pom_012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_012> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_012> .
+<http://mapping.example.com/pom_012> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_012> .
+# 
+# http://mapping.example.com/pom_013
+<http://mapping.example.com/pom_013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_013> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_013> .
+<http://mapping.example.com/pom_013> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_013> .
+# 
+# http://mapping.example.com/pom_014
+<http://mapping.example.com/pom_014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_014> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_014> .
+<http://mapping.example.com/pom_014> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_014> .
+# 
+# http://mapping.example.com/pom_015
+<http://mapping.example.com/pom_015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_015> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_015> .
+<http://mapping.example.com/pom_015> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_015> .
+# 
+# http://mapping.example.com/pom_016
+<http://mapping.example.com/pom_016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_016> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_016> .
+<http://mapping.example.com/pom_016> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_016> .
+# 
+# http://mapping.example.com/pom_017
+<http://mapping.example.com/pom_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_017> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_017> .
+<http://mapping.example.com/pom_017> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_017> .
+# 
+# http://mapping.example.com/pom_018
+<http://mapping.example.com/pom_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_018> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_018> .
+<http://mapping.example.com/pom_018> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_018> .
+# 
+# http://mapping.example.com/pom_019
+<http://mapping.example.com/pom_019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_019> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_019> .
+<http://mapping.example.com/pom_019> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_019> .
+# 
+# http://mapping.example.com/pom_020
+<http://mapping.example.com/pom_020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_020> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_020> .
+<http://mapping.example.com/pom_020> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_020> .
+# 
+# http://mapping.example.com/pom_021
+<http://mapping.example.com/pom_021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_021> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_021> .
+<http://mapping.example.com/pom_021> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_021> .
+# 
+# http://mapping.example.com/pom_022
+<http://mapping.example.com/pom_022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_022> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_022> .
+<http://mapping.example.com/pom_022> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_022> .
+# 
+# http://mapping.example.com/pom_023
+<http://mapping.example.com/pom_023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_023> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_023> .
+<http://mapping.example.com/pom_023> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_023> .
+# 
+# http://mapping.example.com/pom_024
+<http://mapping.example.com/pom_024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_024> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_024> .
+<http://mapping.example.com/pom_024> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_024> .
+# 
+# http://mapping.example.com/pom_025
+<http://mapping.example.com/pom_025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_025> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_025> .
+<http://mapping.example.com/pom_025> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_025> .
+# 
+# http://mapping.example.com/pom_026
+<http://mapping.example.com/pom_026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_026> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_026> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_026> .
+<http://mapping.example.com/pom_026> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_026> .
+# 
+# http://mapping.example.com/pom_027
+<http://mapping.example.com/pom_027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_027> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_027> .
+<http://mapping.example.com/pom_027> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_027> .
+# 
+# http://mapping.example.com/pom_028
+<http://mapping.example.com/pom_028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_028> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_028> .
+<http://mapping.example.com/pom_028> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_028> .
+# 
+# http://mapping.example.com/pom_029
+<http://mapping.example.com/pom_029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_029> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_029> .
+<http://mapping.example.com/pom_029> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_029> .
+# 
+# http://mapping.example.com/pom_030
+<http://mapping.example.com/pom_030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_030> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_030> .
+<http://mapping.example.com/pom_030> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_030> .
+# 
+# http://mapping.example.com/pom_031
+<http://mapping.example.com/pom_031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_031> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_031> .
+<http://mapping.example.com/pom_031> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_031> .
+# 
+# http://mapping.example.com/pom_032
+<http://mapping.example.com/pom_032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_032> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_032> .
+<http://mapping.example.com/pom_032> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_032> .
+# 
+# http://mapping.example.com/pom_033
+<http://mapping.example.com/pom_033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_033> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_033> .
+<http://mapping.example.com/pom_033> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_033> .
+# 
+# http://mapping.example.com/pom_034
+<http://mapping.example.com/pom_034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_034> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_034> .
+<http://mapping.example.com/pom_034> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_034> .
+# 
+# http://mapping.example.com/pom_035
+<http://mapping.example.com/pom_035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_035> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_035> .
+<http://mapping.example.com/pom_035> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_035> .
+# 
+# http://mapping.example.com/pom_036
+<http://mapping.example.com/pom_036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_036> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_036> .
+<http://mapping.example.com/pom_036> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_036> .
+# 
+# http://mapping.example.com/pom_037
+<http://mapping.example.com/pom_037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_037> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_037> .
+<http://mapping.example.com/pom_037> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_037> .
+# 
+# http://mapping.example.com/pom_038
+<http://mapping.example.com/pom_038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_038> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_038> .
+<http://mapping.example.com/pom_038> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_038> .
+# 
+# http://mapping.example.com/pom_039
+<http://mapping.example.com/pom_039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_039> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_039> .
+<http://mapping.example.com/pom_039> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_039> .
+# 
+# http://mapping.example.com/pom_040
+<http://mapping.example.com/pom_040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_040> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_040> .
+<http://mapping.example.com/pom_040> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_040> .
+# 
+# http://mapping.example.com/pom_041
+<http://mapping.example.com/pom_041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_041> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_041> .
+<http://mapping.example.com/pom_041> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_041> .
+# 
+# http://mapping.example.com/pom_042
+<http://mapping.example.com/pom_042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_042> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_042> .
+<http://mapping.example.com/pom_042> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_042> .
+# 
+# http://mapping.example.com/pom_043
+<http://mapping.example.com/pom_043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_043> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_043> .
+<http://mapping.example.com/pom_043> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_043> .
+# 
+# http://mapping.example.com/pom_044
+<http://mapping.example.com/pom_044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_044> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_044> .
+<http://mapping.example.com/pom_044> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_044> .
+# 
+# http://mapping.example.com/pom_045
+<http://mapping.example.com/pom_045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_045> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_045> .
+<http://mapping.example.com/pom_045> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_045> .
+# 
+# http://mapping.example.com/pom_046
+<http://mapping.example.com/pom_046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_046> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_046> .
+<http://mapping.example.com/pom_046> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_046> .
+# 
+# http://mapping.example.com/pom_047
+<http://mapping.example.com/pom_047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_047> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_047> .
+<http://mapping.example.com/pom_047> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_047> .
+# 
+# http://mapping.example.com/pom_048
+<http://mapping.example.com/pom_048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_048> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_048> .
+<http://mapping.example.com/pom_048> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_048> .
+# 
+# http://mapping.example.com/pom_049
+<http://mapping.example.com/pom_049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_049> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_049> .
+<http://mapping.example.com/pom_049> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_049> .
+# 
+# http://mapping.example.com/pom_050
+<http://mapping.example.com/pom_050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_050> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_050> .
+<http://mapping.example.com/pom_050> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_050> .
+# 
+# http://mapping.example.com/pom_051
+<http://mapping.example.com/pom_051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_051> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_051> .
+<http://mapping.example.com/pom_051> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_051> .
+# 
+# http://mapping.example.com/pom_052
+<http://mapping.example.com/pom_052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_052> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_052> .
+<http://mapping.example.com/pom_052> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_052> .
+# 
+# http://mapping.example.com/pom_053
+<http://mapping.example.com/pom_053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_053> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_053> .
+<http://mapping.example.com/pom_053> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_053> .
+# 
+# http://mapping.example.com/pom_054
+<http://mapping.example.com/pom_054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_054> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_054> .
+<http://mapping.example.com/pom_054> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_054> .
+# 
+# http://mapping.example.com/pom_055
+<http://mapping.example.com/pom_055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_055> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_055> .
+<http://mapping.example.com/pom_055> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_055> .
+# 
+# http://mapping.example.com/pom_056
+<http://mapping.example.com/pom_056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_056> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_056> .
+<http://mapping.example.com/pom_056> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_056> .
+# 
+# http://mapping.example.com/pom_057
+<http://mapping.example.com/pom_057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_057> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_057> .
+<http://mapping.example.com/pom_057> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_057> .
+# 
+# http://mapping.example.com/pom_058
+<http://mapping.example.com/pom_058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_058> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_058> .
+<http://mapping.example.com/pom_058> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_058> .
+# 
+# http://mapping.example.com/pom_059
+<http://mapping.example.com/pom_059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_059> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_059> .
+<http://mapping.example.com/pom_059> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_059> .
+# 
+# http://mapping.example.com/pom_060
+<http://mapping.example.com/pom_060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_060> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_060> .
+<http://mapping.example.com/pom_060> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_060> .
+# 
+# http://mapping.example.com/pom_061
+<http://mapping.example.com/pom_061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_061> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_061> .
+<http://mapping.example.com/pom_061> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_061> .
+# 
+# http://mapping.example.com/pom_062
+<http://mapping.example.com/pom_062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_062> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_062> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_062> .
+<http://mapping.example.com/pom_062> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_062> .
+# 
+# http://mapping.example.com/pom_063
+<http://mapping.example.com/pom_063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_063> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_063> .
+<http://mapping.example.com/pom_063> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_063> .
+# 
+# http://mapping.example.com/pom_064
+<http://mapping.example.com/pom_064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_064> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_064> .
+<http://mapping.example.com/pom_064> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_064> .
+# 
+# http://mapping.example.com/pom_065
+<http://mapping.example.com/pom_065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_065> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_065> .
+<http://mapping.example.com/pom_065> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_065> .
+# 
+# http://mapping.example.com/pom_066
+<http://mapping.example.com/pom_066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_066> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_066> .
+<http://mapping.example.com/pom_066> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_066> .
+# 
+# http://mapping.example.com/pom_067
+<http://mapping.example.com/pom_067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_067> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_067> .
+<http://mapping.example.com/pom_067> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_067> .
+# 
+# http://mapping.example.com/pom_068
+<http://mapping.example.com/pom_068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_068> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_068> .
+<http://mapping.example.com/pom_068> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_068> .
+# 
+# http://mapping.example.com/pom_069
+<http://mapping.example.com/pom_069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_069> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_069> .
+<http://mapping.example.com/pom_069> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_069> .
+# 
+# http://mapping.example.com/pom_070
+<http://mapping.example.com/pom_070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_070> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_070> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_070> .
+<http://mapping.example.com/pom_070> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_070> .
+# 
+# http://mapping.example.com/pom_071
+<http://mapping.example.com/pom_071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_071> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_071> .
+<http://mapping.example.com/pom_071> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_071> .
+# 
+# http://mapping.example.com/pom_072
+<http://mapping.example.com/pom_072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_072> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_072> .
+<http://mapping.example.com/pom_072> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_072> .
+# 
+# http://mapping.example.com/pom_073
+<http://mapping.example.com/pom_073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_073> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_073> .
+<http://mapping.example.com/pom_073> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_073> .
+# 
+# http://mapping.example.com/pom_074
+<http://mapping.example.com/pom_074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_074> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_074> .
+<http://mapping.example.com/pom_074> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_074> .
+# 
+# http://mapping.example.com/pom_075
+<http://mapping.example.com/pom_075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_075> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_075> .
+<http://mapping.example.com/pom_075> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_075> .
+# 
+# http://mapping.example.com/pom_076
+<http://mapping.example.com/pom_076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/pom_076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#PredicateObjectMap> .
+<http://mapping.example.com/pom_076> <http://www.w3.org/ns/r2rml#objectMap> <http://mapping.example.com/om_076> .
+<http://mapping.example.com/pom_076> <http://www.w3.org/ns/r2rml#predicateMap> <http://mapping.example.com/pm_076> .
+# 
+# http://mapping.example.com/rules_000
+<http://mapping.example.com/rules_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/rules_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdfs.org/ns/void#Dataset> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_ANTITOXIN_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_BACTERIAL-PATHOGEN_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_BACTERIA_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_CHEMICAL-ENTITY_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_CITY_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_CONTINENT_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_COUNTRY-PREVALENCE-IN-TIME_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_COUNTRY_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_DISEASE_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_DRUG_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_GENE-SYMBOL_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_GENE_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_INFECTIOUS-DISEASE_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_INFECTIOUS-DISEASE_001> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_PATHWAY_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_PHENOTYPIC-ABNORMALITIES_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_PRESCRIPTION_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_PROTEIN-TOXIN_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_PROTEIN_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_SUBSTANCE_000> .
+<http://mapping.example.com/rules_000> <http://rdfs.org/ns/void#exampleResource> <http://mapping.example.com/map_TOXIN_000> .
+# 
+# http://mapping.example.com/s_000
+<http://mapping.example.com/s_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_000> <http://semweb.mmlab.be/ns/rml#reference> "Disease_ID" .
+# 
+# http://mapping.example.com/s_001
+<http://mapping.example.com/s_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_001> <http://semweb.mmlab.be/ns/rml#reference> "Disease_ID" .
+# 
+# http://mapping.example.com/s_002
+<http://mapping.example.com/s_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_002> <http://semweb.mmlab.be/ns/rml#reference> "Pathway_URL" .
+# 
+# http://mapping.example.com/s_003
+<http://mapping.example.com/s_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_003> <http://semweb.mmlab.be/ns/rml#reference> "SNOMEDCT_ID" .
+# 
+# http://mapping.example.com/s_004
+<http://mapping.example.com/s_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_004> <http://semweb.mmlab.be/ns/rml#reference> "Phenotype_ID" .
+# 
+# http://mapping.example.com/s_005
+<http://mapping.example.com/s_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_005> <http://semweb.mmlab.be/ns/rml#reference> "Pathogen_ID" .
+# 
+# http://mapping.example.com/s_006
+<http://mapping.example.com/s_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_006> <http://semweb.mmlab.be/ns/rml#reference> "NCIT" .
+# 
+# http://mapping.example.com/s_007
+<http://mapping.example.com/s_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_007> <http://semweb.mmlab.be/ns/rml#reference> "IndicatorCode" .
+# 
+# http://mapping.example.com/s_008
+<http://mapping.example.com/s_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_008> <http://semweb.mmlab.be/ns/rml#reference> "Country_ID" .
+# 
+# http://mapping.example.com/s_009
+<http://mapping.example.com/s_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_009> <http://semweb.mmlab.be/ns/rml#reference> "Continent" .
+# 
+# http://mapping.example.com/s_010
+<http://mapping.example.com/s_010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_010> <http://semweb.mmlab.be/ns/rml#reference> "City_URL" .
+# 
+# http://mapping.example.com/s_011
+<http://mapping.example.com/s_011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_011> <http://semweb.mmlab.be/ns/rml#reference> "Treatment_URI" .
+# 
+# http://mapping.example.com/s_012
+<http://mapping.example.com/s_012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_012> <http://semweb.mmlab.be/ns/rml#reference> "Drug_ID" .
+# 
+# http://mapping.example.com/s_013
+<http://mapping.example.com/s_013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_013> <http://semweb.mmlab.be/ns/rml#reference> "ChEMBL_URI" .
+# 
+# http://mapping.example.com/s_014
+<http://mapping.example.com/s_014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_014> <http://semweb.mmlab.be/ns/rml#reference> "CHEBI_ID" .
+# 
+# http://mapping.example.com/s_015
+<http://mapping.example.com/s_015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_015> <http://semweb.mmlab.be/ns/rml#reference> "Antitoxin_Drug" .
+# 
+# http://mapping.example.com/s_016
+<http://mapping.example.com/s_016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_016> <http://semweb.mmlab.be/ns/rml#reference> "Toxin_URI" .
+# 
+# http://mapping.example.com/s_017
+<http://mapping.example.com/s_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_017> <http://semweb.mmlab.be/ns/rml#reference> "gene_ID" .
+# 
+# http://mapping.example.com/s_018
+<http://mapping.example.com/s_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_018> <http://semweb.mmlab.be/ns/rml#reference> "Protein_ID" .
+# 
+# http://mapping.example.com/s_019
+<http://mapping.example.com/s_019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_019> <http://semweb.mmlab.be/ns/rml#reference> "gene_ID" .
+# 
+# http://mapping.example.com/s_020
+<http://mapping.example.com/s_020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/s_020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#SubjectMap> .
+<http://mapping.example.com/s_020> <http://semweb.mmlab.be/ns/rml#reference> "Protein_ID" .
+# 
+# http://mapping.example.com/source_000
+<http://mapping.example.com/source_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_000> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_000> <http://semweb.mmlab.be/ns/rml#source> "pathogen_disease_phenotype.csv" .
+# 
+# http://mapping.example.com/source_001
+<http://mapping.example.com/source_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_001> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_001> <http://semweb.mmlab.be/ns/rml#source> "first_reported_cases.csv" .
+# 
+# http://mapping.example.com/source_002
+<http://mapping.example.com/source_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_002> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_002> <http://semweb.mmlab.be/ns/rml#source> "affecting.csv" .
+# 
+# http://mapping.example.com/source_003
+<http://mapping.example.com/source_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_003> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_003> <http://semweb.mmlab.be/ns/rml#source> "disease_mappings.csv" .
+# 
+# http://mapping.example.com/source_004
+<http://mapping.example.com/source_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_004> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_004> <http://semweb.mmlab.be/ns/rml#source> "disease_phenotypes.csv" .
+# 
+# http://mapping.example.com/source_005
+<http://mapping.example.com/source_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_005> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_005> <http://semweb.mmlab.be/ns/rml#source> "pathogen_disease_phenotype.csv" .
+# 
+# http://mapping.example.com/source_006
+<http://mapping.example.com/source_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_006> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_006> <http://semweb.mmlab.be/ns/rml#source> "pathogen_mappings.csv" .
+# 
+# http://mapping.example.com/source_007
+<http://mapping.example.com/source_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_007> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_007> <http://semweb.mmlab.be/ns/rml#source> "country_prevalence_in_time.csv" .
+# 
+# http://mapping.example.com/source_008
+<http://mapping.example.com/source_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_008> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_008> <http://semweb.mmlab.be/ns/rml#source> "country_prevalence_in_time.csv" .
+# 
+# http://mapping.example.com/source_009
+<http://mapping.example.com/source_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_009> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_009> <http://semweb.mmlab.be/ns/rml#source> "country_prevalence_in_time.csv" .
+# 
+# http://mapping.example.com/source_010
+<http://mapping.example.com/source_010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_010> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_010> <http://semweb.mmlab.be/ns/rml#source> "country_prevalence_in_time.csv" .
+# 
+# http://mapping.example.com/source_011
+<http://mapping.example.com/source_011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_011> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_011> <http://semweb.mmlab.be/ns/rml#source> "substances_chemical_entities.csv" .
+# 
+# http://mapping.example.com/source_012
+<http://mapping.example.com/source_012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_012> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_012> <http://semweb.mmlab.be/ns/rml#source> "substances_chemical_entities.csv" .
+# 
+# http://mapping.example.com/source_013
+<http://mapping.example.com/source_013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_013> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_013> <http://semweb.mmlab.be/ns/rml#source> "substances_chemical_entities.csv" .
+# 
+# http://mapping.example.com/source_014
+<http://mapping.example.com/source_014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_014> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_014> <http://semweb.mmlab.be/ns/rml#source> "substances_chemical_entities.csv" .
+# 
+# http://mapping.example.com/source_015
+<http://mapping.example.com/source_015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_015> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_015> <http://semweb.mmlab.be/ns/rml#source> "toxin_antitoxin.csv" .
+# 
+# http://mapping.example.com/source_016
+<http://mapping.example.com/source_016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_016> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_016> <http://semweb.mmlab.be/ns/rml#source> "toxin_antitoxin.csv" .
+# 
+# http://mapping.example.com/source_017
+<http://mapping.example.com/source_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_017> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_017> <http://semweb.mmlab.be/ns/rml#source> "pathogen_omics.csv" .
+# 
+# http://mapping.example.com/source_018
+<http://mapping.example.com/source_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_018> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_018> <http://semweb.mmlab.be/ns/rml#source> "pathogen_omics.csv" .
+# 
+# http://mapping.example.com/source_019
+<http://mapping.example.com/source_019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_019> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_019> <http://semweb.mmlab.be/ns/rml#source> "pathogen_omics.csv" .
+# 
+# http://mapping.example.com/source_020
+<http://mapping.example.com/source_020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mapping.example.com/source_020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semweb.mmlab.be/ns/rml#LogicalSource> .
+<http://mapping.example.com/source_020> <http://semweb.mmlab.be/ns/rml#referenceFormulation> <http://semweb.mmlab.be/ns/ql#CSV> .
+<http://mapping.example.com/source_020> <http://semweb.mmlab.be/ns/rml#source> "proteintoxin.csv" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://mapping.example.com/jc_000> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_000> <http://www.w3.org/ns/r2rml#parent> "DOID_ID" .
+# 
+<http://mapping.example.com/jc_001> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_001> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_002> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_002> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_003> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_003> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_004> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_004> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_005> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_005> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_006> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_006> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_007> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_007> <http://www.w3.org/ns/r2rml#parent> "DOID_ID" .
+# 
+<http://mapping.example.com/jc_008> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_008> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_009> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_009> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_010> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_010> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_011> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_011> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_012> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_012> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_013> <http://www.w3.org/ns/r2rml#child> "Disease_ID" .
+<http://mapping.example.com/jc_013> <http://www.w3.org/ns/r2rml#parent> "Disease_ID" .
+# 
+<http://mapping.example.com/jc_014> <http://www.w3.org/ns/r2rml#child> "Phenotype_ID" .
+<http://mapping.example.com/jc_014> <http://www.w3.org/ns/r2rml#parent> "Phenotype_ID" .
+# 
+<http://mapping.example.com/jc_015> <http://www.w3.org/ns/r2rml#child> "Pathogen_ID" .
+<http://mapping.example.com/jc_015> <http://www.w3.org/ns/r2rml#parent> "Pathogen_ID" .
+# 
+<http://mapping.example.com/jc_016> <http://www.w3.org/ns/r2rml#child> "Pathogen_ID" .
+<http://mapping.example.com/jc_016> <http://www.w3.org/ns/r2rml#parent> "XCO_ID" .
+# 
+<http://mapping.example.com/jc_017> <http://www.w3.org/ns/r2rml#child> "NCIT" .
+<http://mapping.example.com/jc_017> <http://www.w3.org/ns/r2rml#parent> "NCIT_ID" .
+# 
+<http://mapping.example.com/jc_018> <http://www.w3.org/ns/r2rml#child> "IndicatorCode" .
+<http://mapping.example.com/jc_018> <http://www.w3.org/ns/r2rml#parent> "IndicatorCode" .
+# 
+<http://mapping.example.com/jc_019> <http://www.w3.org/ns/r2rml#child> "Country_ID" .
+<http://mapping.example.com/jc_019> <http://www.w3.org/ns/r2rml#parent> "Country_ID" .
+# 
+<http://mapping.example.com/jc_020> <http://www.w3.org/ns/r2rml#child> "Country_ID" .
+<http://mapping.example.com/jc_020> <http://www.w3.org/ns/r2rml#parent> "Country_ID" .
+# 
+<http://mapping.example.com/jc_021> <http://www.w3.org/ns/r2rml#child> "Continent" .
+<http://mapping.example.com/jc_021> <http://www.w3.org/ns/r2rml#parent> "Continent" .
+# 
+<http://mapping.example.com/jc_022> <http://www.w3.org/ns/r2rml#child> "City_URL" .
+<http://mapping.example.com/jc_022> <http://www.w3.org/ns/r2rml#parent> "City_URL" .
+# 
+<http://mapping.example.com/jc_023> <http://www.w3.org/ns/r2rml#child> "Treatment_URI" .
+<http://mapping.example.com/jc_023> <http://www.w3.org/ns/r2rml#parent> "Treatment_URI" .
+# 
+<http://mapping.example.com/jc_024> <http://www.w3.org/ns/r2rml#child> "Drug_ID" .
+<http://mapping.example.com/jc_024> <http://www.w3.org/ns/r2rml#parent> "Drug_ID" .
+# 
+<http://mapping.example.com/jc_025> <http://www.w3.org/ns/r2rml#child> "Drug_ID" .
+<http://mapping.example.com/jc_025> <http://www.w3.org/ns/r2rml#parent> "Drug_ID" .
+# 
+<http://mapping.example.com/jc_026> <http://www.w3.org/ns/r2rml#child> "ChEMBL_URI" .
+<http://mapping.example.com/jc_026> <http://www.w3.org/ns/r2rml#parent> "ChEMBL_URI" .
+# 
+<http://mapping.example.com/jc_027> <http://www.w3.org/ns/r2rml#child> "Antitoxin_Drug" .
+<http://mapping.example.com/jc_027> <http://www.w3.org/ns/r2rml#parent> "Drug_ID" .
+# 
+<http://mapping.example.com/jc_028> <http://www.w3.org/ns/r2rml#child> "Antitoxin_Drug" .
+<http://mapping.example.com/jc_028> <http://www.w3.org/ns/r2rml#parent> "Antitoxin_Drug" .
+# 
+<http://mapping.example.com/jc_029> <http://www.w3.org/ns/r2rml#child> "Toxin_URI" .
+<http://mapping.example.com/jc_029> <http://www.w3.org/ns/r2rml#parent> "Toxin_URI" .
+# 
+<http://mapping.example.com/jc_030> <http://www.w3.org/ns/r2rml#child> "gene_ID" .
+<http://mapping.example.com/jc_030> <http://www.w3.org/ns/r2rml#parent> "gene_ID" .
+# 
+<http://mapping.example.com/jc_031> <http://www.w3.org/ns/r2rml#child> "gene_ID" .
+<http://mapping.example.com/jc_031> <http://www.w3.org/ns/r2rml#parent> "gene_ID" .
+# 
+<http://mapping.example.com/jc_032> <http://www.w3.org/ns/r2rml#child> "Protein_ID" .
+<http://mapping.example.com/jc_032> <http://www.w3.org/ns/r2rml#parent> "Protein_ID" .
+# 
+<http://mapping.example.com/jc_033> <http://www.w3.org/ns/r2rml#child> "gene_ID" .
+<http://mapping.example.com/jc_033> <http://www.w3.org/ns/r2rml#parent> "gene_ID" .
+# 
+<http://mapping.example.com/jc_034> <http://www.w3.org/ns/r2rml#child> "Protein_ID" .
+<http://mapping.example.com/jc_034> <http://www.w3.org/ns/r2rml#parent> "Toxin_URI" .
+# 
+<http://mapping.example.com/jc_035> <http://www.w3.org/ns/r2rml#child> "Protein_ID" .
+<http://mapping.example.com/jc_035> <http://www.w3.org/ns/r2rml#parent> "Protein_ID" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
