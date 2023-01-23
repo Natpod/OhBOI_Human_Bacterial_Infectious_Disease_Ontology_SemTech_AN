@@ -28,6 +28,7 @@ Evaluation of the formal part of the ontology was addressed through Competency Q
 
 <img src="OOPS_report.png" alt="OOPS">
 
+Note that none of the remaining pitfalls after the iterative evaluation were critical or important and, thereby did not affect to the correct functionality of our ontology. Moreover, no false positive or false negatives were detected 
 
 ### Contributors
 
