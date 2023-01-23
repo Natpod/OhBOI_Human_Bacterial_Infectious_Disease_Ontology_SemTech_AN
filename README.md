@@ -19,7 +19,7 @@ Other files within the repository include code, data and reports for the ontolog
 | v.2.*(23/01/2023)*| `ohboi_turtle.owl` | RDF file with the last version of the ontology in Turtle serialization | Last version of implemented ontology |
 | v.1.*(22/01/2023)*| `Ontology_Evaluation_through_CQ` | RDF file with the last version of the ontology in RDF-XML | Ontology evaluation |
 | v.2.*(23/01/2023)*| `OhBOI_RDFgraph` | Final ontology schema RDF graph in a png file | Ontology implementation |
-| v.1.*(23/01/2023)*|  | [OOPS! (OntOlogy Pitfall Scanner!)](https://oops.linkeddata.es/) evaluation report | Ontology evaluation |
+| v.1.*(23/01/2023)*| `OOPS_report.png` | [OOPS! (OntOlogy Pitfall Scanner!)](https://oops.linkeddata.es/) evaluation report | Ontology evaluation |
 | v.1.*(23/01/2023)*|  | Themis evaluation report | Ontology evaluation |
 | v.1.*(23/01/2023)*| `OnToology/ohboi_rdfxml.owl/` | Documentation of the ontology generated with [OnToology](http://ontoology.linkeddata.es/) tool| Ontology documentation |
 
@@ -27,11 +27,7 @@ Other files within the repository include code, data and reports for the ontolog
 
 Evaluation of the formal part of the ontology was addressed through Competency Questions (CQ) and OOPS! pitfall scanning. As a result, the ontology was compliant with the final selected requirements, and there were a __ number of 3 minor pitfalls found by OOPS (p04, p13, p22), which are more deeply discussed in [OOPS! pitfall catalogue](https://oops.linkeddata.es/catalogue.jsp)
 
-<p>
-<a href="http://oops.linkeddata.es"><img
-	src="http://oops.linkeddata.es/resource/image/oops_minor.png"
-	alt="Minor pitfalls were found" height="69.6" width="100" /></a>
-</p>
+<img src="OOPS_report.jpg" alt="OOPS">
 
 
 ### Contributors
