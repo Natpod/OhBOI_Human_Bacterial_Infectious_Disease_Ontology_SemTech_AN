@@ -138,6 +138,7 @@ mappings:
     s: $(NCIT)
     po: 
       - [a, ncit:C14187]
+      - [ohboi:hasBacteriaName, $(XCO_name)]
       - p: ncit:R41
         o:
           mapping: GENE
