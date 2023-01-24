@@ -8,7 +8,7 @@ A Knowledge Graph of the following represented subset of the OhBOI ontology will
 
 
 
-The files to implement this process being,
+The files to implement this process being the following:
 
 | File-Folder  |      Description      |  Used in |
 |----------|:-------------:|------:|
