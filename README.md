@@ -12,7 +12,7 @@ In the present work we propose the ontology Open Bacterial Ontology for Infectio
 
 ## Documentation
 
-Documentation can be found in a series of HTML files and AR2D2 visualizations within the `OnToology/ohboi_rdfxml.owl` folder
+Documentation can be found in a series of HTML files, codes and AR2D2 visualizations within the `OnToology/ohboi_rdfxml.owl` folder
 
 Other files within the repository include code, data and reports for the ontology evaluation stage, the requirement files and the final RDF XML and OWL serializations of the final ontology. These are specifically:
 
