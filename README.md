@@ -1,4 +1,4 @@
-# Open Bacterial Ontology for Infectious diseases! - O(h)BOI!
+# Open Bacterial Ontology for human Infectious diseases! - O(h)BOI!
 
 This ontology has been developed for the final project of the Semantic Technologies course of the MSc in Computational Biology (2022-2023). 
 
