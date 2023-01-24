@@ -2,9 +2,11 @@
 
 This ontology has been developed for the final project of the Semantic Technologies course of the MSc in Computational Biology (2022-2023). 
 
+<p align="center">
 <img
   src="/logo_ohboi.png"
   style="display: inline-block; margin: 0 auto; max-width: 100px">
+p>
 
 ### Purpose
 
